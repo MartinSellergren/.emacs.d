@@ -1,0 +1,449 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/martin/loca3/loca3/db/src/main/java/" . "Loca_db_construction/")
+ ("/home/martin/loca3/loca3/db/src/main/" . "java/")
+ ("/home/martin/loca3/loca3/db/src/" . "main/")
+ ("/home/martin/loca3/loca3/db/" . "src/")
+ ("/home/martin/loca3/loca3/" . "tags-spec/")
+ ("/home/martin/loca3/overpass-turbo/" . "data/")
+ ("/home/martin/loca3/" . "overpass-turbo/")
+ ("/home/martin/loca2/app/Localore/app/src/main/res/" . "raw/")
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" . "model/")
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/" . "localore/")
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/" . "localore/")
+ ("/home/martin/loca2/app/Localore/app/src/main/java/" . "com/")
+ ("/home/martin/loca2/app/Localore/app/src/main/" . "res/")
+ ("/home/martin/loca2/app/Localore/app/src/" . "main/")
+ ("/home/martin/loca2/app/Localore/app/" . "src/")
+ ("/home/martin/loca2/app/" . "Localore/")
+ ("/home/martin/uama/git/uama/" . "notes/")
+ ("/home/martin/uama/git/" . "uama/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/" . "criminalintent/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/" . "android/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/" . "bignerdranch/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/" . "com/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/" . "java/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/" . "main/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/" . "src/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/" . "app/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/" . "CriminalIntent/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/" . "criminalintent/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/" . "android/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/" . "bignerdranch/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/" . "com/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/" . "java/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/" . "main/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/" . "src/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/" . "app/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent/" . "CriminalIntent/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/" . "geoquiz/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/" . "android/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/" . "bignerdranch/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/" . "com/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/" . "java/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/" . "layout/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/" . "criminalintent/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/" . "android/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/" . "bignerdranch/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/" . "com/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/" . "res/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/" . "main/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/" . "src/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/" . "app/")
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/" . "CriminalIntent/")
+ ("/home/martin/uama/material/slides etc/" . "CriminalIntent6/")
+ ("/home/martin/uama/material/" . "slides etc/")
+ ("/home/martin/uama/" . "git/")
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/" . "java/")
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/" . "test/")
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/" . "src/")
+ ("/home/martin/uama/uama-notes/" . ".git/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/" . "main/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/" . "src/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/" . "app/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/" . "GeoQuiz/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/" . "main/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/" . "menu/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/" . "geoquiz/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/" . "android/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/" . "bignerdranch/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/" . "com/")
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/" . "res/")
+ ("/home/martin/loca2/" . "app/")
+ ("/home/martin/loca2/data_processing/" . "test/")
+ ("/home/martin/loca2/data_processing/test/" . "src/")
+ ("/home/martin/loca2/data_processing/test/src/test/" . "java/")
+ ("/home/martin/loca2/data_processing/test/src/main/" . "java/")
+ ("/home/martin/loca2/data_processing/test/src/" . "test/")
+ ("/home/martin/loca/JMapViewer/org/openstreetmap/gui/" . "jmapviewer/")
+ ("/home/martin/loca/JMapViewer/org/openstreetmap/" . "gui/")
+ ("/home/martin/loca/JMapViewer/org/" . "openstreetmap/")
+ ("/home/martin/loca/JMapViewer/" . "org/")
+ ("/home/martin/skola/vt17/iis/project/excersece_program/" . "exercises/")
+ ("/home/martin/loca/BasicTesseractExampleGradle/src/test/" . "java/")
+ ("/home/martin/loca/BasicTesseractExampleGradle/src/" . "test/")
+ ("/home/martin/loca/BasicTesseractExampleGradle/" . "src/")
+ ("/home/martin/Ul/UlHack/resources/" . "js/")
+ ("/home/martin/Ul/UlHack/" . "resources/")
+ ("/home/martin/loca/loca-studies/geoViewport/node_modules/@mapbox/geo-viewport/" . "test/")
+ ("/home/martin/loca/loca-studies/geoViewport/node_modules/@mapbox/" . "geo-viewport/")
+ ("/home/martin/loca/loca-studies/geoViewport/node_modules/" . "@mapbox/")
+ ("/home/martin/loca/loca-studies/geoViewport/" . "node_modules/")
+ ("/home/martin/loca/loca-studies/app/src/test/" . "java/")
+ ("/home/martin/loca/test/testproj/build/classes/main/" . "hello/")
+ ("/home/martin/loca/test/testproj/build/classes/" . "main/")
+ ("/home/martin/loca/test/testproj/build/" . "classes/")
+ ("/home/martin/loca/test/testproj/" . "build/")
+ ("/home/martin/loca/test/" . "testproj/")
+ ("/home/martin/loca/loca-studies/app/src/main/java/" . "map/")
+ ("/home/martin/loca/loca-studies/app/src/main/" . "java/")
+ ("/home/martin/loca/loca-studies/app/src/" . "main/")
+ ("/home/martin/loca/loca-studies/app/" . "src/")
+ ("/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/Card/dokument/ULbiljett/resources/" . "css/")
+ ("/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/Card/dokument/ULbiljett/" . "resources/")
+ ("/home/martin/Ul/UlHack-master/resources/" . "css/")
+ ("/home/martin/Ul/UlHack-master/" . "resources/")
+ ("/home/martin/Ul/" . "original/")
+ ("/home/martin/UlHack-master/resources/" . "css/")
+ ("/home/martin/UlHack-master/" . "resources/")
+ ("/home/martin/loca/" . "loca-studies/")
+ ("/home/martin/loca/loca-studies/" . "style/")
+ ("/home/martin/skola/ht15/PKD/labbar/" . "lab4/")
+ ("/home/martin/loca/loca-studies/test2/src/main/" . "java/")
+ ("/home/martin/loca/loca-studies/test2/src/" . "main/")
+ ("/home/martin/loca/loca-studies/test2/" . "src/")
+ ("/home/martin/ai/assignments/a1/DeliveryMan_1.5/" . "man/")
+ ("/home/martin/vetvis/" . "VTK Examples/")
+ ("/home/martin/vetvis/Assignments/vetvis_assignment1/" . "part1/")
+ ("/home/martin/skola/vt17/iis/assignments/" . "a21/")
+ ("/home/martin/skola/vt17/iis/" . "assignments/")
+ ("/home/martin/skola/vt17/" . "iis/")
+ ("/home/martin/skola/" . "GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/")
+ ("/home/martin/loca-studies/test2/src/main/" . "java/")
+ ("/home/martin/loca-studies/test2/src/" . "main/")
+ ("/home/martin/loca-studies/test2/" . "src/")
+ ("/home/martin/loca-studies/" . "testproj/")
+ ("/home/martin/iis/project/pose_estimation_code_release_v1.22/code/" . "utils/")
+ ("/home/martin/iis/project/pose_estimation_code_release_v1.22/" . "code/")
+ ("/home/martin/iis/project/" . "excersece_program/")
+ ("/home/martin/iis/project/excersece_program/old/" . "tracking/")
+ ("/home/martin/OPPS/PP/rapport/" . "figs/")
+ ("/home/martin/iis/project/excersece_program/" . "exercises/")
+ ("/home/martin/OPPS/PP/MyPlace/" . "backend/")
+ ("/home/martin/iis/assignments/a2/" . "dataset/")
+ ("/home/martin/OPPS/PP/MyPlace/backend/" . "src/")
+ ("/home/martin/OPPS/OS/module1-IPC/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
+ ("/home/martin/OPPS/OS/module1-IPC/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
+ ("/home/martin/OPPS/OS/module1-IPC/" . "game-of-luck/")
+ ("/home/martin/OPPS/OS/" . "module1-IPC/")
+ ("/home/martin/ioopm/github/Rudorna/test/" . "mytests/")
+ ("/home/martin/ioopm/github/Rudorna/" . "test/")
+ ("/home/martin/iis/labs/" . "lab1/")
+ ("/home/martin/iis/assignments/" . "a2/")
+ ("/home/martin/iis/" . "labs/")
+ ("/home/martin/OPPS/PP/MyPlace/backend/src/" . "clients_simulator/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/fas2/sprint1/twitterish/" . "src/")
+ ("/home/martin/OPPS/PP/" . "MyPlace/")
+ ("/home/martin/OPPS/" . "PP/")
+ ("/home/martin/Desktop/opencvins/OpenCV/" . "build/")
+ ("/home/martin/Desktop/opencvins/" . "OpenCV/")
+ ("/home/martin/iis/labs/lab1/Lab01/" . "src/")
+ ("/home/martin/iis/labs/lab1/" . "Lab01/")
+ ("/home/martin/OPP/module1-IPC/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/shell/" . "src/")
+ ("/home/martin/OPP/module1-IPC/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/" . "shell/")
+ ("/home/martin/OPP/module1-IPC/simple-shell/" . "shell-skeleton-2016-v2.0.tar.bz.1/")
+ ("/home/martin/OPP/module1-IPC/" . "simple-shell/")
+ ("/home/martin/OPP/module1/" . "game-of-luck/")
+ ("/home/martin/OPP/module1/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/shell/" . "src/")
+ ("/home/martin/" . "skola/")
+ ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
+ ("/home/martin/OPP/module1/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
+ ("/home/martin/PKD/labbar/" . "lab18/")
+ ("/var/" . "log/")
+ ("/" . "var/")
+ ("/home/martin/.themes/Emacs/" . "gtk-2.0-key/")
+ ("/home/martin/.themes/Default/" . "gtk-3.0/")
+ ("/home/martin/.themes/" . "Emacs/")
+ ("/home/martin/PKD/" . "proj/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/src/" . "bitset/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/" . "src/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/" . "projekt/")
+ ("/home/martin/ioopm/github/ioopm16/" . "uppgifter/")
+ ("/home/martin/ioopm/github/" . "ioopm16/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/martin/loca3/loca3/nominatim-keys/"
+ "/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/"
+ "/home/martin/loca3/loca3/key-spec/"
+ "/home/martin/skola/"
+ "/home/martin/loca3/loca3/tags-spec/"
+ "/home/martin/loca/loca-studies/style/"
+ "/home/martin/"
+ "/home/martin/loca3/loca3/db/"
+ "/home/martin/loca3/overpass-turbo/data/"
+ "/home/martin/loca3/loca3/"
+ "/home/martin/loca3/Nominatim-3.2.0/build/utils/"
+ "/home/martin/loca2/style/"
+ "/home/martin/loca2/app/Localore/app/src/main/res/raw/"
+ "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/"
+ "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/"
+ "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/"
+ "/home/martin/loca2/"
+ "/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/"
+ "/home/martin/loca/loca-studies/app/src/main/java/map/"
+ "/home/martin/uama/git/uama/notes/"
+ "/home/martin/loca2/app/"
+ "/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/"
+ "/home/martin/loca2/data_processing/"
+ "/home/martin/loca2/data_processing/test/src/test/java/"
+ "/home/martin/uama/git/uama/"
+ "/home/martin/loca2/data_processing/test/"
+ "/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
+ "/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
+ "/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/layout/"
+ "/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
+ "/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/"
+ "/home/martin/uama/uama-notes/"
+ "/home/martin/uama/"
+ "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/"
+ "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/values/"
+ "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/layout/"
+ "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/"
+ "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/"
+ "/home/martin/loca/loca-studies/app/"
+ "/home/martin/loca/loca-studies/app/src/main/java/loca/"
+ "/home/martin/loca2/data_processing/cmp/"
+ "/home/martin/Desktop/"
+ "/home/martin/loca/loca-studies/app/src/test/java/"
+ "/home/martin/loca2/data_processing/test/src/main/java/"
+ "/home/martin/loca/imgviewer/"
+ "/home/martin/loca/JMapViewer/"
+ "/home/martin/loca/JMapViewer/org/openstreetmap/gui/jmapviewer/"
+ "/home/martin/Desktop/jTileDownloader/tiles/"
+ "/home/martin/loca/loca-studies/font/"
+ "/home/martin/loca/loca-studies/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "key-value-spec"
+ "App.java"
+ "create-list-of-interesting-keys.py"
+ "examenupplägg"
+ "create_list.py"
+ "Makefile"
+ ".zshrc"
+ "build.gradle"
+ "tags-spec-complete"
+ "tags-spec-raw"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/martin/loca3/loca3/nominatim-keys/" (23637 28707 113150 486000) "create-list-of-interesting-keys.py" "key-spec" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./" "key-value-spec")
+
+ ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23637 27157 422835 791000) "GeoObject.java~" "GeoObject.java" "../" "App.java" "./")
+
+ ("/home/martin/loca3/loca3/db/" (23611 16156 68259 436000) "gradle/" ".gitignore" "gradlew" "src/" "build.gradle" "system.out~" "build/" ".gradle/" "../" "system.out" "./" "gradlew.bat" "settings.gradle")
+
+ ("/home/martin/loca3/loca3/key-spec/" (23628 16605 491251 209000) "create-list-of-interesting-keys.py" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./")
+
+ ("/home/martin/" (23620 15168 744221 221000) ".compiz/" "zinajda/" ".mozilla/" ".emacs.d/" ".thumbnails/" ".thunderbird/" "javadoc/" ".oh-my-zsh/" ".java/" "lmms/" ".ssh/" ".gnupg/" ".zynaddsubfxXML.cfg" ".config/" ".gitconfig" "Videos/" "loca3/" "aptpop/" ".pki/" ".lmmsrc.xml" ".rpmdb/" ".tmux/" ".bashrc" ".log/" "Templates/" ".zcompdump" "loca2/" ".gconf/" ".xsession-errors.old" ".zsh_history" ".AndroidStudio3.1/" "Downloads/" ".gnome/" ".emulator_console_auth_token" "kurve/" ".tmux.conf" "skola/" ".dbus/" ".zcompdump-martin-Aspire-S3-391-5.1.1" "Documents/" ".FontForge/" ".zshrc" ".zprofile" ".Xauthority" "Android/" "Music/" ".zynaddsubfx-bank-cache.xml" "snap/" ".gradle/" "../" ".ICEauthority" ".fltk/" ".fontypython/" ".zcompdump-masel-5.4.2" "AndroidStudio/" "master.zip" ".zcompdump-masel-5.1.1" ".m2/" ".yoshimi_history" "mnt/" ".javacpp/" "oldhome/" ".gimp-2.8/" ".lesshst" ".android/" "./" ".local/" "sevensquare-master/" "uama/" ".xinputrc" ".cache/" ".saves/" "loca/" ".ladish/" "rec/" ".sudo_as_admin_successful" ".synaptic/" "Desktop/" "Pictures/" ".psql_history" ".wget-hsts" "Public/" ".xsession-errors" "bin/" "Ul/")
+
+ ("/home/martin/loca3/loca3/tags-spec/" (23614 63011 332088 476000) ".#Makefile" "create_list.py" "../" "iD_presets_sv.json" "tags-spec-raw" "./" "iD_presets_fr.json" "iD_presets_en.json" "iD_presets_es.json" "tags-spec-complete")
+
+ ("/home/martin/loca/loca-studies/style/" (23429 5326 615806 765000) "categories.txt" "code-local.json" "Streets.json" "styleCreator.py" "full-en.json" "full-local.json" "info.py" "box-local.json" ".gradle/" "../" "code-en.json" "./" "box-en.json" "Makefile")
+
+ ("/home/martin/loca3/loca3/db/src/" (23606 10395 273056 614000) "main/" "../" "./" "test/")
+
+ ("/home/martin/loca3/loca3/db/src/main/" (23606 10395 273056 614000) "../" "./" "java/")
+
+ ("/home/martin/loca3/loca3/db/src/main/java/" (23606 10395 273056 614000) "../" "./" "Loca_db_construction/")
+
+ ("/home/martin/loca3/overpass-turbo/data/" (23608 47186 279026 912000) "iD_presets_pl.json" "iD_presets_sl.json" "iD_presets_uk.json" "iD_presets_nl.json" "iD_presets_ja.json" "iD_presets_no.json" "iD_presets_fa.json" "iD_presets_da.json" "iD_presets_ca.json" "iD_presets_vi.json" "iD_presets_ro.json" "iD_presets_zh-TW.json" "iD_presets_it.json" "iD_presets_pt-BR.json" "iD_presets_hu.json" "../" "iD_presets_sv.json" "iD_presets_et.json" "iD_presets_pt.json" "iD_presets.json" "iD_presets_el.json" "iD_presets_de.json" "./" "iD_presets_fr.json" "iD_presets_ru.json" "iD_presets_hr.json" "iD_presets_en.json" "get_preset_translations.js" "iD_presets_es.json")
+
+ ("/home/martin/loca3/overpass-turbo/" (23606 9685 478051 345000) "karma.conf.js" "CHANGELOG.md" ".git/" "README.md" "LICENSE" "locales/" "webpack.config.js" "icons/" "js/" ".gitignore" "map.html" "package.json" "map-key.png" "favicon.ico" "tests/" "index.html" "css/" "../" "TODO.md" "./" "data/" "Makefile" ".travis.yml" "land.html" "turbo.png")
+
+ ("/home/martin/loca3/loca3/" (23607 28359 983670 778000) ".git/" "README.md" "db/" ".gitignore" "tags-spec/" "../" "./")
+
+ ("/home/martin/loca3/" (23606 12130 568160 369000) "nominatim_src/" "loca3/" "Nominatim-3.2.0.tar.bz2" "overpass-turbo/" "../" "./" "Nominatim-3.2.0/")
+
+ ("/home/martin/loca3/Nominatim-3.2.0/build/utils/" (23606 7745 424495 58000) "server_compare.php" "importWikipedia.php" "imports.php" "export.php" "update.php" "query.php" "specialphrases.php" "../" "./" "blocks.php" "country_languages.php" "setup.php" "warm.php")
+
+ ("/home/martin/loca2/style/" (23419 191 736807 626000) "loca-default-map-style.json" "Streets.json" "styleCreator.py" "../" "./" "loca-default-map-style_noLabels.json" "Makefile")
+
+ ("/home/martin/loca2/" (23422 58044 335580 113000) "Layout-spec.pdf" "style/" ".~lock.report.odt#" "categories.txt" "draft.txt" ".git/" "README.md" "icons/" ".gitignore" "mockups/" "app/" "specification.odt" "report.pdf" "../" "Layout-spec.odt" "Disposition (Local geography educator, Martin Sellergren).odt" "existing.txt" "report.odt" "Disposition (Local geography educator, Martin Sellergren).pdf" "data_processing/" "./" "Specification of Local geography educator, Martin Sellergren.pdf" "Rapportupplägg.pdf" ".idea/" "Database ER Diagram.png")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/" (23422 64587 306839 917000) "RunningQuizControl.java" "SessionControl.java" "ExerciseControl.java" "../" "./")
+
+ ("/home/martin/loca2/app/Localore/app/" (23420 36559 247079 70000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "libs/" "../" "proguard-rules.pro" "./" "release/")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/" (23419 64621 796297 600000) "res/" "AndroidManifest.xml" "../" "./" "java/")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/" (23421 22348 596562 411000) "QuizCategoryDao.java" "GeoObject.java" "RunningQuiz.java" "RunningQuizDao.java" "User.java" "Exercise.java" "GeoObjectDao.java" "GeoObjInstructionsIter.java" "QuizDao.java" "Quiz.java" "QuizCategory.java" "ExerciseDao.java" "QuestionDao.java" "UserDao.java" "../" "NodeShape.java" "SessionDao.java" "Question.java" "Session.java" "./" "AppDatabase.java" "AppDatabaseConverters.java")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" (23422 39347 465249 176000) "LocaloreApplication.java" "modelManipulation/" "Timer.java" "LoadingNewExerciseActivity.java" "LocaUtils.java" "RecyclerItemClickListener.java" "QuizResultActivity.java" "SplashActivity.java" "GeoObjectMap.java" "TappingActivity.java" "model/" "CreateExerciseService.java" "../" "AboutActivity.java" "ExerciseActivity.java" "CreateExerciseActivity.java" "SelectExerciseActivity.java" "./" "TalkActivity.java" "QuizActivity.java")
+
+ ("/home/martin/loca/loca-studies/" (23226 23418 419389 872000) "style/" ".git/" "README.md" ".gitignore" "imgviewer/" "app/" ".gradle/" "../" "./" "imgs/" "font/")
+
+ ("/home/martin/loca/" (23230 16806 887558 648000) "loca-studies/" "../" "./" "test/")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/" (23381 50592 756863 735000) "localore/" "../" "./")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/" (23381 50592 756863 735000) "localore/" "../" "./")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/" (23381 50592 752861 785000) "com/" "../" "./")
+
+ ("/home/martin/loca2/app/Localore/app/src/" (23381 50592 696834 488000) "androidTest/" "main/" "../" "./" "test/")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/res/" (23411 3400 904334 705000) "raw/" "drawable-v24/" "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "drawable-hdpi/" "drawable-mdpi/" "mipmap-anydpi-v26/" "transition/" "menu/" "drawable-xxhdpi/" "../" "mipmap-xxxhdpi/" "values/" "layout/" "anim/" "./" "drawable/" "drawable-xhdpi/")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/res/raw/" (23413 47652 299519 313000) "ql_query.txt" "../" "./" "tag_categories.json")
+
+ ("/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/" (21882 49281 822010 0) "slutuppgift.txt" "10 Animations.pdf" "r2.txt" "Transitions and transforms/" "r4.txt" "r9.txt" "intervjuv.txt" "2 (Illusions).pdf" "7 Drag and Drop.pdf" "r7.txt" "5 CSS transitions and actions.pdf" "r8.txt" "3 Human Factors 2.pdf" "slutuppgift.docx" "reflektioner.png" "../" "r5.txt" "r6.txt" "projektet/" "9 Canvas and animations.pdf" "./" "Reference literature (lösen Jabberwock)/" "8 UNDO-REDO.pdf" "r10.txt" "r3.txt" "6 User Interface structure.pdf" "r1.txt" "exempel, databas/" "1 Introduction.pdf" "20131213_065034.jpg" "4 Requirements, HTML programming.pdf" "4 HTML, CSS och JavaScript.pdf" "2 Human Factors 1.pdf")
+
+ ("/home/martin/skola/" (23272 26149 155134 808000) "GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/" "../" "./")
+
+ ("/home/martin/uama/git/uama/notes/" (23408 12900 908182 425000) "mod6.org" "mod10.org" "mod2.org" "mod5.org" "Android.Programming.Ranch.Guide.Guides.16.pdf" "mod8.org" "mod7.org" "mod4.org" "../" "mod3.org" "./" "mod11_db_service.org" "mod1.org")
+
+ ("/home/martin/loca/loca-studies/app/src/main/" (22865 37756 843692 612000) "../" "./" "java/")
+
+ ("/home/martin/loca/loca-studies/app/src/" (23068 34463 717001 313000) "main/" "makePublic" "../" "./" "test/" "backToDefaults")
+
+ ("/home/martin/loca2/app/Localore/" (23387 43737 407574 512000) "gradle/" "local.properties" ".gitignore" "gradlew" "Localore.iml" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
+
+ ("/home/martin/loca2/app/" (23381 50585 585336 987000) "Localore/" "../" "./")
+
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/" (23366 8277 597220 628000) "FindScoreDiceTest.java" "FindScoreDice2.java" "../" "./")
+
+ ("/home/martin/loca2/data_processing/test/src/test/java/" (23384 35348 506773 155000) "AcquireGeoObjects.java" "MyFormatter.java" "MyFormatter.class" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/" (23375 38882 490975 119000) "modul4-fragment_arguments_viewpager-1.pdf" "modul10-positionering_och_kartor-1.pdf" "modul7-Camera-1.pdf" "CriminalIntent/" "GeoQuiz2/" "modul5-design-3.pdf" "modul2_debugging-1.pdf" "modul5_omrapportskrivande-1.pdf" "modul3-layouts_widgets.pdf" "modul3-fragment.pdf" "ActivityLifeCycle/" "modul9-egna_widgets.pdf" "modul1_model_view_controller.pdf" "modul4-retaining_localisation.pdf" "CriminalIntent2/" "ovningar.pdf" "GeoQuiz/" "modul7-Etik_o_sakerhet.pdf" "modul4-komponenter-1.pdf" "modul1_intro_till_kurs_och_android.pdf" "../" "layouts.pdf" "modul2_andra_aktivitet_intent_manifest.pdf" "modul3-lists_and_adapters.pdf" "./" "modul8-content_providers_services.pdf" "modul11-Publish.pdf" "GeoQuiz3/" "CriminalIntent6/" ".idea/" "modul2_aktiviteter-1.pdf" "modul6-lagradata.pdf" "SaveStateExercise.1/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (21840 52300 0 0) "CrimeFragment.java" "CrimeListActivity.java" "../" "CrimePagerActivity.java" "CrimeLab.java" "Crime.java" "./" "CrimeListFragment.java" "DatePickerFragment.java" "SingleFragmentActivity.java")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (21808 63696 0 0) "criminalintent/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/" (21808 63696 0 0) "android/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/" (21808 63696 0 0) "bignerdranch/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/" (21808 63696 0 0) "com/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/" (21843 3202 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/" (21808 63696 0 0) "androidTest/" "main/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/" (23371 54924 494832 577000) ".gitignore" "src/" "build.gradle" "app.iml" "../" "proguard-rules.pro" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/" (23373 6106 822366 232000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "LICENSE.txt" "gradlew.bat" "settings.gradle" ".idea/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent6/" (23371 54698 418807 59000) "CriminalIntent/" "../" "__MACOSX/" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (23372 61605 372719 909000) "CrimeFragment.java" "../" "CrimeActivity.java" "Crime.java" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (23146 3043 0 0) "criminalintent/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/" (23146 3043 0 0) "android/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/" (23146 3043 0 0) "bignerdranch/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/" (23146 3043 0 0) "com/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/" (23146 3043 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/" (23146 3043 0 0) "androidTest/" "main/" "../" "./" "test/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/build/" (23366 32612 502490 79000) "../" "tmp/" "./" "outputs/" "intermediates/" "generated/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/" (23366 35305 381726 521000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/" (23366 23901 590518 429000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent/" (23372 31775 239003 757000) "CriminalIntent/" "ToolBarTest/" "../" "__MACOSX/" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/" (23146 3043 0 0) "../" "Question.java" "./" "QuizActivity.java")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/" (23146 3043 0 0) "geoquiz/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/" (23146 3043 0 0) "android/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/" (23146 3043 0 0) "bignerdranch/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/" (23146 3043 0 0) "com/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/layout/" (23146 3044 0 0) "fragment_crime_list.xml" "activity_fragment.xml" "../" "./" "fragment_crime.xml" "list_item_crime.xml")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/" (23146 3044 0 0) ".DS_Store" "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "values-w820dp/" "../" "mipmap-xxxhdpi/" "values/" "layout/" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (23146 3044 0 0) "CrimeFragment.java" "CrimeListActivity.java" "../" "CrimeLab.java" "CrimeActivity.java" "Crime.java" "./" "CrimeListFragment.java" "SingleFragmentActivity.java")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (23146 3044 0 0) ".DS_Store" "criminalintent/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/" (22580 6738 0 0) ".DS_Store" "android/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/" (22580 6738 0 0) ".DS_Store" "bignerdranch/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/" (23146 3044 0 0) ".DS_Store" "com/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/" (23146 3044 0 0) ".DS_Store" "res/" "AndroidManifest.xml" "../" "./" "java/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/" (23146 3044 0 0) ".DS_Store" "androidTest/" "main/" "../" "./" "test/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/" (23368 40374 246617 178000) ".DS_Store" ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/" (23368 36736 832808 141000) "gradle/" ".DS_Store" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "build/" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
+
+ ("/home/martin/uama/material/slides etc/CriminalIntent2/" (23368 36111 761282 905000) "CriminalIntent/" "../" "__MACOSX/" "./")
+
+ ("/home/martin/uama/material/" (23354 756 36071 596000) "Screenshot_20180702-090109_Chrome.jpg" "Screenshot_20180702-091013_Chrome.jpg" "Screenshot_20180702-085905_Chrome.jpg" "Screenshot_20180702-090707_Chrome.jpg" "Screenshot_20180702-090835_Chrome.jpg" "Screenshot_20180702-090439_Chrome.jpg" "slides etc/" "Screenshot_20180702-091550_Chrome.jpg" "Screenshot_20180702-085053_Chrome.jpg" "../" "Screenshot_20180702-090730_Chrome.jpg" "Screenshot_20180702-090019_Chrome.jpg" "./" "Screenshot_20180702-085023_Chrome.jpg" "Screenshot_20180702-085339_Chrome.jpg")
+
+ ("/home/martin/uama/" (23366 18905 363560 836000) "git/" "material/" "../" "./" "test/")
+
+ ("/home/martin/uama/git/" (23360 11717 53180 623000) "../" "./" "uama/")
+
+ ("/home/martin/uama/git/uama/" (23360 11750 829537 203000) "notes/" ".git/" ".gitignore" "../" "inlämningsuppgifter/" "./")
+
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/" (23365 5491 101067 99000) "src/" "build.gradle" "build/" ".gradle/" "../" "./")
+
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/" (23365 5282 425076 402000) "../" "./" "java/")
+
+ ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/" (23365 5282 377076 405000) "../" "./" "test/")
+
+ ("/home/martin/loca2/data_processing/test/" (23347 33111 940822 612000) "src/" "build.gradle" "build/" ".gradle/" "../" "log.out" "./")
+
+ ("/home/martin/uama/uama-notes/.git/" (23358 57422 112304 726000) "info/" "objects/" "config" "index" "../" "hooks/" "branches/" "COMMIT_EDITMSG" "./" "logs/" "HEAD" "description" "refs/")
+
+ ("/home/martin/uama/uama-notes/" (23360 11770 837748 606000) ".git/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/" (23146 3043 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/" (23146 3043 0 0) "androidTest/" "main/" "../" "./" "test/")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/" (23349 61888 0 0) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/" (23349 61859 0 0) "gradle/" "local.properties" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "captures/" "settings.gradle" ".idea/" "GeoQuiz.iml")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz3/" (23358 56197 838048 17000) "GeoQuiz/" "../" "__MACOSX/" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/" (21808 63698 0 0) "menu_quiz.xml" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/" (23349 50586 0 0) "androidTest/" "main/" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/values/" (23349 50587 0 0) "styles.xml" "../" "./" "strings.xml" "dimens.xml")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/layout/" (21808 63698 0 0) "activity_quiz.xml" "../" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/" (23349 50587 0 0) "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "values-w820dp/" "menu/" "../" "values/" "layout/" "./")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/" (21818 3400 0 0) "../" "./" "QuizActivity.java")
+
+ ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/" (21808 63698 0 0) "geoquiz/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

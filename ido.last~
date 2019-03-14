@@ -1,0 +1,122 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/martin/" . ".emacs.d/")
+ ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
+ ("/home/martin/OPP/module1/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
+ ("/home/martin/PKD/labbar/" . "lab18/")
+ ("/var/" . "log/")
+ ("/" . "var/")
+ ("/home/martin/.themes/Emacs/" . "gtk-2.0-key/")
+ ("/home/martin/.themes/Default/" . "gtk-3.0/")
+ ("/home/martin/.themes/" . "Emacs/")
+ ("/home/martin/PKD/" . "proj/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/src/" . "bitset/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/" . "src/")
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/" . "projekt/")
+ ("/home/martin/ioopm/github/ioopm16/" . "uppgifter/")
+ ("/home/martin/ioopm/github/" . "ioopm16/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/martin/.emacs.d/"
+ "/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/craps/"
+ "/home/martin/PKD/labbar/lab18/"
+ "/home/martin/PKD/labbar/"
+ "/home/martin/OSPP/module0/MIPS_assembly_examples/"
+ "/home/martin/PKD/assignments/3/"
+ "/home/martin/"
+ "/home/martin/.themes/Emacs/gtk-2.0-key/"
+ "/home/martin/.themes/Emacs/gtk-3.0/"
+ "/home/martin/.themes/Default/gtk-3.0/"
+ "/home/martin/.themes/Default/gtk-2.0-key/"
+ "/home/martin/ioopm/github/martin.sellergren.7569/annat/"
+ "/home/martin/PKD/proj/"
+ "/home/martin/ioopm/github/martin.sellergren.7569/annat/terminalkommandon/em/anwi2115/uppgift1/"
+ "/home/martin/ioopm/github/martin.sellergren.7569/annat/optimering3/"
+ "/home/martin/ioopm/github/ioopm16/uppgifter/projekt/src/bitset/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "common.c"
+ "craps.c"
+ "Makefile"
+ "shooter.c"
+ "common.h"
+ "craps.d"
+ "craps"
+ "craps.d.tmp"
+ "common.d"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/martin/.emacs.d/" (22698 52932 491223 929000) "elpa/" "saveplace" "abbrev_defs" "smex-items" "init.el" "ido.last~" "./" "auto-save-list/" "init.el~" "ioopm-packages/" "recentf" "snippets/" "ido.last" "../" "recentf~")
+
+ ("/home/martin/" (22698 52935 847277 926000) "synced_data/" ".xchm" ".bashrc" ".adobe/" ".xinputrc" ".thunderbird/" "elpa/" ".mozilla/" ".swt/" ".java/" ".bundle/" ".emacs.d/" ".Xauthority" ".texmf-var/" ".sudo_as_admin_successful" ".vagrant.d/" ".tooling/" ".zcompdump-masel-5.1.1" ".saves/" "Documents/" ".urserver/" "Music/" "workspace/" "automata/" ".cache/" "java_workspace/" ".cabal/" ".ghc/" "VirtualBox VMs/" ".gconf/" ".dmrc" ".zshrc" "javadoc/" ".compiz/" ".gitconfig" "examples.desktop" ".zsh_history" ".tmux/" ".eclipse/" ".eclim/" ".oh-my-zsh/" ".zsh-update" ".aspell.sv.prepl" "Public/" "OPP/" ".profile" "Optimeringsmetoder/" ".bash_logout" "Downloads/" ".local/" ".macromedia/" "./" "Desktop/" ".aspell.sv.pws" ".gksu.lock" ".pki/" "ioopm-vagrant/" ".zcompdump" "Videos/" "Pictures/" ".zshrc.pre-oh-my-zsh" ".matlab/" "ioopm-packages/" "backup.../" "ioopm/" ".bash_history" "aioremote.sh" ".gnupg/" ".xsession-errors.old" ".gnome2/" ".config/" ".xsession-errors" ".ssh/" ".tmux.conf" "config.ini" ".nano/" "../" "Templates/" ".xdvirc" "PKD/" ".gnome2_private/" ".tixati/" "kurve/" ".ICEauthority" ".gnome/" ".lesshst" ".dbus/" ".subversion/")
+
+ ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/craps/" (22698 47847 499397 179000) "#Makefile#" "common.o" ".DS_Store" "._common.h" "._.DS_Store" "craps.d" "craps.o" "common.h" "craps.c" "._Makefile" "._shooter.c" "common.c" "Makefile" "shooter.d" "./" "shooter" "craps" "shooter.c" "shooter.o" "../" "common.d")
+
+ ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" (22696 38545 919542 587000) "./" "craps/" "../")
+
+ ("/home/martin/OPP/module1/game-of-luck/" (22696 38570 470957 706000) "craps-skeleton-2016-v2.0-tar.bz.1/" "./" "craps_vt15.tar.gz" "../" "Game of luck - Innehåll - Operating systems - spring 2017 [PING PONG].pdf" "craps-skeleton-2016-v2.0-tar.bz")
+
+ ("/home/martin/PKD/labbar/lab18/" (22684 21324 764091 775000) "#Nim.hs#" "Programkonstruktion och datastrukturer, 20.pdf" "Nim_orig.hs" "./" "Nim.hs" "../" "Test.hs")
+
+ ("/home/martin/PKD/labbar/" (22675 21207 274341 429000) "lab13.hs~" "#lab2.hs#" "lab14.hi" "lab7.hs" "Lab 15.pdf" "lab6_exp.hs" "lab8/" "lab2.exe" "lab5_exp.hs" "lab4/" "lab3.hs" "lab16_exp.hs" "lab11.hs" "./" "lab10_exp.o" "lab10_exp.hs" "lab10_exp.exe" "lab16.hs" "lab14.hs" "lab1.txt" "lab5.hs" "lab2.hi" "lab6u4.m" "lab10_exp.hi" "lab13.hs" "lab2.o" "lab14.o" "../" "#lab13.hs#" "lab17.hs" "lab17_exp.hs" "#lab3.hs#" "lab18/" "lab15.hs" "lab6.hs" "lab12.hs" "lab2.hs")
+
+ ("/home/martin/OSPP/module0/MIPS_assembly_examples/" (22679 23051 130944 25000) "arrays.s" "jump_and_branches.s" "basics.s" "./" "hello.s" "../")
+
+ ("/home/martin/PKD/assignments/3/" (22203 10121 501683 0) "Table.hs" "./" "PriorityQueue.hs" "../" "Huffman.hs" "Assignment3.pdf")
+
+ ("/var/log/" (22673 46089 909706 631000) "dpkg.log.6.gz" "auth.log.1" "auth.log.3.gz" "upstart/" "dpkg.log.2.gz" "apport.log" "wtmp.1" "apt/" "speech-dispatcher/" "btmp" "bootstrap.log" "apport.log.7.gz" "dmesg" "cups/" "dpkg.log.5.gz" "boot.log" "btmp.1" "dpkg.log.1" "syslog.2.gz" "alternatives.log.1" "boot-sav/" "gpu-manager.log" "syslog" "dist-upgrade/" "auth.log.4.gz" "Xorg.0.log" "apport.log.2.gz" "dpkg.log" "apport.log.6.gz" "apport.log.3.gz" "alternatives.log.5.gz" "kern.log" "syslog.3.gz" "fsck/" "alternatives.log.2.gz" "faillog" "dpkg.log.3.gz" "apport.log.4.gz" "./" "alternatives.log.3.gz" "apport.log.5.gz" "kern.log.4.gz" "Xorg.0.log.old" "auth.log.2.gz" "wtmp" "apport.log.1" "hp/" "installer/" "syslog.5.gz" "dpkg.log.4.gz" "syslog.4.gz" "fontconfig.log" "syslog.6.gz" "alternatives.log.6.gz" "syslog.1" "vbox-install.log" "kern.log.1" "lastlog" "lightdm/" "../" "auth.log" "alternatives.log" "alternatives.log.4.gz" "syslog.7.gz" "kern.log.2.gz" "unattended-upgrades/" "kern.log.3.gz")
+
+ ("/var/" (22414 37777 0 0) "crash/" "spool/" "tmp/" "mail/" "cache/" "backups/" "snap/" "local/" "lock/" "run/" "./" "lib/" "log/" "opt/" "../" "metrics/")
+
+ ("/home/" (22468 46875 318394 3000) "martin/" "./" "../")
+
+ ("/home/martin/.themes/Emacs/gtk-2.0-key/" (22672 38909 235080 27000) "gtkrc" "./" "../")
+
+ ("/home/martin/.themes/Emacs/gtk-3.0/" (22672 38909 235080 27000) "gtk-keys.css" "./" "../")
+
+ ("/home/martin/.themes/Emacs/" (22672 38909 235080 27000) "gtk-3.0/" "./" "../" "gtk-2.0-key/")
+
+ ("/home/martin/.themes/Default/gtk-2.0-key/" (22672 38883 743523 81000) "gtkrc" "./" "../")
+
+ ("/home/martin/.themes/Default/gtk-3.0/" (22672 38883 743523 81000) "gtk-keys.css" "./" "../")
+
+ ("/home/martin/.themes/Default/" (22672 38883 743523 81000) "gtk-3.0/" "./" "../" "gtk-2.0-key/")
+
+ ("/home/martin/.themes/" (22672 38909 235080 27000) "Default/" "./" "Emacs/" "../")
+
+ ("/home/martin/ioopm/github/martin.sellergren.7569/annat/" (22660 45012 990956 449000) "tail_recursion.c" "uppsats, skräpsamling.txt~" "test.c" "a.out" "#test.c#" "optimering3/" "stack_vs_heap.c" "./" "Binding.java" "terminalkommandon/" "tail_recursion.o" "test.c~" "tail_recursion.s" "uppsats/" "../" "skräpsamling.tex")
+
+ ("/home/martin/PKD/proj/" (22249 46704 703382 0) "gravityTest.hi" "Your First Haskell Application (with Gloss) - Andrew Gibiansky.pdf" "gravityTest.o" "duck.bmp" "bitmapTest.o" "Group46.pdf" "G46-master/" "testtt/" "bitmapTest.hs" "2dcollisions.pdf" "gravityTest.hs" "rapport3.docx" "bitmapTest.hi" "Diary, Martin Sellergren.pdf" "gravityTest.exe" "lena512.bmp" "rapport1.docx" "./" "bitmapTest.exe" "20150526_191658.jpg" "project description.pdf" "rapport2.docx" "program/" "rapport0.txt" "foto.bmp" "Diary, Martin Sellergren.docx" "../" "AvgColorTest.hs" "cat.bmp")
+
+ ("/home/martin/PKD/" (22561 39583 177227 273000) "lecture slides/" "test/" "TA/" "old exams/" "proj/" "sdvdsvvdsv.txt" "./" "assignments/" "coding convention.pdf" "labbar/" "../" "gloss-image-simulation.pdf")
+
+ ("/home/martin/ioopm/github/martin.sellergren.7569/annat/terminalkommandon/em/anwi2115/uppgift1/" (22606 43262 0 0) "fail.txt" "./" "u.c" "../")
+
+ ("/home/martin/ioopm/github/martin.sellergren.7569/annat/optimering3/" (22651 61802 543352 185000) "list_test.c" "Makefile" "./" "bitset.h" "array" "bitset" "../" "bitset.c")
+
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/src/bitset/" (22613 12156 107128 351000) "./" "bitset.h~" "../" "bitset.c")
+
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/src/" (22645 23413 598962 754000) "lists/" "./" "lager/" "bitset/" "gc.h" "../")
+
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/" (22588 4550 189900 693000) "spec/" "src/" "README.md" "./" "../")
+
+ ("/home/martin/ioopm/github/ioopm16/uppgifter/" (22522 34563 457461 16000) "projekt/" "fas2/" "./" "fas1/" "../")
+
+ ("/home/martin/ioopm/github/ioopm16/" (22522 34563 453460 805000) ".git/" "forelasningar/" "README.md" "./" "uppgifter/" ".gitignore" "labbar/" "extramaterial/" "../")
+
+ ("/home/martin/ioopm/github/" (22646 26435 526468 710000) "axel.hallsenius.7557/" "martin.sellergren.7569/" "./" "Rudorna/" "ioopm16/" "../" "carl.wennertorp.3288/" "achievements/")
+
+ ("/home/martin/ioopm/github/martin.sellergren.7569/" (22649 15384 201747 208000) ".git/" "inluppar/" ".emacs.d/" "README.md" "annat/" "./" ".gitignore" "labbar/" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
