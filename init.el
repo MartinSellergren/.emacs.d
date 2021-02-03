@@ -32,6 +32,9 @@
 ;; Appearance
 ;; ===========
 
+(set-face-attribute 'region nil
+  :distant-foreground "white" :background "deep sky blue")
+
 ;; Disable the menu bar
 (if (fboundp 'menu-bar-mode)
     (menu-bar-mode -1))
@@ -391,11 +394,6 @@ There are two things you can do about this warning:
   (interactive)
   (find-file-other-window user-init-file))
 (global-set-key (kbd "C-c I") 'open-init-file)
-
-
-
-
-
 
 
 ;; jump between parentesis - replace forward/backward sexp

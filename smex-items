@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- outshine-mode
- ispell-word
- dumb-jump-mode
- describe-variable
- find-variable
- outorg-edit-as-org
+ open-init-file
+ list-faces-display
+ transient-mark-mode
+ select-frame
+ set-mark-command
  package-list-packages
+ er/expand-region
 )
 
 ;; ----- smex-data -----
@@ -74,7 +74,7 @@
  (load-file . 23)
  (doc-view-mode . 5)
  (doc-view-toggle-display . 1)
- (package-list-packages . 26)
+ (package-list-packages . 28)
  (indent-for-tab-command . 1)
  (gofmt . 2)
  (ediff . 11)
@@ -149,7 +149,7 @@
  (toggle-truncate-lines . 3)
  (org-table-wrap-region . 1)
  (htmlfontify-buffer . 1)
- (open-init-file . 1)
+ (open-init-file . 3)
  (read-only-mode . 1)
  (search-forward-regexp . 4)
  (indent-region . 1)
@@ -158,7 +158,7 @@
  (dumb-jump-quick-look . 1)
  (find-face-definition . 2)
  (php-mode . 1)
- (er/expand-region . 1)
+ (er/expand-region . 2)
  (whitespace-mode . 4)
  (outline-mode . 8)
  (outline-minor-mode . 9)
@@ -177,4 +177,8 @@
  (outorg-edit-as-org . 5)
  (describe-variable . 1)
  (dumb-jump-mode . 2)
+ (set-mark-command . 1)
+ (select-frame . 1)
+ (transient-mark-mode . 2)
+ (list-faces-display . 2)
 )

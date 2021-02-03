@@ -246,6 +246,8 @@
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/martin/.gradle/" (24602 22247 278669 571000) "./" "native/" "../" "daemon/" "wrapper/" "gradle.properties" "caches/")
+
  ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23689 3215 459034 904000) "GeoObject.java" "../" "App.java" "./")
 
  ("/home/martin/loca3/loca3/" (23687 54641 453423 37000) "nom_query.sql" "tag-to-category-conversion/" ".git/" "README.md" "db/" ".gitignore" ".gradle/" "../" "./" "log.org" "loca_query.sql" "nom_query_testing.sql")
@@ -443,8 +445,6 @@
  ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/" (23349 61859 0 0) "gradle/" "local.properties" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "captures/" "settings.gradle" ".idea/" "GeoQuiz.iml")
 
  ("/home/martin/uama/material/slides etc/GeoQuiz3/" (23358 56197 838048 17000) "GeoQuiz/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/" (21808 63698 0 0) "menu_quiz.xml" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
