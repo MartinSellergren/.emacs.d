@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ outshine-mode
  open-init-file
- list-faces-display
- transient-mark-mode
- select-frame
- set-mark-command
+ set-variable
+ eval-buffer
+ find-library
+ rmail-input
  package-list-packages
- er/expand-region
 )
 
 ;; ----- smex-data -----
@@ -32,7 +32,7 @@
  (package-refresh-contents . 11)
  (interactive-haskell-mode . 16)
  (find-variable . 2)
- (set-variable . 3)
+ (set-variable . 5)
  (Helper-help . 1)
  (delete-trailing-whitespace . 1)
  (term . 2)
@@ -74,7 +74,7 @@
  (load-file . 23)
  (doc-view-mode . 5)
  (doc-view-toggle-display . 1)
- (package-list-packages . 28)
+ (package-list-packages . 33)
  (indent-for-tab-command . 1)
  (gofmt . 2)
  (ediff . 11)
@@ -100,7 +100,7 @@
  (scroll-all-mode . 6)
  (ediff-quit . 1)
  (set-visited-file-name . 1)
- (eval-buffer . 27)
+ (eval-buffer . 31)
  (back-to-indentation . 1)
  (indent-relative . 2)
  (forward-sexp . 1)
@@ -149,7 +149,7 @@
  (toggle-truncate-lines . 3)
  (org-table-wrap-region . 1)
  (htmlfontify-buffer . 1)
- (open-init-file . 3)
+ (open-init-file . 4)
  (read-only-mode . 1)
  (search-forward-regexp . 4)
  (indent-region . 1)
@@ -169,7 +169,7 @@
  (hs-hide-block . 2)
  (show-all . 1)
  (sql-mode . 5)
- (outshine-mode . 28)
+ (outshine-mode . 40)
  (yafolding-mode . 4)
  (outshine-imenu . 5)
  (outshine-navi . 1)
@@ -181,4 +181,7 @@
  (select-frame . 1)
  (transient-mark-mode . 2)
  (list-faces-display . 2)
+ (find-library . 5)
+ (lua-mode . 4)
+ (rmail-input . 1)
 )

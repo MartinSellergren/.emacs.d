@@ -2,19 +2,23 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/martin/dev/" . "loca3/")
+ ("/home/martin/dev/loca4/backend/db/" . "testing/")
+ ("/home/martin/loca2/app/Localore/" . "app/")
+ ("/home/martin/loca3/nominatim_src/" . "lib/")
  ("/home/martin/loca3/loca3/db/src/main/java/" . "Loca_db_construction/")
  ("/home/martin/loca3/loca3/db/src/main/" . "java/")
  ("/home/martin/loca3/loca3/db/src/" . "main/")
  ("/home/martin/loca3/loca3/db/" . "src/")
- ("/home/martin/loca3/loca3/" . "tags-spec/")
+ ("/home/martin/loca3/loca3/" . "db/")
  ("/home/martin/loca3/overpass-turbo/" . "data/")
- ("/home/martin/loca3/" . "overpass-turbo/")
+ ("/home/martin/loca3/" . "loca3/")
  ("/home/martin/loca2/app/Localore/app/src/main/res/" . "raw/")
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" . "model/")
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" . "modelManipulation/")
  ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/" . "localore/")
  ("/home/martin/loca2/app/Localore/app/src/main/java/com/" . "localore/")
  ("/home/martin/loca2/app/Localore/app/src/main/java/" . "com/")
- ("/home/martin/loca2/app/Localore/app/src/main/" . "res/")
+ ("/home/martin/loca2/app/Localore/app/src/main/" . "java/")
  ("/home/martin/loca2/app/Localore/app/src/" . "main/")
  ("/home/martin/loca2/app/Localore/app/" . "src/")
  ("/home/martin/loca2/app/" . "Localore/")
@@ -157,7 +161,7 @@
  ("/home/martin/OPP/module1-IPC/" . "simple-shell/")
  ("/home/martin/OPP/module1/" . "game-of-luck/")
  ("/home/martin/OPP/module1/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/shell/" . "src/")
- ("/home/martin/" . "skola/")
+ ("/home/martin/" . "loca3/")
  ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
  ("/home/martin/OPP/module1/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
  ("/home/martin/PKD/labbar/" . "lab18/")
@@ -176,8 +180,17 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/martin/loca3/loca3/nominatim-keys/"
+ "/home/martin/dev/loca4/backend/db/"
+ "/home/martin/dev/loca4/backend/db/testing/"
+ "/home/martin/dev/loca3/"
+ "/home/martin/dev/loca4/backend/db/languages-table/"
+ "/home/martin/loca3/loca3/"
  "/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/"
+ "/home/martin/loca3/loca3/tag-to-category-conversion/"
+ "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/"
+ "/home/martin/loca3/loca3/nominatim-keys/"
+ "/home/martin/loca3/nominatim_src/lib/"
+ "/home/martin/loca3/nominatim_src/website/"
  "/home/martin/loca3/loca3/key-spec/"
  "/home/martin/skola/"
  "/home/martin/loca3/loca3/tags-spec/"
@@ -185,12 +198,10 @@
  "/home/martin/"
  "/home/martin/loca3/loca3/db/"
  "/home/martin/loca3/overpass-turbo/data/"
- "/home/martin/loca3/loca3/"
  "/home/martin/loca3/Nominatim-3.2.0/build/utils/"
  "/home/martin/loca2/style/"
  "/home/martin/loca2/app/Localore/app/src/main/res/raw/"
  "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/"
- "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/"
  "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/"
  "/home/martin/loca2/"
  "/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/"
@@ -219,40 +230,77 @@
  "/home/martin/loca2/data_processing/cmp/"
  "/home/martin/Desktop/"
  "/home/martin/loca/loca-studies/app/src/test/java/"
- "/home/martin/loca2/data_processing/test/src/main/java/"
- "/home/martin/loca/imgviewer/"
- "/home/martin/loca/JMapViewer/"
- "/home/martin/loca/JMapViewer/org/openstreetmap/gui/jmapviewer/"
- "/home/martin/Desktop/jTileDownloader/tiles/"
- "/home/martin/loca/loca-studies/font/"
- "/home/martin/loca/loca-studies/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "key-value-spec"
+ "post_processing_utils.py"
+ "import_style.lua"
+ "db_testing.sql"
+ "nom_query.sql"
+ "setup_languages_table.js"
+ "post_processing.sql"
+ "loca_query.sql"
  "App.java"
- "create-list-of-interesting-keys.py"
- "examenupplägg"
- "create_list.py"
- "Makefile"
- ".zshrc"
- "build.gradle"
- "tags-spec-complete"
- "tags-spec-raw"
+ "nom_query_testing.sql"
+ "README.md"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/martin/loca3/loca3/nominatim-keys/" (23637 28707 113150 486000) "create-list-of-interesting-keys.py" "key-spec" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./" "key-value-spec")
+ ("/home/martin/dev/loca4/backend/db/" (24604 9891 650044 441000) "Makefile" "import_style.lua" "./" "languages-table/" "../" "testing/" "notes" ".#post_processing.sql" "post_processing.sql" "post_processing_utils.py")
 
- ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23637 27157 422835 791000) "GeoObject.java~" "GeoObject.java" "../" "App.java" "./")
+ ("/home/martin/dev/loca4/backend/db/testing/" (24603 43011 742029 877000) "./" "../" "sweden-latest.osm.pbf" "azores-latest.osm.pbf" "db_testing.sql")
+
+ ("/home/martin/dev/loca3/" (24603 47404 395270 772000) "db/" "nom_query.sql" "tag-to-category-conversion/" "loca_query.sql" "./" "../" ".gradle/" "README.md" "nom_query_testing.sql" ".git/" "log.org" ".gitignore")
+
+ ("/home/martin/dev/" (24603 47403 55268 937000) "./" "../" "MaselUtils/" "loca3/" "loca4/" "loca2/")
+
+ ("/home/martin/dev/loca2/" (24601 41113 515451 830000) "Disposition (Local geography educator, Martin Sellergren).pdf" "Disposition (Local geography educator, Martin Sellergren).odt" "Database ER Diagram.png" "style/" "presentation/" "./" "Layout-spec.odt" "../" "specification.odt" "README.md" "report/" ".git/" "app_screenshots/" "data_processing/" "Localore.zip" "categories.txt" ".idea/" ".gitignore" "app/" "existing.txt" "Layout-spec.pdf" "Specification of Local geography educator, Martin Sellergren.pdf" "draft.txt")
+
+ ("/home/martin/dev/loca4/" (24602 56270 788170 588000) "animations/" "./" "../" "README.md" "backend/" ".git/" ".gitignore" "android/")
+
+ ("/home/martin/dev/loca4/backend/" (24601 40438 523454 439000) "db/" "./" "postgrest.conf" "../")
+
+ ("/home/martin/dev/loca4/backend/db/languages-table/" (24602 56303 532714 715000) "./" "../" "languages.js" "setup_languages_table.js")
+
+ ("/home/martin/.gradle/" (24602 22247 278669 571000) "./" "native/" "../" "daemon/" "wrapper/" "gradle.properties" "caches/")
+
+ ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23689 3215 459034 904000) "GeoObject.java" "../" "App.java" "./")
+
+ ("/home/martin/loca3/loca3/" (23687 54641 453423 37000) "nom_query.sql" "tag-to-category-conversion/" ".git/" "README.md" "db/" ".gitignore" ".gradle/" "../" "./" "log.org" "loca_query.sql" "nom_query_testing.sql")
+
+ ("/home/martin/" (23687 47414 243562 886000) ".compiz/" "zinajda/" ".mozilla/" ".emacs.d/" ".thumbnails/" ".thunderbird/" "javadoc/" ".oh-my-zsh/" ".java/" "lmms/" ".ssh/" ".gnupg/" ".zynaddsubfxXML.cfg" ".config/" ".gitconfig" "sova/" "Videos/" "loca3/" "aptpop/" "Audio/" ".pki/" ".lmmsrc.xml" ".rpmdb/" ".tmux/" ".bashrc" ".log/" "Templates/" ".zcompdump" "loca2/" ".gconf/" ".xsession-errors.old" ".zsh_history" ".AndroidStudio3.1/" "Downloads/" ".gnome/" ".emulator_console_auth_token" "kurve/" ".tmux.conf" "skola/" ".dbus/" ".zcompdump-martin-Aspire-S3-391-5.1.1" "Documents/" ".FontForge/" ".zshrc" ".zprofile" ".Xauthority" "Android/" "Music/" ".zynaddsubfx-bank-cache.xml" "snap/" ".gradle/" "../" ".ICEauthority" ".fltk/" ".fontypython/" ".zcompdump-masel-5.4.2" "AndroidStudio/" "master.zip" ".zcompdump-masel-5.1.1" ".m2/" ".yoshimi_history" "mnt/" ".javacpp/" "oldhome/" ".gimp-2.8/" ".lesshst" ".android/" "./" ".local/" "sevensquare-master/" "uama/" ".xinputrc" ".cache/" ".saves/" "loca/" ".ladish/" "rec/" ".sudo_as_admin_successful" ".synaptic/" "Desktop/" "Pictures/" ".psql_history" ".wget-hsts" "Public/" ".xsession-errors" "bin/" "Ul/")
+
+ ("/home/martin/loca3/loca3/tag-to-category-conversion/" (23685 5180 117038 710000) "create-list-of-interesting-keys.py" "key-conversion-table" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./" "tags-from-nom-classTypes" "key-value-conversion-table")
+
+ ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" (23454 14315 7172 969000) "LocaloreApplication.java" "modelManipulation/" "Timer.java" "LoadingNewExerciseActivity.java" "LocaUtils.java" "RecyclerItemClickListener.java" "QuizResultActivity.java" "SplashActivity.java" "GeoObjectMap.java" "TappingActivity.java" "model/" "CreateExerciseService.java" "../" "AboutActivity.java" "ExerciseActivity.java" "CreateExerciseActivity.java" "SelectExerciseActivity.java" "./" "TalkActivity.java" "QuizActivity.java")
+
+ ("/home/martin/loca2/app/Localore/app/" (23451 43081 312669 58000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "libs/" "../" "proguard-rules.pro" "./" "release/")
+
+ ("/home/martin/loca2/app/Localore/" (23451 43081 268668 709000) "gradle/" "local.properties" ".gitignore" "gradlew" "Localore.iml" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
+
+ ("/home/martin/loca2/app/" (23454 15101 50524 1000) "javadoc/" "Localore/" "Localore.zip" "MainActivity.java" "../" "./")
+
+ ("/home/martin/loca2/" (23454 15010 45522 379000) "Layout-spec.pdf" "style/" "categories.txt" "draft.txt" "report/" ".git/" "README.md" "icons/" "Localore.zip" ".gitignore" "app_screenshots/" "mockups/" "app/" "specification.odt" "../" "Layout-spec.odt" "Disposition (Local geography educator, Martin Sellergren).odt" "existing.txt" "Disposition (Local geography educator, Martin Sellergren).pdf" "data_processing/" "./" "Specification of Local geography educator, Martin Sellergren.pdf" "presentation/" ".idea/" "Database ER Diagram.png")
+
+ ("/home/martin/loca3/loca3/nominatim-keys/" (23648 22066 992691 144000) "create-list-of-interesting-keys.py" "key-spec" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "k" "./" "key-value-spec")
+
+ ("/home/martin/loca3/loca3/tags-spec_obsolete/" (23620 33219 518931 626000) "create_list.py" "../" "iD_presets_sv.json" "tags-spec-raw" "./" "iD_presets_fr.json" "iD_presets_en.json" "iD_presets_es.json" "tags-spec-complete")
+
+ ("/home/martin/loca3/" (23640 29434 336339 783000) "nominatim_src/" "osm2pgsql/" "loca3/" "Nominatim-3.2.0.tar.bz2" "overpass-turbo/" "../" "./" "Nominatim-3.2.0/")
+
+ ("/home/martin/loca3/nominatim_src/website/" (23606 10843 676233 806000) "status.php" "reverse.php" "search.php" "js/" "hierarchy.php" "lookup.php" "css/" "../" "images/" "deletable.php" "polygons.php" "./" "details.php")
+
+ ("/home/martin/loca3/nominatim_src/" (23606 10843 676233 806000) "module/" "CONTRIBUTING.md" "AUTHORS" ".gitmodules" "vagrant/" "CMakeLists.txt" "docs/" "osm2pgsql/" "cmake/" ".git/" "ChangeLog" "README.md" "COPYING" ".gitignore" "munin/" "data-sources/" "settings/" "mysql2pgsql/" "wikidata/" "VAGRANT.md" "lib/" "../" "nominatim/" "./" "utils/" "phpcs.xml" "Vagrantfile" "data/" "test/" ".travis.yml" "sql/" "website/")
+
+ ("/home/martin/loca3/nominatim_src/lib/" (23606 10843 568234 530000) "setup_functions.php" "template/" "ReverseGeocode.php" "Status.php" "cmd.php" "TokenPostcode.php" "setup/" "TokenCountry.php" "db.php" "PlaceLookup.php" "Geocode.php" "AddressDetails.php" "TokenList.php" "output.php" "TokenWord.php" "../" "DatabaseError.php" "TokenHousenumber.php" "ClassTypes.php" "SearchContext.php" "ParameterParser.php" "TokenSpecialTerm.php" "Result.php" "SpecialSearchOperator.php" "Phrase.php" "./" "lib.php" "SearchDescription.php" "log.php" "init-website.php" "DebugHtml.php" "init.php" "init-cmd.php" "DebugNone.php")
+
+ ("/home/martin/loca3/nominatim_src/lib/template/" (23606 10843 568234 530000) "address-xml.php" "search-batch-json.php" "search-html.php" "search-geocodejson.php" "search-xml.php" "includes/" "search-geojson.php" "error-xml.php" "error-json.php" "../" "details-html.php" "address-geojson.php" "details-error-html.php" "error-html.php" "details-json.php" "./" "address-json.php" "address-geocodejson.php" "search-json.php" "address-html.php")
 
  ("/home/martin/loca3/loca3/db/" (23611 16156 68259 436000) "gradle/" ".gitignore" "gradlew" "src/" "build.gradle" "system.out~" "build/" ".gradle/" "../" "system.out" "./" "gradlew.bat" "settings.gradle")
 
  ("/home/martin/loca3/loca3/key-spec/" (23628 16605 491251 209000) "create-list-of-interesting-keys.py" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./")
-
- ("/home/martin/" (23620 15168 744221 221000) ".compiz/" "zinajda/" ".mozilla/" ".emacs.d/" ".thumbnails/" ".thunderbird/" "javadoc/" ".oh-my-zsh/" ".java/" "lmms/" ".ssh/" ".gnupg/" ".zynaddsubfxXML.cfg" ".config/" ".gitconfig" "Videos/" "loca3/" "aptpop/" ".pki/" ".lmmsrc.xml" ".rpmdb/" ".tmux/" ".bashrc" ".log/" "Templates/" ".zcompdump" "loca2/" ".gconf/" ".xsession-errors.old" ".zsh_history" ".AndroidStudio3.1/" "Downloads/" ".gnome/" ".emulator_console_auth_token" "kurve/" ".tmux.conf" "skola/" ".dbus/" ".zcompdump-martin-Aspire-S3-391-5.1.1" "Documents/" ".FontForge/" ".zshrc" ".zprofile" ".Xauthority" "Android/" "Music/" ".zynaddsubfx-bank-cache.xml" "snap/" ".gradle/" "../" ".ICEauthority" ".fltk/" ".fontypython/" ".zcompdump-masel-5.4.2" "AndroidStudio/" "master.zip" ".zcompdump-masel-5.1.1" ".m2/" ".yoshimi_history" "mnt/" ".javacpp/" "oldhome/" ".gimp-2.8/" ".lesshst" ".android/" "./" ".local/" "sevensquare-master/" "uama/" ".xinputrc" ".cache/" ".saves/" "loca/" ".ladish/" "rec/" ".sudo_as_admin_successful" ".synaptic/" "Desktop/" "Pictures/" ".psql_history" ".wget-hsts" "Public/" ".xsession-errors" "bin/" "Ul/")
 
  ("/home/martin/loca3/loca3/tags-spec/" (23614 63011 332088 476000) ".#Makefile" "create_list.py" "../" "iD_presets_sv.json" "tags-spec-raw" "./" "iD_presets_fr.json" "iD_presets_en.json" "iD_presets_es.json" "tags-spec-complete")
 
@@ -268,25 +316,15 @@
 
  ("/home/martin/loca3/overpass-turbo/" (23606 9685 478051 345000) "karma.conf.js" "CHANGELOG.md" ".git/" "README.md" "LICENSE" "locales/" "webpack.config.js" "icons/" "js/" ".gitignore" "map.html" "package.json" "map-key.png" "favicon.ico" "tests/" "index.html" "css/" "../" "TODO.md" "./" "data/" "Makefile" ".travis.yml" "land.html" "turbo.png")
 
- ("/home/martin/loca3/loca3/" (23607 28359 983670 778000) ".git/" "README.md" "db/" ".gitignore" "tags-spec/" "../" "./")
-
- ("/home/martin/loca3/" (23606 12130 568160 369000) "nominatim_src/" "loca3/" "Nominatim-3.2.0.tar.bz2" "overpass-turbo/" "../" "./" "Nominatim-3.2.0/")
-
  ("/home/martin/loca3/Nominatim-3.2.0/build/utils/" (23606 7745 424495 58000) "server_compare.php" "importWikipedia.php" "imports.php" "export.php" "update.php" "query.php" "specialphrases.php" "../" "./" "blocks.php" "country_languages.php" "setup.php" "warm.php")
 
  ("/home/martin/loca2/style/" (23419 191 736807 626000) "loca-default-map-style.json" "Streets.json" "styleCreator.py" "../" "./" "loca-default-map-style_noLabels.json" "Makefile")
 
- ("/home/martin/loca2/" (23422 58044 335580 113000) "Layout-spec.pdf" "style/" ".~lock.report.odt#" "categories.txt" "draft.txt" ".git/" "README.md" "icons/" ".gitignore" "mockups/" "app/" "specification.odt" "report.pdf" "../" "Layout-spec.odt" "Disposition (Local geography educator, Martin Sellergren).odt" "existing.txt" "report.odt" "Disposition (Local geography educator, Martin Sellergren).pdf" "data_processing/" "./" "Specification of Local geography educator, Martin Sellergren.pdf" "Rapportupplägg.pdf" ".idea/" "Database ER Diagram.png")
-
  ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/" (23422 64587 306839 917000) "RunningQuizControl.java" "SessionControl.java" "ExerciseControl.java" "../" "./")
-
- ("/home/martin/loca2/app/Localore/app/" (23420 36559 247079 70000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "libs/" "../" "proguard-rules.pro" "./" "release/")
 
  ("/home/martin/loca2/app/Localore/app/src/main/" (23419 64621 796297 600000) "res/" "AndroidManifest.xml" "../" "./" "java/")
 
  ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/" (23421 22348 596562 411000) "QuizCategoryDao.java" "GeoObject.java" "RunningQuiz.java" "RunningQuizDao.java" "User.java" "Exercise.java" "GeoObjectDao.java" "GeoObjInstructionsIter.java" "QuizDao.java" "Quiz.java" "QuizCategory.java" "ExerciseDao.java" "QuestionDao.java" "UserDao.java" "../" "NodeShape.java" "SessionDao.java" "Question.java" "Session.java" "./" "AppDatabase.java" "AppDatabaseConverters.java")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" (23422 39347 465249 176000) "LocaloreApplication.java" "modelManipulation/" "Timer.java" "LoadingNewExerciseActivity.java" "LocaUtils.java" "RecyclerItemClickListener.java" "QuizResultActivity.java" "SplashActivity.java" "GeoObjectMap.java" "TappingActivity.java" "model/" "CreateExerciseService.java" "../" "AboutActivity.java" "ExerciseActivity.java" "CreateExerciseActivity.java" "SelectExerciseActivity.java" "./" "TalkActivity.java" "QuizActivity.java")
 
  ("/home/martin/loca/loca-studies/" (23226 23418 419389 872000) "style/" ".git/" "README.md" ".gitignore" "imgviewer/" "app/" ".gradle/" "../" "./" "imgs/" "font/")
 
@@ -313,10 +351,6 @@
  ("/home/martin/loca/loca-studies/app/src/main/" (22865 37756 843692 612000) "../" "./" "java/")
 
  ("/home/martin/loca/loca-studies/app/src/" (23068 34463 717001 313000) "main/" "makePublic" "../" "./" "test/" "backToDefaults")
-
- ("/home/martin/loca2/app/Localore/" (23387 43737 407574 512000) "gradle/" "local.properties" ".gitignore" "gradlew" "Localore.iml" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/loca2/app/" (23381 50585 585336 987000) "Localore/" "../" "./")
 
  ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/" (23366 8277 597220 628000) "FindScoreDiceTest.java" "FindScoreDice2.java" "../" "./")
 
@@ -413,36 +447,6 @@
  ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/" (23365 5282 425076 402000) "../" "./" "java/")
 
  ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/" (23365 5282 377076 405000) "../" "./" "test/")
-
- ("/home/martin/loca2/data_processing/test/" (23347 33111 940822 612000) "src/" "build.gradle" "build/" ".gradle/" "../" "log.out" "./")
-
- ("/home/martin/uama/uama-notes/.git/" (23358 57422 112304 726000) "info/" "objects/" "config" "index" "../" "hooks/" "branches/" "COMMIT_EDITMSG" "./" "logs/" "HEAD" "description" "refs/")
-
- ("/home/martin/uama/uama-notes/" (23360 11770 837748 606000) ".git/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/" (23146 3043 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/" (23146 3043 0 0) "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/" (23349 61888 0 0) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/" (23349 61859 0 0) "gradle/" "local.properties" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "captures/" "settings.gradle" ".idea/" "GeoQuiz.iml")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/" (23358 56197 838048 17000) "GeoQuiz/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/" (21808 63698 0 0) "menu_quiz.xml" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/" (23349 50586 0 0) "androidTest/" "main/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/values/" (23349 50587 0 0) "styles.xml" "../" "./" "strings.xml" "dimens.xml")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/layout/" (21808 63698 0 0) "activity_quiz.xml" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/" (23349 50587 0 0) "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "values-w820dp/" "menu/" "../" "values/" "layout/" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/" (21818 3400 0 0) "../" "./" "QuizActivity.java")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/" (21808 63698 0 0) "geoquiz/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

@@ -388,6 +388,7 @@ There are two things you can do about this warning:
 ;; ============
 
 (setq backup-directory-alist `(("." . "~/.saves")))
+(setq use-dialog-box nil)
 
 (defun open-init-file ()
   "Edit the `user-init-file', in another window."

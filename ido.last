@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/home/martin/dev/" . "loca3/")
+ ("/home/martin/dev/loca4/backend/db/" . "testing/")
  ("/home/martin/loca2/app/Localore/" . "app/")
  ("/home/martin/loca3/nominatim_src/" . "lib/")
  ("/home/martin/loca3/loca3/db/src/main/java/" . "Loca_db_construction/")
@@ -178,6 +180,10 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/martin/dev/loca4/backend/db/"
+ "/home/martin/dev/loca4/backend/db/testing/"
+ "/home/martin/dev/loca3/"
+ "/home/martin/dev/loca4/backend/db/languages-table/"
  "/home/martin/loca3/loca3/"
  "/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/"
  "/home/martin/loca3/loca3/tag-to-category-conversion/"
@@ -224,28 +230,42 @@
  "/home/martin/loca2/data_processing/cmp/"
  "/home/martin/Desktop/"
  "/home/martin/loca/loca-studies/app/src/test/java/"
- "/home/martin/loca2/data_processing/test/src/main/java/"
- "/home/martin/loca/imgviewer/"
- "/home/martin/loca/JMapViewer/"
- "/home/martin/loca/JMapViewer/org/openstreetmap/gui/jmapviewer/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "post_processing.sql"
+ "db_testing.sql"
+ "README.md"
+ "import_style.lua"
+ "post_processing_utils.py"
  "nom_query.sql"
+ "setup_languages_table.js"
  "loca_query.sql"
  "App.java"
  "nom_query_testing.sql"
- "README.md"
- "bla.java"
- "key-conversion-table"
- "GeoObject.java"
- "loca_dedupe_query.sql"
- "ExerciseControl.java"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
+ ("/home/martin/dev/loca4/backend/db/testing/" (24605 10107 186584 551000) "./" "../" "sweden-latest.osm.pbf" "azores-latest.osm.pbf" "db_testing.sql")
+
+ ("/home/martin/dev/loca4/backend/db/" (24610 26492 844651 141000) "Makefile" "import_style.lua" "./" "languages-table/" "../" "testing/" "notes" "post_processing.sql" "post_processing_utils.py")
+
+ ("/media/martin/loca/" (24610 789 653302 160000) "./" "lost+found/" "../" "latest-all.json" "postgres/")
+
+ ("/home/martin/dev/" (24609 4414 307593 942000) "./" "../" "MaselUtils/" "loca3/" "loca4/" "loca2/" "TheSoundRecorder/" "AlmightyVolumeKeys/")
+
+ ("/home/martin/dev/loca4/backend/" (24609 16563 14586 31000) "db/" "postgrest_loca_v_0.conf" "postgrest_loca_v_1.conf" "./" "../")
+
+ ("/home/martin/dev/loca3/" (24603 47404 395270 772000) "db/" "nom_query.sql" "tag-to-category-conversion/" "loca_query.sql" "./" "../" ".gradle/" "README.md" "nom_query_testing.sql" ".git/" "log.org" ".gitignore")
+
+ ("/home/martin/dev/loca2/" (24601 41113 515451 830000) "Disposition (Local geography educator, Martin Sellergren).pdf" "Disposition (Local geography educator, Martin Sellergren).odt" "Database ER Diagram.png" "style/" "presentation/" "./" "Layout-spec.odt" "../" "specification.odt" "README.md" "report/" ".git/" "app_screenshots/" "data_processing/" "Localore.zip" "categories.txt" ".idea/" ".gitignore" "app/" "existing.txt" "Layout-spec.pdf" "Specification of Local geography educator, Martin Sellergren.pdf" "draft.txt")
+
+ ("/home/martin/dev/loca4/" (24602 56270 788170 588000) "animations/" "./" "../" "README.md" "backend/" ".git/" ".gitignore" "android/")
+
+ ("/home/martin/dev/loca4/backend/db/languages-table/" (24602 56303 532714 715000) "./" "../" "languages.js" "setup_languages_table.js")
+
  ("/home/martin/.gradle/" (24602 22247 278669 571000) "./" "native/" "../" "daemon/" "wrapper/" "gradle.properties" "caches/")
 
  ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23689 3215 459034 904000) "GeoObject.java" "../" "App.java" "./")
@@ -427,24 +447,6 @@
  ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/" (23365 5491 101067 99000) "src/" "build.gradle" "build/" ".gradle/" "../" "./")
 
  ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/" (23365 5282 425076 402000) "../" "./" "java/")
-
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/" (23365 5282 377076 405000) "../" "./" "test/")
-
- ("/home/martin/loca2/data_processing/test/" (23347 33111 940822 612000) "src/" "build.gradle" "build/" ".gradle/" "../" "log.out" "./")
-
- ("/home/martin/uama/uama-notes/.git/" (23358 57422 112304 726000) "info/" "objects/" "config" "index" "../" "hooks/" "branches/" "COMMIT_EDITMSG" "./" "logs/" "HEAD" "description" "refs/")
-
- ("/home/martin/uama/uama-notes/" (23360 11770 837748 606000) ".git/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/" (23146 3043 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/" (23146 3043 0 0) "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/" (23349 61888 0 0) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/" (23349 61859 0 0) "gradle/" "local.properties" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "captures/" "settings.gradle" ".idea/" "GeoQuiz.iml")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/" (23358 56197 838048 17000) "GeoQuiz/" "../" "__MACOSX/" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
