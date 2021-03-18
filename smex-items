@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ lua
  outshine-mode
- open-init-file
- set-variable
+ lua-mode
  eval-buffer
  find-library
- rmail-input
- package-list-packages
+ sql-postgres
+ goto-address-mode
 )
 
 ;; ----- smex-data -----
@@ -15,8 +15,8 @@
  (package-install . 14)
  (list-packages . 16)
  (overwrite-mode . 1)
- (insert-kbd-macro . 5)
- (name-last-kbd-macro . 8)
+ (insert-kbd-macro . 6)
+ (name-last-kbd-macro . 9)
  (list_c_functions . 7)
  (join-line . 1)
  (jdee-keys . 1)
@@ -74,7 +74,7 @@
  (load-file . 23)
  (doc-view-mode . 5)
  (doc-view-toggle-display . 1)
- (package-list-packages . 33)
+ (package-list-packages . 35)
  (indent-for-tab-command . 1)
  (gofmt . 2)
  (ediff . 11)
@@ -100,7 +100,7 @@
  (scroll-all-mode . 6)
  (ediff-quit . 1)
  (set-visited-file-name . 1)
- (eval-buffer . 31)
+ (eval-buffer . 52)
  (back-to-indentation . 1)
  (indent-relative . 2)
  (forward-sexp . 1)
@@ -108,7 +108,7 @@
  (flymake-popup-current-error-menu . 2)
  (flymake-goto-next-error . 6)
  (query-replace-regexp . 1)
- (occur . 44)
+ (occur . 50)
  (jlayout . 2)
  (backward-sexp . 1)
  (version . 1)
@@ -122,7 +122,7 @@
  (capitalize-word . 2)
  (superword-mode . 10)
  (gradle-mode . 1)
- (json-pretty-print-buffer . 13)
+ (json-pretty-print-buffer . 18)
  (prettify-symbols-mode . 2)
  (tab-region . 2)
  (untab-region . 1)
@@ -149,7 +149,7 @@
  (toggle-truncate-lines . 3)
  (org-table-wrap-region . 1)
  (htmlfontify-buffer . 1)
- (open-init-file . 4)
+ (open-init-file . 11)
  (read-only-mode . 1)
  (search-forward-regexp . 4)
  (indent-region . 1)
@@ -163,14 +163,14 @@
  (outline-mode . 8)
  (outline-minor-mode . 9)
  (hs-minor-mode . 1)
- (describe-mode . 1)
+ (describe-mode . 2)
  (hs-hide-all . 1)
  (hs-show-all . 2)
  (hs-hide-block . 2)
  (show-all . 1)
  (sql-mode . 5)
- (outshine-mode . 40)
- (yafolding-mode . 4)
+ (outshine-mode . 96)
+ (yafolding-mode . 14)
  (outshine-imenu . 5)
  (outshine-navi . 1)
  (outshine-cycle . 21)
@@ -181,7 +181,13 @@
  (select-frame . 1)
  (transient-mark-mode . 2)
  (list-faces-display . 2)
- (find-library . 5)
- (lua-mode . 4)
+ (find-library . 29)
+ (lua-mode . 25)
  (rmail-input . 1)
+ (outorg-which-active-modes . 1)
+ (sql-postgres . 47)
+ (goto-address-mode . 9)
+ (lua . 16)
+ (auto-insert . 2)
+ (add-mode-abbrev . 2)
 )

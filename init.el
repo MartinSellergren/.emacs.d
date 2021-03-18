@@ -171,6 +171,8 @@ There are two things you can do about this warning:
 ;; Scroll one line shortcuts
 (global-set-key (kbd "C-<down>") 'scroll-up-line)
 (global-set-key (kbd "C-<up>") 'scroll-down-line)
+(global-set-key (kbd "C-'") 'scroll-up-line)
+(global-set-key (kbd "C-¨") 'scroll-down-line)
 
 ;; ===========
 ;; Editing
@@ -386,6 +388,12 @@ There are two things you can do about this warning:
 ;; ============
 ;; Other
 ;; ============
+
+;; json indent 2 space
+(add-hook 'js-mode-hook
+          (lambda ()
+            (make-local-variable 'js-indent-level)
+            (setq js-indent-level 2)))
 
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq use-dialog-box nil)
@@ -605,6 +613,12 @@ There are two things you can do about this warning:
 (define-key outshine-mode-map (kbd "C-M-<down>") 'outline-next-visible-heading)
 
 ;; save when loses focus
-(add-hook 'focus-out-hook 'save-buffer)
+;; (add-hook 'focus-out-hook 'save-buffer)
 
 ;;; init.el ends here
+
+
+;; temp..
+
+(fset 'lua
+   [?\M-x ?f ?i ?n ?d ?- ?l ?i ?b ?r ?a ?r ?y return ?l ?u ?a ?- ?m ?o ?d ?e return ?\M-x ?e ?v ?a ?l return ?\C-x ?b return ?\M-x ?l ?u ?a ?- ?m ?o ?d ?e return ?\M-x ?o ?u ?s backspace ?t ?h backspace ?s ?h ?i ?n ?e ?- ?m ?o ?d ?e return])
