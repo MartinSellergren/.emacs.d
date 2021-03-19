@@ -1,9 +1,9 @@
 
 ;; ----- smex-history -----
 (
+ package-list-packages
  lua
  outshine-mode
- lua-mode
  eval-buffer
  find-library
  sql-postgres
@@ -74,7 +74,7 @@
  (load-file . 23)
  (doc-view-mode . 5)
  (doc-view-toggle-display . 1)
- (package-list-packages . 35)
+ (package-list-packages . 37)
  (indent-for-tab-command . 1)
  (gofmt . 2)
  (ediff . 11)
