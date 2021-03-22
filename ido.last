@@ -2,6 +2,7 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:loca:/" . "/")
  ("/home/martin/Downloads/" . "mapbox-maki-7d8563e/")
  ("/media/martin/" . "loca/")
  ("/media/" . "martin/")
@@ -185,6 +186,7 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/ssh:loca:"
  "/home/martin/dev/loca4/backend/"
  "/home/martin/dev/loca4/"
  "/home/martin/dev/loca4/backend/db/"
@@ -234,11 +236,11 @@
  "/home/martin/uama/"
  "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/"
  "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/values/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/layout/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "."
  "Makefile"
  "README.md"
  "categories.json"
@@ -247,15 +249,13 @@
  "post_processing_utils.py"
  "8912-empty-category.json"
  "cats"
- "categories2.json"
- "languages.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/martin/dev/loca4/" (24660 35635 14848 31000) "animations/" "./" "../" "README.md" "backend/" "icons/" ".git/" ".gitignore" "android/")
+ ("/home/martin/" (24664 35221 806047 395000) "package-lock.json" ".lesshst" "Downloads/" "Documents/" ".gitconfig" ".ssh/" "postgrest-v7.0.1-linux-x64-static.tar.xz" ".bash_logout" ".zcompdump-masel-5.8" "Pictures/" ".local/" ".pki/" ".saves/" "postgres_loca_v0.log" ".npm/" "Public/" "./" "LuaJIT-2.0.5/" "../" ".gradle/" ".node_repl_history" ".gnome/" "node_modules/" ".zcompdump" "Music/" "wikimedia-importance.sql" ".mozilla/" ".zsh/" "package.json" ".sudo_as_admin_successful" "Videos/" ".shell.pre-oh-my-zsh" ".bash_history" ".cache/" ".idlerc/" "postgis-3.1.1/" ".bashrc" ".emacs.d/" "Android/" "stuff/" "loca_v1.sql" ".tmux/" ".java/" ".git-credentials" ".gnupg/" "dev/" ".thunderbird/" "luarocks-3.5.0/" ".zsh_history" ".profile" ".psql_history" ".python_history" ".wget-hsts" ".android/" "Desktop/" ".config/" ".zshrc" ".oh-my-zsh/" ".dbus/" "osm2pgsql-1.4.0/" ".emulator_console_auth_token" "Templates/" "snap/" ".tmux.conf")
 
- ("/home/martin/" (24660 48885 856076 321000) "package-lock.json" ".lesshst" "Downloads/" "Documents/" ".gitconfig" ".ssh/" "postgrest-v7.0.1-linux-x64-static.tar.xz" ".bash_logout" ".zcompdump-masel-5.8" "Pictures/" ".local/" ".pki/" ".saves/" ".npm/" "Public/" "./" "LuaJIT-2.0.5/" "../" ".gradle/" ".node_repl_history" ".gnome/" "node_modules/" ".zcompdump" "Music/" "wikimedia-importance.sql" ".mozilla/" ".zsh/" "package.json" ".sudo_as_admin_successful" "Videos/" ".shell.pre-oh-my-zsh" ".bash_history" ".cache/" ".idlerc/" "postgis-3.1.1/" ".bashrc" ".emacs.d/" "Android/" "stuff/" ".tmux/" ".java/" ".git-credentials" ".gnupg/" "dev/" ".thunderbird/" "luarocks-3.5.0/" ".zsh_history" ".profile" ".psql_history" ".python_history" ".wget-hsts" ".android/" "Desktop/" ".config/" ".zshrc" ".oh-my-zsh/" ".dbus/" "osm2pgsql-1.4.0/" ".emulator_console_auth_token" "Templates/" "snap/" ".tmux.conf")
+ ("/home/martin/dev/loca4/" (24660 35635 14848 31000) "animations/" "./" "../" "README.md" "backend/" "icons/" ".git/" ".gitignore" "android/")
 
  ("/var/tmp/" (24660 48906 208451 176000) "logindXXgNcXUh.conf~" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-timesyncd.service-RDaaXi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-logind.service-NtDbPh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-resolved.service-LVgyKi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-colord.service-d6Izdg/" "./" "../" "systemd-private-52276c5757254d6ba59d17b907347c6c-upower.service-IEVmoh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-switcheroo-control.service-rb8Koh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-ModemManager.service-32dnTf/" "systemd-private-52276c5757254d6ba59d17b907347c6c-fwupd.service-YxL3Ve/" "postgrestXXQEzTRv.service" "UPowerXXFksZ8N.conf~")
 

@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ shell
  package-list-packages
+ list-packages
+ open-init-file
  lua
  outshine-mode
  eval-buffer
- find-library
- sql-postgres
- goto-address-mode
 )
 
 ;; ----- smex-data -----
 (
  (package-install . 14)
- (list-packages . 16)
+ (list-packages . 17)
  (overwrite-mode . 1)
  (insert-kbd-macro . 6)
  (name-last-kbd-macro . 9)
@@ -27,7 +27,7 @@
  (eclim-project-create . 5)
  (stop-eclimd . 1)
  (compile . 70)
- (shell . 6)
+ (shell . 7)
  (grep . 298)
  (package-refresh-contents . 11)
  (interactive-haskell-mode . 16)
@@ -74,7 +74,7 @@
  (load-file . 23)
  (doc-view-mode . 5)
  (doc-view-toggle-display . 1)
- (package-list-packages . 37)
+ (package-list-packages . 40)
  (indent-for-tab-command . 1)
  (gofmt . 2)
  (ediff . 11)
@@ -149,7 +149,7 @@
  (toggle-truncate-lines . 3)
  (org-table-wrap-region . 1)
  (htmlfontify-buffer . 1)
- (open-init-file . 11)
+ (open-init-file . 13)
  (read-only-mode . 1)
  (search-forward-regexp . 4)
  (indent-region . 1)
