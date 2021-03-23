@@ -2,6 +2,20 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:locaserver|sudo:locaserver:/etc/systemd/" . "system/")
+ ("/ssh:locaserver|sudo:locaserver:/" . "etc/")
+ ("/ssh:locaserver:" . "Desktop/")
+ ("/ssh:locaserver:/etc/systemd/" . "system/")
+ ("/ssh:loca|sudo:loca:/etc/systemd/" . "system/")
+ ("/ssh:loca|sudo:loca:/etc/" . "systemd/")
+ ("/ssh:loca:/etc/" . "systemd/")
+ ("/etc/systemd/" . "system/")
+ ("/etc/" . "systemd/")
+ ("/ssh:loca|sudo:loca:" . "snap/")
+ ("/ssh:loca:dev/loca4/" . "backend/")
+ ("/ssh:loca:dev/" . "loca4/")
+ ("/ssh:loca:" . "dev/")
+ ("/ssh:loca:/etc/systemd/" . "system/")
  ("/ssh:loca:/" . "/")
  ("/home/martin/Downloads/" . "mapbox-maki-7d8563e/")
  ("/media/martin/" . "loca/")
@@ -186,9 +200,16 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/ssh:loca:"
- "/home/martin/dev/loca4/backend/"
+ "/home/martin/"
  "/home/martin/dev/loca4/"
+ "/ssh:locaserver|sudo:locaserver:/etc/systemd/system/"
+ "/ssh:locaserver:/etc/systemd/system/"
+ "/ssh:loca|sudo:root@loca:/etc/systemd/system/"
+ "/ssh:loca|sudo:loca:/etc/systemd/system/"
+ "/ssh:loca:/etc/systemd/system/"
+ "/ssh:loca:"
+ "/ssh:loca:dev/loca4/backend/"
+ "/home/martin/dev/loca4/backend/"
  "/home/martin/dev/loca4/backend/db/"
  "/home/martin/Downloads/"
  "/home/martin/dev/loca4/backend/db/languages-table/"
@@ -209,7 +230,6 @@
  "/home/martin/skola/"
  "/home/martin/loca3/loca3/tags-spec/"
  "/home/martin/loca/loca-studies/style/"
- "/home/martin/"
  "/home/martin/loca3/loca3/db/"
  "/home/martin/loca3/overpass-turbo/data/"
  "/home/martin/loca3/Nominatim-3.2.0/build/utils/"
@@ -230,38 +250,41 @@
  "/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
  "/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
  "/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/layout/"
- "/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
- "/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/"
- "/home/martin/uama/uama-notes/"
- "/home/martin/uama/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/values/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "postgres_loca_v0.log"
+ "README.md"
+ "locaserver_v0.service"
+ "locaserver_v1.service"
+ "locaserver_v0.log"
+ "postgrest_loca_v1.conf"
  "."
  "Makefile"
- "README.md"
  "categories.json"
  "import_style.lua"
- "post_processing.sql"
- "post_processing_utils.py"
- "8912-empty-category.json"
- "cats"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/martin/" (24664 35221 806047 395000) "package-lock.json" ".lesshst" "Downloads/" "Documents/" ".gitconfig" ".ssh/" "postgrest-v7.0.1-linux-x64-static.tar.xz" ".bash_logout" ".zcompdump-masel-5.8" "Pictures/" ".local/" ".pki/" ".saves/" "postgres_loca_v0.log" ".npm/" "Public/" "./" "LuaJIT-2.0.5/" "../" ".gradle/" ".node_repl_history" ".gnome/" "node_modules/" ".zcompdump" "Music/" "wikimedia-importance.sql" ".mozilla/" ".zsh/" "package.json" ".sudo_as_admin_successful" "Videos/" ".shell.pre-oh-my-zsh" ".bash_history" ".cache/" ".idlerc/" "postgis-3.1.1/" ".bashrc" ".emacs.d/" "Android/" "stuff/" "loca_v1.sql" ".tmux/" ".java/" ".git-credentials" ".gnupg/" "dev/" ".thunderbird/" "luarocks-3.5.0/" ".zsh_history" ".profile" ".psql_history" ".python_history" ".wget-hsts" ".android/" "Desktop/" ".config/" ".zshrc" ".oh-my-zsh/" ".dbus/" "osm2pgsql-1.4.0/" ".emulator_console_auth_token" "Templates/" "snap/" ".tmux.conf")
+ ("/home/martin/dev/loca4/" (24664 47600 408259 926000) "animations/" "./" "../" "README.md" "backend/" "icons/" ".git/" ".gitignore" "android/")
 
- ("/home/martin/dev/loca4/" (24660 35635 14848 31000) "animations/" "./" "../" "README.md" "backend/" "icons/" ".git/" ".gitignore" "android/")
+ ("/home/martin/" (24664 47815 53450 1000) "package-lock.json" ".lesshst" "Downloads/" "Documents/" ".gitconfig" ".ssh/" "postgrest-v7.0.1-linux-x64-static.tar.xz" ".bash_logout" ".zcompdump-masel-5.8" "Pictures/" ".local/" ".authinfo" ".pki/" ".saves/" "postgres_loca_v0.log" ".npm/" "Public/" "./" "LuaJIT-2.0.5/" "../" ".gradle/" ".node_repl_history" ".gnome/" "node_modules/" ".zcompdump" "Music/" "loca_v0.sql" "wikimedia-importance.sql" ".mozilla/" ".zsh/" "package.json" ".sudo_as_admin_successful" "Videos/" ".shell.pre-oh-my-zsh" ".bash_history" ".cache/" ".idlerc/" "postgis-3.1.1/" ".bashrc" ".emacs.d/" "Android/" "stuff/" "loca_v1.sql" ".tmux/" ".java/" ".git-credentials" ".gnupg/" "dev/" ".thunderbird/" "luarocks-3.5.0/" ".zsh_history" ".profile" ".psql_history" ".python_history" ".wget-hsts" ".android/" "Desktop/" ".config/" ".zshrc" ".oh-my-zsh/" ".dbus/" "osm2pgsql-1.4.0/" ".emulator_console_auth_token" "Templates/" "snap/" ".tmux.conf")
+
+ ("/home/martin/dev/loca4/backend/" (24664 39822 433636 781000) "db/" "Makefile" "postgrest.log" "postgrest_loca_v0.conf" "./" "../" "postgrest_loca_v1.conf")
+
+ ("/etc/systemd/system/" (24660 50924 878012 104000) "sleep.target" "cloud-final.service.wants/" "dbus-org.freedesktop.ModemManager1.service" "dbus-org.freedesktop.Avahi.service" "graphical.target.wants/" "emergency.target.wants/" "sockets.target.wants/" "snap-android\\x2dstudio-100.mount" "paths.target.wants/" "display-manager.service" "./" "rescue.target.wants/" "suspend.target" "../" "dbus-org.freedesktop.nm-dispatcher.service" "printer.target.wants/" "default.target.wants/" "snap-android\\x2dstudio-101.mount" "dbus-fi.w1.wpa_supplicant1.service" "bluetooth.target.wants/" "snap-gnome\\x2d3\\x2d28\\x2d1804-145.mount" "snap-gnome\\x2d3\\x2d34\\x2d1804-36.mount" "multi-user.target.wants/" "hibernate.target" "dbus-org.freedesktop.thermald.service" "snap-gnome\\x2d3\\x2d34\\x2d1804-66.mount" "snap-core20-904.mount" "locaserver_v0.service" "oem-config.service.wants/" "snap-snapd-11036.mount" "snap-gimp-347.mount" "network-online.target.wants/" "snap-snap\\x2dstore-518.mount" "snap-gtk\\x2dcommon\\x2dthemes-1506.mount" "hybrid-sleep.target" "timers.target.wants/" "dbus-org.freedesktop.resolve1.service" "sysinit.target.wants/" "snap-gtk\\x2dcommon\\x2dthemes-1514.mount" "dbus-org.freedesktop.timesync1.service" "snap-snapd-11107.mount" "dbus-org.bluez.service" "snap-core18-1944.mount" "final.target.wants/" "display-manager.service.wants/" "snap-core18-1988.mount" "getty.target.wants/" "snap-snap\\x2dstore-467.mount" "syslog.service" "snap-kde\\x2dframeworks\\x2d5\\x2dcore18-32.mount")
+
+ ("/etc/systemd/" (24605 3590 914896 747000) "sleep.conf" "system/" "./" "timesyncd.conf" "user/" "../" "network/" "journald.conf" "resolved.conf" "logind.conf" "user.conf" "pstore.conf" "system.conf" "networkd.conf")
+
+ ("/etc/" (24656 28560 419717 34000) "hdparm.conf" "xdg/" "gtk-3.0/" "fstab" "update-manager/" "brlapi.key" "magic.mime" "ldap/" "libreoffice/" "shadow" "depmod.d/" "issue.net" "calendar/" "update-notifier/" "subgid" "xattr.conf" "libpaper.d/" "nsswitch.conf" "services" "issue" "systemd/" "dbus-1/" "subuid" "ld.so.conf.d/" "apg.conf" "init/" "os-release" "alsa/" "ifplugd/" "logcheck/" "crontab" "emacs/" "gamemode.ini" "mtab" "mime.types" "networks" "protocols" "avahi/" "hosts.allow" "magic" "locale.alias" "fwupd/" "cups/" "mailcap.order" "hosts.deny" "legal" "cron.weekly/" "netconfig" "brltty.conf" "acpi/" "hosts" "locale.gen" "usb_modeswitch.d/" "hostid" "hp/" "thunderbird/" "selinux/" "shells" "networkd-dispatcher/" "bindresvport.blacklist" "thermald/" "rc5.d/" "profile.d/" "rmt" "rcS.d/" "odbc.ini" "openal/" "ssh/" "iproute2/" "ghostscript/" "pm/" "logrotate.conf" "ImageMagick-6/" "snmp/" "manpath.config" "usb_modeswitch.conf" "dpkg/" "vim/" "shadow-" "ufw/" "brltty/" "anacrontab" "initramfs-tools/" "apport/" "sane.d/" "gai.conf" "dhcp/" "modules" "rsyslog.d/" "mysql/" "ld.so.cache" "lsb-release" "default/" "group-" "hostname" "python3.8/" "rc2.d/" "papersize" "chromium/" "apparmor/" "zsh_command_not_found" "gdb/" "libnl-3/" "bash_completion.d/" "login.defs" "bash.bashrc" "network/" "fuse.conf" "rpc" "ssl/" "sysctl.d/" "cron.d/" "pcmcia/" "python3/" "passwd-" "pam.d/" "tmpfiles.d/" "terminfo/" ".pwd.lock" "ubuntu-advantage/" "nanorc" "sensors3.conf" "libblockdev/" "profile" "kerneloops.conf" "sudoers.d/" "libaudit.conf" "sysstat/" "xml/" "vdpau_wrapper.cfg" "vulkan/" "openvpn/" "netplan/" "vconsole.conf" "speech-dispatcher/" "libao.conf" "chatscripts/" "apm/" "ca-certificates.conf.dpkg-old" "kernel-img.conf" "group" "cron.hourly/" "mono/" "environment" "ca-certificates.conf" "appstream.conf" "bash_completion" "UPower/" "localtime" "perl/" "sysctl.conf" "host.conf" "ca-certificates/" "adduser.conf" "pulse/" "fonts/" "update-motd.d/" "gtk-2.0/" "udisks2/" "security/" "cupshelpers/" "bluetooth/" "ltrace.conf" "wpa_supplicant/" "geoclue/" "debian_version" "grub.d/" "debconf.conf" "alternatives/" "gshadow-" "gshadow" "binfmt.d/" "ld.so.conf" "gss/" "gnome/" "mpv/" "pnm2ppa.conf" "ppp/" "environment.d/" "NetworkManager/" "sudoers" "subgid-" "zsh/" "sgml/" "mke2fs.conf" "ucf.conf" "inputrc" "ODBCDataSources/" "rc3.d/" "pam.conf" "init.d/" "gdm3/" "modprobe.d/" "popularity-contest.conf" "ethertypes" "newt/" "sensors.d/" "postgresql-common/" "timezone" "mailcap" "PackageKit/" "console-setup/" "rsyslog.conf" "postgresql/" "apparmor.d/" "X11/" "dconf/" "e2scrub.conf" "vtrgb" "cron.monthly/" "fprintd.conf" "rc1.d/" "apt/" "groff/" "opt/" "insserv.conf.d/" "glvnd/" "rygel.conf" "cron.daily/" "rc4.d/" "kernel/" "polkit-1/" "logrotate.d/" "modules-load.d/" "wgetrc" "dictionaries-common/" "udev/" "rc0.d/" "skel/" "subuid-" "cracklib/" "mtools.conf" "python2.7/" "firefox/" "passwd" "rc6.d/" "machine-id" "pki/" "deluser.conf" "resolv.conf" "../" "./")
+
+ ("/home/martin/stuff/" (24664 35771 315708 797000) "android-dev/" "anteckningar.org" "./" "../" "jobbansökan/" ".git/" ".bashrc" "touchpad_draglock.sh" "Makefile_filename_switch" "m.jpg" ".zshrc" ".tmux.conf")
 
  ("/var/tmp/" (24660 48906 208451 176000) "logindXXgNcXUh.conf~" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-timesyncd.service-RDaaXi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-logind.service-NtDbPh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-resolved.service-LVgyKi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-colord.service-d6Izdg/" "./" "../" "systemd-private-52276c5757254d6ba59d17b907347c6c-upower.service-IEVmoh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-switcheroo-control.service-rb8Koh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-ModemManager.service-32dnTf/" "systemd-private-52276c5757254d6ba59d17b907347c6c-fwupd.service-YxL3Ve/" "postgrestXXQEzTRv.service" "UPowerXXFksZ8N.conf~")
 
  ("/home/martin/dev/loca4/backend/db/" (24660 33884 652 296000) "categories.json" "import_style.lua" "wikidata/" "./" "languages-table/" "../" "json.lua" "testing/" "notes" "categories_old.json" "post_processing.sql" "post_processing_utils.py")
-
- ("/home/martin/dev/loca4/backend/" (24659 25725 985807 50000) "db/" "Makefile" "postgrest.log" "postgrest_loca_v_0.conf" "postgrest_loca_v_1.conf" "./" "../")
 
  ("/home/martin/Downloads/" (24638 58481 280253 680000) "postgis-3.1.1.tar.gz" "fortress-tower-antique-building-silhouette-of-a-computer-game.svg" "viewpoint.svg" "method-draw-image (3).svg" "Artboard 1 (1).png" "method-draw-image (7).svg" "village.svg" "noun_Lake_200843.svg" "method-draw-image (13).svg" "noun_City_859811.svg" "Tokyo.png" "flag (1).svg" "sound_correct.mp3" "castle.svg" "noun_nature_2352881.svg" "platform-tools/" "doc-html-3.1.1.tar.gz" "hotel-big-rural-house-building.svg" "hook.svg" "8912-empty-category.json" "path.svg" "noun_City_1098905.svg" "coral.svg" "hello_im_localore_no_background (1).svg" "train-station.svg" "loca launcher.png" "mapiconscollection-tourism-66c547-simple.zip" "dancing.svg" "party-dj.svg" "tree.svg" "remember (1).svg" "filledArtboard 1 (1).png" "sound_wrong.mp3" "building (1).svg" "method-draw-image (6).svg" "village (1).svg" "globe.svg" "route-signal-on-a-pole.svg" "coffee-cup.svg" "no_eyesArtboard 1.png" "quiz.svg" "hello_im_localore_no_background (2).svg" "London3.svg" "korea.svg" "latest-all.json.gz" "Artboard 1.png" "method-draw-image (2).svg" "farm.svg" "bridge.svg" "cape-svgrepo-com3.svg" "drive-download-20210301T123646Z-001.zip" "sea-waves.svg" "river (3).svg" "cave.svg" "eyesArtboard 1.png" "method-draw-image (12).svg" "house.svg" "iceberg (1).svg" "sea.svg" "728-LondonPack.zip" "google-chrome-stable_current_amd64(2).deb" "lock.svg" "mountains.svg" "road-ahead-straight-perspective.svg" "cape-svgrepo-com2.svg" "pier.svg" "forest (1).svg" "drive-download-20210303T005419Z-001.zip" "method-draw-image (11).svg" "forest.svg" "cape-svgrepo-com1.svg" "sunset.svg" "fountain.svg" "method-draw-image (9).svg" "filledmoon.svg" "noun_Earth_442803.svg" "method-draw-image (10).svg" "loca launcher_z1.png" "columns-antique-ruins-hand-drawn-outline.svg" "noun_City_47531.svg" "social-care.svg" "question.svg" "luarocks-3.5.0.tar.gz" "doc-html-3.1.1 (2).tar.gz" "freeformatter-out.json" "filledArtboard 1.png" "river (1).svg" "quiz (1).svg" "river (2).svg" "fiord-svgrepo-com.svg" "hello_im_localore.svg" "worldwide.svg" "gas-station.svg" "lighthouse-with-flashing-lights.svg" "eyesArtboard 1.svg" "no_eyesArtboard 1.svg" "mapbox-maki-6.2.0-2-g7d8563e.zip" "iceberg.svg" "flag.svg" "flag-black-shape.svg" "barrier.svg" "sunset (1).svg" "canal.svg" "landscape (2).svg" "rural-house.svg" "method-draw-image.svg" "method-draw-image (4).svg" "quiz (2).svg" "village (2).svg" "noun_Globe_1627692.svg" "method-draw-image (17).svg" "seeding.svg" "method-draw-image (5).svg" "twitter.svg" "google-chrome-stable_current_amd64.deb" "earth-globe-continent.svg" "dancing (1).svg" "filledsmall star.svg" "planet-earth.svg" "mapiconscollection-markers.zip" "bay (1).svg" "postgis-3.1.1.pdf" "star.svg" "road.svg" "park.svg" "shipwreck (1).svg" "road-entering-a-tunnel.svg" "nature.svg" "no_starsArtboard 1_27536B.png" "city-avenue-perspective.svg" "filledbig star.svg" "shipwreck.svg" "facebook.svg" "remember.svg" "doc-html-3.1.1 (1).tar.gz" "house (1).svg" "LuaJIT-2.0.5.zip" "beach.svg" "sunrise.svg" "painting-exhibit-in-fine-art-museum.svg" "island.svg" "Tokyo.svg" "fiord-svgrepo-com (1).svg" "noun_Earth_2073546.svg" "swamp.svg" "mapiconscollection-markers (1).zip" "search.svg" "clock-tower.svg" "route-numbers-shield-signal-shape.svg" "binoculars.svg" "method-draw-image (1).svg" "flags.svg" "method-draw-image (15).svg" "cape-svgrepo-com.svg" "bay.svg" "explore.svg" "mapiconscollection-stores-5ec8bd-simple.zip" "drive-download-20210302T140109Z-001.zip" "mapiconscollection-nature-128e4d-simple.zip" "route-66.svg" "CorrectAndWrongSoundEffect.rar" "json-c-json-c-0.15-20200726.tar.gz" "landscape.svg" "landscape (3).svg" "unlock.svg" "cape-svgrepo-com4.svg" "dumbbell.svg" "volcano.svg" "cemetery.svg" "osm2pgsql-1.4.0.zip" "colosseum.svg" "mapbox-maki-7d8563e/" "transportation.svg" "geyser.svg" "markericons/" "Tokyo-vector-skyline.zip" "loca launcher (1).png" "pangong-tso.svg" "buildings.svg" "method-draw-image (16).svg" "loca launcher_z2.png" "landscape (1).svg" "method-draw-image (8).svg" "noun_nature_3544838.svg" "technical-support.svg" "track.svg" "river.svg" "method-draw-image (14).svg" "hello_im_localore_no_background.svg" "building.svg" "fire.svg" "cats" "../" "./")
 
@@ -418,40 +441,6 @@
  ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/" (23366 35305 381726 521000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
 
  ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/" (23366 23901 590518 429000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/" (23372 31775 239003 757000) "CriminalIntent/" "ToolBarTest/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/" (23146 3043 0 0) "../" "Question.java" "./" "QuizActivity.java")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/" (23146 3043 0 0) "geoquiz/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/" (23146 3043 0 0) "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/" (23146 3043 0 0) "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/" (23146 3043 0 0) "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/layout/" (23146 3044 0 0) "fragment_crime_list.xml" "activity_fragment.xml" "../" "./" "fragment_crime.xml" "list_item_crime.xml")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/" (23146 3044 0 0) ".DS_Store" "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "values-w820dp/" "../" "mipmap-xxxhdpi/" "values/" "layout/" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (23146 3044 0 0) "CrimeFragment.java" "CrimeListActivity.java" "../" "CrimeLab.java" "CrimeActivity.java" "Crime.java" "./" "CrimeListFragment.java" "SingleFragmentActivity.java")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (23146 3044 0 0) ".DS_Store" "criminalintent/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/" (22580 6738 0 0) ".DS_Store" "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/" (22580 6738 0 0) ".DS_Store" "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/" (23146 3044 0 0) ".DS_Store" "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/" (23146 3044 0 0) ".DS_Store" "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/" (23146 3044 0 0) ".DS_Store" "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/" (23368 40374 246617 178000) ".DS_Store" ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/" (23368 36736 832808 141000) "gradle/" ".DS_Store" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "build/" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
