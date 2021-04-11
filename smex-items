@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ sql-postgres
+ outshine-mode
+ outshine-next-link
  sortbysize
  sortbynameordate
  insert-kbd-macro
  name-last-kbd-macro
- open-init-file
- outshine-next-link
- outshine-next-line
 )
 
 ;; ----- smex-data -----
@@ -169,7 +169,7 @@
  (hs-hide-block . 2)
  (show-all . 1)
  (sql-mode . 5)
- (outshine-mode . 160)
+ (outshine-mode . 164)
  (yafolding-mode . 14)
  (outshine-imenu . 5)
  (outshine-navi . 2)
@@ -185,7 +185,7 @@
  (lua-mode . 38)
  (rmail-input . 2)
  (outorg-which-active-modes . 1)
- (sql-postgres . 55)
+ (sql-postgres . 56)
  (goto-address-mode . 10)
  (lua . 29)
  (auto-insert . 2)
@@ -193,7 +193,7 @@
  (query-replace . 6)
  (other-frame . 1)
  (outshine-next-line . 1)
- (outshine-next-link . 1)
+ (outshine-next-link . 2)
  (sortbynameordate . 1)
  (sortbysize . 2)
 )
