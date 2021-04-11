@@ -389,7 +389,13 @@ There are two things you can do about this warning:
 ;; Other
 ;; ============
 
-;; json indent 2 space
+;; sql indent 2 spaces
+(defun my-sql-mode-hook ()
+  (add-hook 'hack-local-variables-hook
+            (lambda () (setq indent-tabs-mode nil) (setq tab-width 4) )))
+(add-hook 'sql-mode-hook 'my-sql-mode-hook)
+
+;; javascript indent 2 spaces
 (add-hook 'js-mode-hook
           (lambda ()
             (make-local-variable 'js-indent-level)
@@ -617,7 +623,7 @@ There are two things you can do about this warning:
 
 
 
-;; temp..
+;; My stuff, new additions last
 
 (fset 'lua
       [?\M-x ?f ?i ?n ?d ?- ?l ?i ?b ?r ?a ?r ?y return ?l ?u ?a ?- ?m ?o ?d ?e return ?\M-x ?e ?v ?a ?l return ?\C-x ?b return ?\M-x ?l ?u ?a ?- ?m ?o ?d ?e return ?\M-x ?o ?u ?s backspace ?t ?h backspace ?s ?h ?i ?n ?e ?- ?m ?o ?d ?e return])
@@ -625,5 +631,14 @@ There are two things you can do about this warning:
 (setq tramp-verbose 10)
 
 (eval-after-load 'tramp '(setenv "SHELL" "/bin/bash"))
+
+(setq dired-listing-switches "-alh")
+
+(fset 'sortbysize
+   [?\C-u ?s ?\C-a ?\C-k ?- ?a ?l ?h ?S return])
+
+(fset 'sortbynameordate
+   "s")
+
 
 ;;; init.el ends here

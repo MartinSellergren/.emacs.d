@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- shell
- package-list-packages
- list-packages
+ sortbysize
+ sortbynameordate
+ insert-kbd-macro
+ name-last-kbd-macro
  open-init-file
- lua
- outshine-mode
- eval-buffer
+ outshine-next-link
+ outshine-next-line
 )
 
 ;; ----- smex-data -----
@@ -15,8 +15,8 @@
  (package-install . 14)
  (list-packages . 17)
  (overwrite-mode . 1)
- (insert-kbd-macro . 6)
- (name-last-kbd-macro . 9)
+ (insert-kbd-macro . 8)
+ (name-last-kbd-macro . 11)
  (list_c_functions . 7)
  (join-line . 1)
  (jdee-keys . 1)
@@ -38,12 +38,12 @@
  (term . 2)
  (subword-mode . 73)
  (ispell . 6)
- (ispell-word . 428)
+ (ispell-word . 431)
  (count-words . 39)
  (flyspell-mode . 7)
  (ispell-change-dictionary . 19)
  (ispell-kill-ispell . 1)
- (toggle-word-wrap . 10)
+ (toggle-word-wrap . 11)
  (LaTeX-mode . 2)
  (latex-mode . 1)
  (ispell-buffer . 20)
@@ -100,7 +100,7 @@
  (scroll-all-mode . 6)
  (ediff-quit . 1)
  (set-visited-file-name . 1)
- (eval-buffer . 52)
+ (eval-buffer . 65)
  (back-to-indentation . 1)
  (indent-relative . 2)
  (forward-sexp . 1)
@@ -149,11 +149,11 @@
  (toggle-truncate-lines . 3)
  (org-table-wrap-region . 1)
  (htmlfontify-buffer . 1)
- (open-init-file . 13)
+ (open-init-file . 15)
  (read-only-mode . 1)
  (search-forward-regexp . 4)
  (indent-region . 1)
- (describe-key . 1)
+ (describe-key . 4)
  (dumb-jump-go . 4)
  (dumb-jump-quick-look . 1)
  (find-face-definition . 2)
@@ -163,16 +163,16 @@
  (outline-mode . 8)
  (outline-minor-mode . 9)
  (hs-minor-mode . 1)
- (describe-mode . 2)
+ (describe-mode . 3)
  (hs-hide-all . 1)
  (hs-show-all . 2)
  (hs-hide-block . 2)
  (show-all . 1)
  (sql-mode . 5)
- (outshine-mode . 96)
+ (outshine-mode . 160)
  (yafolding-mode . 14)
  (outshine-imenu . 5)
- (outshine-navi . 1)
+ (outshine-navi . 2)
  (outshine-cycle . 21)
  (outorg-edit-as-org . 5)
  (describe-variable . 1)
@@ -181,13 +181,19 @@
  (select-frame . 1)
  (transient-mark-mode . 2)
  (list-faces-display . 2)
- (find-library . 29)
- (lua-mode . 25)
- (rmail-input . 1)
+ (find-library . 42)
+ (lua-mode . 38)
+ (rmail-input . 2)
  (outorg-which-active-modes . 1)
- (sql-postgres . 47)
- (goto-address-mode . 9)
- (lua . 16)
+ (sql-postgres . 55)
+ (goto-address-mode . 10)
+ (lua . 29)
  (auto-insert . 2)
  (add-mode-abbrev . 2)
+ (query-replace . 6)
+ (other-frame . 1)
+ (outshine-next-line . 1)
+ (outshine-next-link . 1)
+ (sortbynameordate . 1)
+ (sortbysize . 2)
 )
