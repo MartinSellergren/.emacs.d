@@ -2,453 +2,88 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/ssh:locaserver2|sudo:locaserver2:/etc/systemd/" . "system/")
- ("/ssh:locaserver2|sudo:locaserver2:/etc/" . "systemd/")
- ("/ssh:locaserver|sudo:locaserver:/etc/systemd/" . "system/")
- ("/ssh:locaserver|sudo:locaserver:/" . "etc/")
- ("/ssh:locaserver:" . "Desktop/")
- ("/ssh:locaserver:/etc/systemd/" . "system/")
- ("/ssh:loca|sudo:loca:/etc/systemd/" . "system/")
- ("/ssh:loca|sudo:loca:/etc/" . "systemd/")
- ("/ssh:loca:/etc/" . "systemd/")
- ("/etc/systemd/" . "system/")
- ("/etc/" . "systemd/")
- ("/ssh:loca|sudo:loca:" . "snap/")
- ("/ssh:loca:dev/loca4/" . "backend/")
- ("/ssh:loca:dev/" . "loca4/")
- ("/ssh:loca:" . "dev/")
- ("/ssh:loca:/etc/systemd/" . "system/")
- ("/ssh:loca:/" . "/")
- ("/home/martin/Downloads/" . "mapbox-maki-7d8563e/")
- ("/media/martin/" . "loca/")
- ("/media/" . "martin/")
- ("/home/martin/dev/loca4/backend/" . "db/")
- ("/home/martin/dev/loca4/" . "backend/")
+ ("/home/martin/stuff/android-dev/" . "app_signing/")
+ ("/home/martin/stuff/" . "android-dev/")
+ ("/ssh:locaserver2:/home/martin/dev/loca4/" . "backend/")
+ ("/ssh:locaserver2:/home/martin/dev/" . "loca4/")
+ ("/ssh:locaserver2:/home/martin/" . "dev/")
+ ("/ssh:locaserver2:dev/loca4/" . "backend/")
+ ("/ssh:locaserver2:dev/" . "loca4/")
+ ("/ssh:locaserver2:" . "dev/")
  ("/home/martin/dev/" . "loca4/")
- ("/home/martin/dev/loca4/backend/db/" . "testing/")
- ("/home/martin/loca2/app/Localore/" . "app/")
- ("/home/martin/loca3/nominatim_src/" . "lib/")
- ("/home/martin/loca3/loca3/db/src/main/java/" . "Loca_db_construction/")
- ("/home/martin/loca3/loca3/db/src/main/" . "java/")
- ("/home/martin/loca3/loca3/db/src/" . "main/")
- ("/home/martin/loca3/loca3/db/" . "src/")
- ("/home/martin/loca3/loca3/" . "db/")
- ("/home/martin/loca3/overpass-turbo/" . "data/")
- ("/home/martin/loca3/" . "loca3/")
- ("/home/martin/loca2/app/Localore/app/src/main/res/" . "raw/")
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" . "modelManipulation/")
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/" . "localore/")
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/" . "localore/")
- ("/home/martin/loca2/app/Localore/app/src/main/java/" . "com/")
- ("/home/martin/loca2/app/Localore/app/src/main/" . "java/")
- ("/home/martin/loca2/app/Localore/app/src/" . "main/")
- ("/home/martin/loca2/app/Localore/app/" . "src/")
- ("/home/martin/loca2/app/" . "Localore/")
- ("/home/martin/uama/git/uama/" . "notes/")
- ("/home/martin/uama/git/" . "uama/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/" . "criminalintent/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/" . "android/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/" . "bignerdranch/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/" . "com/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/" . "java/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/" . "main/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/" . "src/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/" . "app/")
- ("/home/martin/uama/material/slides etc/CriminalIntent6/" . "CriminalIntent/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/" . "criminalintent/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/" . "android/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/" . "bignerdranch/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/" . "com/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/" . "java/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/" . "main/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/" . "src/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/" . "app/")
- ("/home/martin/uama/material/slides etc/CriminalIntent/" . "CriminalIntent/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/" . "geoquiz/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/" . "android/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/" . "bignerdranch/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/" . "com/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/" . "java/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/" . "layout/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/" . "criminalintent/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/" . "android/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/" . "bignerdranch/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/" . "com/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/" . "res/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/" . "main/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/" . "src/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/" . "app/")
- ("/home/martin/uama/material/slides etc/CriminalIntent2/" . "CriminalIntent/")
- ("/home/martin/uama/material/slides etc/" . "CriminalIntent6/")
- ("/home/martin/uama/material/" . "slides etc/")
- ("/home/martin/uama/" . "git/")
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/" . "java/")
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/" . "test/")
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/" . "src/")
- ("/home/martin/uama/uama-notes/" . ".git/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/" . "main/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/" . "src/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/" . "app/")
- ("/home/martin/uama/material/slides etc/GeoQuiz3/" . "GeoQuiz/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/" . "main/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/" . "menu/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/" . "geoquiz/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/" . "android/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/" . "bignerdranch/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/" . "com/")
- ("/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/" . "res/")
- ("/home/martin/loca2/" . "app/")
- ("/home/martin/loca2/data_processing/" . "test/")
- ("/home/martin/loca2/data_processing/test/" . "src/")
- ("/home/martin/loca2/data_processing/test/src/test/" . "java/")
- ("/home/martin/loca2/data_processing/test/src/main/" . "java/")
- ("/home/martin/loca2/data_processing/test/src/" . "test/")
- ("/home/martin/loca/JMapViewer/org/openstreetmap/gui/" . "jmapviewer/")
- ("/home/martin/loca/JMapViewer/org/openstreetmap/" . "gui/")
- ("/home/martin/loca/JMapViewer/org/" . "openstreetmap/")
- ("/home/martin/loca/JMapViewer/" . "org/")
- ("/home/martin/skola/vt17/iis/project/excersece_program/" . "exercises/")
- ("/home/martin/loca/BasicTesseractExampleGradle/src/test/" . "java/")
- ("/home/martin/loca/BasicTesseractExampleGradle/src/" . "test/")
- ("/home/martin/loca/BasicTesseractExampleGradle/" . "src/")
- ("/home/martin/Ul/UlHack/resources/" . "js/")
- ("/home/martin/Ul/UlHack/" . "resources/")
- ("/home/martin/loca/loca-studies/geoViewport/node_modules/@mapbox/geo-viewport/" . "test/")
- ("/home/martin/loca/loca-studies/geoViewport/node_modules/@mapbox/" . "geo-viewport/")
- ("/home/martin/loca/loca-studies/geoViewport/node_modules/" . "@mapbox/")
- ("/home/martin/loca/loca-studies/geoViewport/" . "node_modules/")
- ("/home/martin/loca/loca-studies/app/src/test/" . "java/")
- ("/home/martin/loca/test/testproj/build/classes/main/" . "hello/")
- ("/home/martin/loca/test/testproj/build/classes/" . "main/")
- ("/home/martin/loca/test/testproj/build/" . "classes/")
- ("/home/martin/loca/test/testproj/" . "build/")
- ("/home/martin/loca/test/" . "testproj/")
- ("/home/martin/loca/loca-studies/app/src/main/java/" . "map/")
- ("/home/martin/loca/loca-studies/app/src/main/" . "java/")
- ("/home/martin/loca/loca-studies/app/src/" . "main/")
- ("/home/martin/loca/loca-studies/app/" . "src/")
- ("/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/Card/dokument/ULbiljett/resources/" . "css/")
- ("/run/user/1000/gvfs/mtp:host=%5Busb%3A003%2C004%5D/Card/dokument/ULbiljett/" . "resources/")
- ("/home/martin/Ul/UlHack-master/resources/" . "css/")
- ("/home/martin/Ul/UlHack-master/" . "resources/")
- ("/home/martin/Ul/" . "original/")
- ("/home/martin/UlHack-master/resources/" . "css/")
- ("/home/martin/UlHack-master/" . "resources/")
- ("/home/martin/loca/" . "loca-studies/")
- ("/home/martin/loca/loca-studies/" . "style/")
- ("/home/martin/skola/ht15/PKD/labbar/" . "lab4/")
- ("/home/martin/loca/loca-studies/test2/src/main/" . "java/")
- ("/home/martin/loca/loca-studies/test2/src/" . "main/")
- ("/home/martin/loca/loca-studies/test2/" . "src/")
- ("/home/martin/ai/assignments/a1/DeliveryMan_1.5/" . "man/")
- ("/home/martin/vetvis/" . "VTK Examples/")
- ("/home/martin/vetvis/Assignments/vetvis_assignment1/" . "part1/")
- ("/home/martin/skola/vt17/iis/assignments/" . "a21/")
- ("/home/martin/skola/vt17/iis/" . "assignments/")
- ("/home/martin/skola/vt17/" . "iis/")
- ("/home/martin/skola/" . "GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/")
- ("/home/martin/loca-studies/test2/src/main/" . "java/")
- ("/home/martin/loca-studies/test2/src/" . "main/")
- ("/home/martin/loca-studies/test2/" . "src/")
- ("/home/martin/loca-studies/" . "testproj/")
- ("/home/martin/iis/project/pose_estimation_code_release_v1.22/code/" . "utils/")
- ("/home/martin/iis/project/pose_estimation_code_release_v1.22/" . "code/")
- ("/home/martin/iis/project/" . "excersece_program/")
- ("/home/martin/iis/project/excersece_program/old/" . "tracking/")
- ("/home/martin/OPPS/PP/rapport/" . "figs/")
- ("/home/martin/iis/project/excersece_program/" . "exercises/")
- ("/home/martin/OPPS/PP/MyPlace/" . "backend/")
- ("/home/martin/iis/assignments/a2/" . "dataset/")
- ("/home/martin/OPPS/PP/MyPlace/backend/" . "src/")
- ("/home/martin/OPPS/OS/module1-IPC/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
- ("/home/martin/OPPS/OS/module1-IPC/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
- ("/home/martin/OPPS/OS/module1-IPC/" . "game-of-luck/")
- ("/home/martin/OPPS/OS/" . "module1-IPC/")
- ("/home/martin/ioopm/github/Rudorna/test/" . "mytests/")
- ("/home/martin/ioopm/github/Rudorna/" . "test/")
- ("/home/martin/iis/labs/" . "lab1/")
- ("/home/martin/iis/assignments/" . "a2/")
- ("/home/martin/iis/" . "labs/")
- ("/home/martin/OPPS/PP/MyPlace/backend/src/" . "clients_simulator/")
- ("/home/martin/ioopm/github/ioopm16/uppgifter/fas2/sprint1/twitterish/" . "src/")
- ("/home/martin/OPPS/PP/" . "MyPlace/")
- ("/home/martin/OPPS/" . "PP/")
- ("/home/martin/Desktop/opencvins/OpenCV/" . "build/")
- ("/home/martin/Desktop/opencvins/" . "OpenCV/")
- ("/home/martin/iis/labs/lab1/Lab01/" . "src/")
- ("/home/martin/iis/labs/lab1/" . "Lab01/")
- ("/home/martin/OPP/module1-IPC/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/shell/" . "src/")
- ("/home/martin/OPP/module1-IPC/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/" . "shell/")
- ("/home/martin/OPP/module1-IPC/simple-shell/" . "shell-skeleton-2016-v2.0.tar.bz.1/")
- ("/home/martin/OPP/module1-IPC/" . "simple-shell/")
- ("/home/martin/OPP/module1/" . "game-of-luck/")
- ("/home/martin/OPP/module1/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/shell/" . "src/")
  ("/home/martin/" . "dev/")
- ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
- ("/home/martin/OPP/module1/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
- ("/home/martin/PKD/labbar/" . "lab18/")
- ("/var/" . "log/")
- ("/" . "media/")
- ("/home/martin/.themes/Emacs/" . "gtk-2.0-key/")
- ("/home/martin/.themes/Default/" . "gtk-3.0/")
- ("/home/martin/.themes/" . "Emacs/")
- ("/home/martin/PKD/" . "proj/")
- ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/src/" . "bitset/")
- ("/home/martin/ioopm/github/ioopm16/uppgifter/projekt/" . "src/")
- ("/home/martin/ioopm/github/ioopm16/uppgifter/" . "projekt/")
- ("/home/martin/ioopm/github/ioopm16/" . "uppgifter/")
- ("/home/martin/ioopm/github/" . "ioopm16/")
+ ("/home/martin/dev/loca4/" . "backend/")
+ ("/home/martin/dev/loca4/backend/db/" . "testing/")
+ ("/ssh:locaserver2|sudo:locaserver2:/" . "media/")
+ ("/home/martin/dev/loca4/backend/" . "db/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/martin/dev/loca4/backend/"
  "/home/martin/dev/loca4/backend/db/"
  "/home/martin/dev/loca4/backend/db/testing/"
- "/home/martin/dev/loca3/"
- "/home/martin/Desktop/"
- "/home/martin/.emacs.d/"
- "/ssh:locaserver2|sudo:root@locaserver2:/etc/systemd/system/"
- "/ssh:locaserver2|sudo:locaserver2:/etc/systemd/system/"
- "/home/martin/"
  "/home/martin/dev/loca4/"
- "/ssh:locaserver|sudo:locaserver:/etc/systemd/system/"
- "/ssh:locaserver:/etc/systemd/system/"
- "/ssh:loca|sudo:root@loca:/etc/systemd/system/"
- "/ssh:loca|sudo:loca:/etc/systemd/system/"
- "/ssh:loca:/etc/systemd/system/"
- "/ssh:loca:"
- "/ssh:loca:dev/loca4/backend/"
- "/home/martin/Downloads/"
- "/home/martin/dev/loca4/backend/db/languages-table/"
- "/home/martin/Downloads/mapbox-maki-7d8563e/"
- "/home/martin/dev/map-icons/"
- "/media/martin/loca/"
- "/home/martin/dev/loca3/tag-to-category-conversion/"
- "/home/martin/loca3/loca3/"
- "/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/"
- "/home/martin/loca3/loca3/tag-to-category-conversion/"
- "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/"
- "/home/martin/loca3/loca3/nominatim-keys/"
- "/home/martin/loca3/nominatim_src/lib/"
- "/home/martin/loca3/nominatim_src/website/"
- "/home/martin/loca3/loca3/key-spec/"
- "/home/martin/skola/"
- "/home/martin/loca3/loca3/tags-spec/"
- "/home/martin/loca/loca-studies/style/"
- "/home/martin/loca3/loca3/db/"
- "/home/martin/loca3/overpass-turbo/data/"
- "/home/martin/loca3/Nominatim-3.2.0/build/utils/"
- "/home/martin/loca2/style/"
- "/home/martin/loca2/app/Localore/app/src/main/res/raw/"
- "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/"
- "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/"
- "/home/martin/loca2/"
- "/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/"
- "/home/martin/loca/loca-studies/app/src/main/java/map/"
- "/home/martin/uama/git/uama/notes/"
- "/home/martin/loca2/app/"
- "/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/"
- "/home/martin/loca2/data_processing/"
- "/home/martin/loca2/data_processing/test/src/test/java/"
- "/home/martin/uama/git/uama/"
+ "/home/martin/dev/AlmightyVolumeKeys/emails/"
+ "/home/martin/dev/loca4/backend/"
+ "/home/martin/dev/loca4/backend/db/wikidata/"
+ "/home/martin/stuff/android-dev/app_signing/"
+ "/ssh:locaserver2:/home/martin/dev/loca4/backend/"
+ "/ssh:locaserver2:dev/loca4/backend/"
+ "/home/martin/"
+ "/home/martin/Desktop/"
+ "/media/martin/locadb/locadb/main/"
+ "/ssh:locaserver2:/media/martin/locadb/locadb/main/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "Makefile"
- "post_processing.sql"
- "db_testing.sql"
- "import_style.lua"
  "categories.json"
- "categories_old.json"
- "post_processing_utils.py"
- "nom_query.sql"
- "temp"
- "saga"
+ "categoryChecking.sql"
+ "notes.org"
+ "createElemsx2.sql"
+ "utils.py"
+ "createElemsx1.sql"
+ "processEmailFeedback.py"
+ "spec.org"
+ "categories_generated.json"
+ "makelog"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/martin/dev/loca4/backend/" (24691 20039 566945 338000) "db/" "Makefile" "postgrest.log" "postgrest_loca_v0.conf" "./" "../" "postgrest_loca_v1.conf" "out.html")
+ ("/home/martin/dev/loca4/backend/db/testing/" (24926 3147 778867 313000) "categoryChecking.sql.~HEAD~~~~" "testElemsx2.sql" "testUtils.sql" "categoryChecking.sql.~HEAD~~~" "./" "categoryChecking.sql" "../")
 
- ("/home/martin/dev/loca4/backend/db/" (24691 19497 942138 543000) "categories.json" "import_style.lua" "wikidata/" "./" "languages-table/" "../" "json.lua" "testing/" "notes" "post_processing.sql" "post_processing_utils.py")
+ ("/home/martin/dev/loca4/" (24926 2735 402506 146000) ".gitignore" "graphics/" "notes.org" "dependencies/" "android/" "flutter/" "./" "../" ".git/" "backend/" "README.md")
 
- ("/home/martin/dev/loca4/" (24690 57723 494292 115000) "animations/" "./" "../" "README.md" "backend/" "icons/" ".git/" ".gitignore" "android/")
+ ("/home/martin/dev/loca4/backend/db/" (24926 40635 886434 949000) "wikidata/" "geomsRequest.json" "sources/" "createElemsx2.sql" "createRelElems1.sql" "utils.py" "json.lua" "createElemsx1.sql" "finalize.sql" "categories_generated.json" "createCategories1.py" "simplifyGeoms1.sql" "languages-table/" "createCategories2.sql" "categories.json" "simplifyGeoms2.js" "createRelElems3.sql" "./" "testing/" "#categories_generated.json#" "setupUtils.sql" "createElems2.sql" "#utils.py#" "utils.py.~HEAD~~" "../" "__pycache__/" "clientTablesSetup.sql" "createElems1.lua" "clientFunctions.sql" "categories.json.~HEAD~~~" "simplifyGeoms3.sql" "createElemsx1.sql.~HEAD~~" "createRelElems2.lua" "categories.json.~HEAD~~~~")
 
- ("/home/martin/" (24690 59022 288712 505000) "package-lock.json" ".lesshst" "Downloads/" "Documents/" ".gitconfig" ".ssh/" "postgrest-v7.0.1-linux-x64-static.tar.xz" ".bash_logout" ".zcompdump-masel-5.8" "Pictures/" ".local/" ".authinfo" ".pki/" ".saves/" "postgres_loca_v0.log" ".npm/" "Public/" "./" "LuaJIT-2.0.5/" "../" ".gradle/" ".node_repl_history" ".gnome/" "node_modules/" ".zcompdump" "Music/" "loca_v0.sql" "wikimedia-importance.sql" ".mozilla/" ".zsh/" "package.json" ".sudo_as_admin_successful" "Videos/" ".shell.pre-oh-my-zsh" ".bash_history" ".cache/" ".idlerc/" "postgis-3.1.1/" ".bashrc" ".emacs.d/" "Android/" "stuff/" "loca_v1.sql" ".tmux/" ".java/" ".git-credentials" ".gnupg/" "dev/" ".thunderbird/" "luarocks-3.5.0/" ".zsh_history" ".profile" ".psql_history" ".python_history" ".wget-hsts" ".android/" "Desktop/" ".config/" ".zshrc" ".oh-my-zsh/" ".dbus/" "osm2pgsql-1.4.0/" ".emulator_console_auth_token" "Templates/" "snap/" ".tmux.conf")
+ ("/home/martin/dev/loca4/backend/" (24924 50477 589950 223000) "wikimedia-importance.sql" "db/" "wikicountries.sql" "makelog" "postgrest.log" "scratch.sql" "Makefile" "./" "wikiClassMappings_justToExplore.dump" "../" "postgrest.conf" "spec.org" "wikiclasses.sql")
 
- ("/var/lib/postgresql/13/main/log/" (24690 55703 558115 808000) "postgresql-2021-03-16_171746.log" "postgresql-2021-04-01_092341.csv" "postgresql-2021-03-29_064842.log" "postgresql-2021-03-17_013205.log" "postgresql-2021-04-06_084430.log" "postgresql-2021-03-29_230851.log" "postgresql-2021-03-29_060137.log" "postgresql-2021-03-12_035203.log" "postgresql-2021-02-21_064341.log" "postgresql-2021-02-26_043543.log" "postgresql-2021-02-26_043931.log" "postgresql-2021-03-30_072448.log" "postgresql-2021-03-23_032458.log" "postgresql-2021-03-05_104248.log" "postgresql-2021-03-21_032858.log" "postgresql-2021-03-28_210930.csv" "postgresql-2021-03-30_032241.log" "postgresql-2021-03-30_051551.log" "postgresql-2021-03-25_232756.csv" "postgresql-2021-03-14_125316.csv" "postgresql-2021-03-17_022117.log" "postgresql-2021-03-29_085402.log" "postgresql-2021-04-06_084430.csv" "postgresql-2021-02-27_010054.log" "postgresql-2021-03-30_002652.log" "postgresql-2021-02-18_190303.log" "postgresql-2021-03-17_020035.log" "postgresql-2021-03-10_173150.csv" "postgresql-2021-02-25_030009.log" "postgresql-2021-02-18_063849.csv" "postgresql-2021-02-26_000000.log" "postgresql-2021-03-04_134303.csv" "postgresql-2021-02-04_204855.csv" "postgresql-2021-04-03_161241.csv" "postgresql-2021-03-21_023055.log" "postgresql-2021-03-30_015056.log" "postgresql-2021-03-21_023631.log" "postgresql-2021-03-21_024808.log" "postgresql-2021-03-12_041547.log" "postgresql-2021-04-11_131145.csv" "postgresql-2021-02-25_021839.log" "postgresql-2021-03-02_180207.csv" "postgresql-2021-02-08_160550.log" "postgresql-2021-02-21_073853.log" "postgresql-2021-02-13_210605.log" "postgresql-2021-03-26_034239.log" "postgresql-2021-03-21_052528.log" "postgresql-2021-03-30_073623.log" "postgresql-2021-02-21_071910.log" "postgresql-2021-03-31_141939.log" "postgresql-2021-02-26_034851.log" "postgresql-2021-02-16_001314.csv" "postgresql-2021-02-16_144133.log" "postgresql-2021-03-26_042630.log" "postgresql-2021-03-04_100108.log" "postgresql-2021-02-04_230506.log" "postgresql-2021-02-18_063849.log" "postgresql-2021-02-04_203017.csv" "postgresql-2021-03-12_033437.log" "postgresql-2021-03-14_001524.log" "postgresql-2021-03-21_043012.log" "postgresql-2021-04-07_204231.log" "postgresql-2021-02-17_113258.log" "postgresql-2021-03-12_040409.log" "postgresql-2021-03-30_060344.log" "postgresql-2021-02-08_160550.csv" "postgresql-2021-02-20_114155.csv" "postgresql-2021-03-20_041241.log" "postgresql-2021-02-04_210606.csv" "postgresql-2021-02-22_123441.csv" "postgresql-2021-03-04_081203.csv" "postgresql-2021-04-11_130639.csv" "postgresql-2021-03-21_034723.log" "postgresql-2021-03-21_041434.log" "postgresql-2021-02-26_000000.csv" "postgresql-2021-03-16_154520.csv" "postgresql-2021-03-29_052736.log" "postgresql-2021-02-27_034227.log" "postgresql-2021-03-30_012024.log" "postgresql-2021-03-27_105805.log" "postgresql-2021-02-19_012623.log" "postgresql-2021-03-14_005926.log" "postgresql-2021-03-20_054326.log" "postgresql-2021-02-19_161915.csv" "postgresql-2021-03-29_025922.log" "postgresql-2021-02-04_125132.csv" "postgresql-2021-03-12_051811.log" "postgresql-2021-02-13_042554.csv" "postgresql-2021-03-30_055605.log" "postgresql-2021-02-11_025714.csv" "postgresql-2021-04-08_080218.csv" "postgresql-2021-03-18_085528.csv" "postgresql-2021-02-21_053128.log" "postgresql-2021-03-31_190109.csv" "postgresql-2021-03-12_002408.log" "postgresql-2021-03-12_040800.log" "postgresql-2021-03-12_052937.log" "postgresql-2021-03-24_182459.csv" "postgresql-2021-03-16_222348.log" "postgresql-2021-03-12_131057.csv" "postgresql-2021-02-13_042554.log" "postgresql-2021-03-29_025154.log" "postgresql-2021-03-16_223556.log" "postgresql-2021-02-15_111751.csv" "postgresql-2021-03-14_013027.log" "postgresql-2021-03-09_163340.log" "postgresql-2021-02-26_032146.log" "postgresql-2021-02-26_040409.log" "postgresql-2021-03-14_001132.log" "postgresql-2021-03-30_034543.log" "postgresql-2021-03-31_092529.csv" "postgresql-2021-03-12_023704.log" "postgresql-2021-03-29_035835.log" "postgresql-2021-02-21_055328.log" "postgresql-2021-03-03_015809.csv" "postgresql-2021-04-05_145440.log" "postgresql-2021-03-08_194507.csv" "postgresql-2021-02-10_085923.log" "postgresql-2021-02-26_045911.log" "postgresql-2021-03-14_030416.log" "postgresql-2021-04-02_190910.log" "postgresql-2021-02-04_174803.csv" "postgresql-2021-03-12_042728.log" "postgresql-2021-03-29_013950.log" "postgresql-2021-03-30_080519.log" "postgresql-2021-02-19_031008.log" "postgresql-2021-02-08_183150.csv" "postgresql-2021-03-21_050551.log" "postgresql-2021-03-29_051943.log" "postgresql-2021-02-27_032642.log" "postgresql-2021-03-20_060720.log" "postgresql-2021-02-26_021030.log" "postgresql-2021-03-12_024852.log" "postgresql-2021-02-04_204854.csv" "postgresql-2021-03-20_045232.log" "postgresql-2021-03-26_044642.log" "postgresql-2021-02-26_023821.log" "postgresql-2021-03-11_144537.log" "postgresql-2021-02-26_033317.log" "postgresql-2021-03-22_092955.csv" "postgresql-2021-03-14_162515.csv" "postgresql-2021-02-05_225610.log" "postgresql-2021-03-29_075536.log" "postgresql-2021-04-04_173059.csv" "postgresql-2021-03-30_053222.log" "postgresql-2021-03-29_050413.log" "postgresql-2021-02-27_000000.log" "postgresql-2021-02-18_000000.log" "postgresql-2021-02-26_160306.csv" "postgresql-2021-02-19_033328.log" "postgresql-2021-03-02_150025.csv" "postgresql-2021-02-04_203641.csv" "postgresql-2021-04-01_125254.log" "postgresql-2021-02-27_023151.log" "postgresql-2021-02-06_000000.log" "postgresql-2021-04-08_194925.log" "postgresql-2021-02-23_094117.log" "postgresql-2021-03-29_054250.log" "postgresql-2021-03-21_042212.log" "postgresql-2021-04-11_130655.csv" "postgresql-2021-02-21_000000.csv" "postgresql-2021-03-17_011615.log" "postgresql-2021-03-14_022121.log" "postgresql-2021-02-27_041359.log" "postgresql-2021-03-23_123252.log" "postgresql-2021-03-27_163636.log" "postgresql-2021-03-12_030414.log" "postgresql-2021-03-04_134303.log" "postgresql-2021-03-29_073957.log" "postgresql-2021-03-17_025849.log" "postgresql-2021-02-09_180554.log" "postgresql-2021-03-16_224349.log" "postgresql-2021-03-12_050632.log" "postgresql-2021-02-21_051955.log" "postgresql-2021-02-27_024715.log" "postgresql-2021-03-20_052739.log" "postgresql-2021-03-30_063218.log" "postgresql-2021-03-21_052134.log" "postgresql-2021-04-11_131137.log" "postgresql-2021-04-11_130640.csv" "postgresql-2021-03-14_024501.log" "postgresql-2021-03-29_073442.log" "postgresql-2021-03-17_031823.log" "postgresql-2021-03-06_124543.log" "postgresql-2021-03-14_020929.log" "postgresql-2021-02-18_194644.log" "postgresql-2021-03-03_105441.log" "postgresql-2021-03-20_235142.log" "postgresql-2021-03-29_225058.log" "postgresql-2021-02-18_181701.log" "postgresql-2021-02-18_181311.log" "postgresql-2021-02-19_020004.log" "postgresql-2021-03-17_015210.log" "postgresql-2021-02-19_024633.log" "postgresql-2021-02-26_020336.log" "postgresql-2021-04-05_200814.log" "postgresql-2021-03-17_042204.log" "postgresql-2021-03-30_042905.log" "postgresql-2021-03-29_044113.log" "postgresql-2021-03-30_070931.log" "postgresql-2021-03-17_013557.log" "postgresql-2021-02-19_032546.log" "postgresql-2021-02-27_031100.log" "postgresql-2021-02-23_162827.log" "postgresql-2021-03-30_000000.csv" "postgresql-2021-03-12_051034.log" "postgresql-2021-02-27_032252.log" "postgresql-2021-03-17_025452.log" "postgresql-2021-03-30_074415.log" "postgresql-2021-03-16_154520.log" "postgresql-2021-02-05_003752.csv" "postgresql-2021-03-20_124309.log" "postgresql-2021-03-30_044851.log" "postgresql-2021-02-21_054312.log" "postgresql-2021-04-09_173200.log" "postgresql-2021-03-04_174159.log" "postgresql-2021-02-25_023017.log" "postgresql-2021-03-29_022900.log" "postgresql-2021-04-02_230248.csv" "postgresql-2021-04-10_170930.log" "postgresql-2021-03-17_030239.log" "postgresql-2021-03-14_003854.log" "postgresql-2021-02-22_193622.csv" "postgresql-2021-02-10_085923.csv" "postgresql-2021-03-21_040252.log" "postgresql-2021-03-12_053756.log" "postgresql-2021-03-15_164722.log" "postgresql-2021-03-25_000000.csv" "postgresql-2021-02-12_033127.csv" "postgresql-2021-02-27_035412.log" "postgresql-2021-03-29_234028.log" "postgresql-2021-02-21_074649.log" "postgresql-2021-03-14_023253.log" "postgresql-2021-03-23_000000.csv" "postgresql-2021-02-20_184318.log" "postgresql-2021-04-06_142250.log" "postgresql-2021-02-27_025516.log" "postgresql-2021-04-11_131151.csv" "postgresql-2021-02-21_062416.log" "postgresql-2021-03-14_005145.log" "postgresql-2021-02-19_161915.log" "postgresql-2021-04-11_132541.log" "postgresql-2021-03-27_153258.log" "postgresql-2021-03-29_044902.log" "postgresql-2021-02-13_063040.csv" "postgresql-2021-02-19_182807.log" "postgresql-2021-04-09_173200.csv" "postgresql-2021-03-21_045356.log" "postgresql-2021-03-29_042229.log" "postgresql-2021-02-11_025714.log" "postgresql-2021-03-26_035826.log" "postgresql-2021-03-29_022119.log" "postgresql-2021-03-20_062749.log" "postgresql-2021-03-29_061346.log" "postgresql-2021-03-21_044614.log" "postgresql-2021-04-02_145458.csv" "postgresql-2021-02-19_014545.log" "postgresql-2021-03-05_104248.csv" "postgresql-2021-03-26_043028.log" "postgresql-2021-02-25_165224.log" "postgresql-2021-03-14_013416.log" "postgresql-2021-03-30_061123.log" "postgresql-2021-02-27_035021.log" "postgresql-2021-03-23_045700.log" "postgresql-2021-02-24_101444.log" "postgresql-2021-02-05_083709.csv" "postgresql-2021-03-29_055414.log" "postgresql-2021-03-26_050702.log" "postgresql-2021-02-18_195451.log" "postgresql-2021-03-11_074549.log" "postgresql-2021-03-26_021113.log" "postgresql-2021-03-23_022139.log" "postgresql-2021-02-25_094409.csv" "postgresql-2021-03-26_022323.log" "postgresql-2021-04-03_192828.log" "postgresql-2021-03-17_040214.log" "postgresql-2021-03-23_044450.log" "postgresql-2021-03-30_065126.log" "postgresql-2021-02-19_013012.log" "postgresql-2021-02-26_041205.log" "postgresql-2021-02-27_031903.log" "postgresql-2021-03-01_194543.log" "postgresql-2021-03-30_081649.log" "postgresql-2021-03-12_045832.log" "postgresql-2021-02-16_144133.csv" "postgresql-2021-02-27_025108.log" "postgresql-2021-03-26_043827.log" "postgresql-2021-02-25_170411.log" "postgresql-2021-03-29_031207.log" "postgresql-2021-02-26_023432.log" "postgresql-2021-02-08_180814.csv" "postgresql-2021-02-27_005702.log" "postgresql-2021-02-18_184720.log" "postgresql-2021-03-30_033807.log" "postgresql-2021-03-26_040622.log" "postgresql-2021-03-14_030023.log" "postgresql-2021-02-27_015218.log" "postgresql-2021-03-12_031548.log" "postgresql-2021-03-20_124309.csv" "postgresql-2021-03-19_155846.log" "postgresql-2021-03-14_022513.log" "postgresql-2021-02-18_194227.log" "postgresql-2021-03-26_033048.log" "postgresql-2021-02-03_145552.log" "postgresql-2021-02-19_032156.log" "postgresql-2021-02-21_052344.log" "postgresql-2021-03-30_064738.log" "postgresql-2021-03-04_100108.csv" "postgresql-2021-03-21_000000.log" "postgresql-2021-03-23_042904.log" "postgresql-2021-02-18_191623.log" "postgresql-2021-03-29_081824.log" "postgresql-2021-02-22_193622.log" "postgresql-2021-03-17_141907.csv" "postgresql-2021-03-29_040532.log" "postgresql-2021-03-29_224634.log" "postgresql-2021-03-05_000000.csv" "postgresql-2021-03-13_234450.log" "postgresql-2021-03-30_061641.log" "postgresql-2021-03-29_075926.log" "postgresql-2021-02-21_071520.log" "postgresql-2021-02-18_184319.log" "postgresql-2021-02-19_015614.log" "postgresql-2021-03-25_164640.log" "postgresql-2021-03-29_045630.log" "postgresql-2021-02-26_044709.log" "postgresql-2021-02-28_113346.log" "postgresql-2021-03-12_045047.log" "postgresql-2021-03-29_080659.log" "postgresql-2021-03-14_021331.log" "postgresql-2021-03-29_070436.log" "postgresql-2021-03-29_074420.log" "postgresql-2021-02-26_033707.log" "postgresql-2021-02-27_021615.log" "postgresql-2021-03-30_175014.log" "postgresql-2021-03-26_041815.log" "postgresql-2021-04-07_173135.log" "postgresql-2021-02-11_123645.log" "postgresql-2021-02-21_071130.log" "postgresql-2021-02-19_015210.log" "postgresql-2021-03-20_061918.log" "postgresql-2021-02-27_014401.log" "postgresql-2021-02-04_081702.log" "postgresql-2021-03-30_045643.log" "postgresql-2021-03-20_050412.log" "postgresql-2021-02-26_022256.log" "postgresql-2021-04-01_085030.csv" "postgresql-2021-03-17_041349.log" "postgresql-2021-03-17_011042.log" "postgresql-2021-02-26_223438.csv" "postgresql-2021-03-02_150025.log" "postgresql-2021-03-21_051003.log" "postgresql-2021-03-29_071205.log" "postgresql-2021-03-23_032900.log" "postgresql-2021-02-19_021139.log" "postgresql-2021-02-26_051428.log" "postgresql-2021-02-08_180814.log" "postgresql-2021-03-16_223952.log" "postgresql-2021-03-03_021931.csv" "postgresql-2021-02-19_012231.log" "postgresql-2021-02-26_031407.log" "postgresql-2021-03-29_020948.log" "postgresql-2021-03-04_174159.csv" "postgresql-2021-03-29_232444.log" "postgresql-2021-03-29_053122.log" "postgresql-2021-03-30_003439.log" "postgresql-2021-02-09_193302.log" "postgresql-2021-02-08_000000.csv" "postgresql-2021-03-22_153617.log" "postgresql-2021-03-29_015929.log" "postgresql-2021-03-23_014607.log" "postgresql-2021-02-21_061630.log" "postgresql-2021-02-21_074259.log" "postgresql-2021-03-29_053904.log" "postgresql-2021-03-22_153617.csv" "postgresql-2021-03-29_080310.log" "postgresql-2021-03-14_022904.log" "postgresql-2021-02-05_003752.log" "postgresql-2021-03-30_050425.log" "postgresql-2021-02-26_040801.log" "postgresql-2021-02-21_063603.log" "postgresql-2021-03-30_003051.log" "postgresql-2021-03-29_084238.log" "postgresql-2021-03-30_010955.log" "postgresql-2021-02-26_044320.log" "postgresql-2021-03-30_051937.log" "postgresql-2021-03-02_163736.csv" "postgresql-2021-04-11_131146.csv" "postgresql-2021-03-02_155044.log" "postgresql-2021-03-20_011045.csv" "postgresql-2021-02-09_092234.log" "postgresql-2021-03-20_034113.log" "postgresql-2021-04-04_173059.log" "postgresql-2021-03-30_062440.log" "postgresql-2021-03-21_035501.log" "postgresql-2021-03-20_040453.log" "postgresql-2021-03-02_155044.csv" "postgresql-2021-03-30_000538.log" "postgresql-2021-02-25_030407.log" "postgresql-2021-03-03_025710.log" "postgresql-2021-03-30_071320.log" "postgresql-2021-03-21_042618.log" "postgresql-2021-02-25_170009.log" "postgresql-2021-02-05_005001.csv" "postgresql-2021-03-24_214537.csv" "postgresql-2021-03-12_043510.log" "postgresql-2021-02-26_032927.log" "postgresql-2021-02-24_175349.csv" "postgresql-2021-03-04_081203.log" "postgresql-2021-02-26_042742.log" "postgresql-2021-02-27_012011.log" "postgresql-2021-02-18_182453.log" "postgresql-2021-03-20_060328.log" "postgresql-2021-03-30_072059.log" "postgresql-2021-03-20_053919.log" "postgresql-2021-03-23_033321.log" "postgresql-2021-02-27_030302.log" "postgresql-2021-02-11_182307.log" "postgresql-2021-03-28_190709.log" "postgresql-2021-02-18_222253.log" "postgresql-2021-02-18_201848.log" "postgresql-2021-03-29_062951.log" "postgresql-2021-02-18_182848.log" "postgresql-2021-03-30_045253.log" "postgresql-2021-04-11_132541.csv" "postgresql-2021-03-20_063923.log" "postgresql-2021-02-05_000000.csv" "postgresql-2021-03-30_041654.log" "postgresql-2021-03-14_030833.log" "postgresql-2021-02-26_031755.log" "postgresql-2021-02-06_135308.log" "postgresql-2021-03-21_000000.csv" "postgresql-2021-03-08_143628.log" "postgresql-2021-02-03_183107.csv" "postgresql-2021-03-29_054636.log" "postgresql-2021-03-30_003827.log" "postgresql-2021-03-11_144537.csv" "postgresql-2021-02-18_142309.log" "postgresql-2021-02-03_140704.csv" "postgresql-2021-03-12_025629.log" "postgresql-2021-03-30_080125.log" "postgresql-2021-04-03_221203.log" "postgresql-2021-03-30_174548.log" "postgresql-2021-03-03_000000.log" "postgresql-2021-04-11_130641.csv" "postgresql-2021-02-21_081028.log" "postgresql-2021-03-29_235304.log" "postgresql-2021-03-29_065228.log" "postgresql-2021-02-27_020823.log" "postgresql-2021-02-26_031018.log" "postgresql-2021-02-19_040455.log" "postgresql-2021-03-20_040058.log" "postgresql-2021-04-04_142626.csv" "postgresql-2021-04-09_094545.log" "postgresql-2021-03-26_181136.log" "postgresql-2021-03-09_091217.log" "postgresql-2021-02-05_000000.log" "postgresql-2021-02-13_053919.csv" "postgresql-2021-03-02_154252.csv" "postgresql-2021-02-25_025619.log" "postgresql-2021-03-21_053339.log" "postgresql-2021-02-17_182309.log" "postgresql-2021-02-12_041929.log" "postgresql-2021-02-19_021530.log" "postgresql-2021-02-19_025424.log" "postgresql-2021-02-18_155013.log" "postgresql-2021-03-30_031840.log" "postgresql-2021-03-26_053102.log" "postgresql-2021-03-30_175400.log" "postgresql-2021-03-12_043858.log" "postgresql-2021-03-30_074020.log" "postgresql-2021-02-13_235941.log" "postgresql-2021-02-10_000000.csv" "postgresql-2021-03-14_000000.log" "postgresql-2021-04-08_201922.log" "postgresql-2021-03-30_070515.log" "postgresql-2021-03-21_025947.log" "postgresql-2021-03-29_065617.log" "postgresql-2021-03-01_133608.csv" "postgresql-2021-03-17_025050.log" "postgresql-2021-02-07_181513.csv" "postgresql-2021-03-29_014952.log" "postgresql-2021-02-19_022710.log" "postgresql-2021-03-29_055755.log" "postgresql-2021-02-27_022802.log" "postgresql-2021-02-13_072131.csv" "postgresql-2021-03-17_034955.log" "postgresql-2021-03-29_021734.log" "postgresql-2021-03-17_030636.log" "postgresql-2021-02-13_072131.log" "postgresql-2021-03-23_040107.log" "postgresql-2021-02-26_021909.log" "postgresql-2021-03-26_023301.log" "postgresql-2021-03-24_182459.log" "postgresql-2021-03-26_111011.log" "postgresql-2021-03-21_051351.log" "postgresql-2021-03-26_035027.log" "postgresql-2021-03-13_202039.log" "postgresql-2021-02-21_065936.log" "postgresql-2021-03-17_000000.log" "postgresql-2021-03-30_004619.log" "postgresql-2021-02-19_033717.log" "postgresql-2021-02-21_075435.log" "postgresql-2021-03-30_073235.log" "postgresql-2021-03-26_142915.log" "postgresql-2021-03-02_154252.log" "postgresql-2021-03-14_142701.csv" "postgresql-2021-03-03_034042.log" "postgresql-2021-04-02_181548.csv" "postgresql-2021-02-25_170816.log" "postgresql-2021-02-16_180139.log" "postgresql-2021-03-29_062152.log" "postgresql-2021-04-06_225428.csv" "postgresql-2021-04-01_212056.csv" "postgresql-2021-04-11_131202.csv" "postgresql-2021-02-19_020353.log" "postgresql-2021-03-12_025241.log" "postgresql-2021-02-25_022232.log" "postgresql-2021-03-17_012237.log" "postgresql-2021-02-16_180139.csv" "postgresql-2021-03-20_051547.log" "postgresql-2021-02-19_035709.log" "postgresql-2021-02-08_191029.log" "postgresql-2021-03-29_024024.log" "postgresql-2021-03-17_031417.log" "postgresql-2021-04-01_092341.log" "postgresql-2021-03-23_021744.log" "postgresql-2021-03-29_010345.log" "postgresql-2021-03-11_181242.log" "postgresql-2021-02-06_134749.log" "postgresql-2021-03-24_000000.log" "postgresql-2021-03-09_091217.csv" "postgresql-2021-03-17_034604.log" "postgresql-2021-03-29_060520.log" "postgresql-2021-03-14_020131.log" "postgresql-2021-04-11_130656.csv" "postgresql-2021-03-10_151842.log" "postgresql-2021-03-16_171746.csv" "postgresql-2021-03-30_075636.log" "postgresql-2021-02-18_141618.csv" "postgresql-2021-03-30_054359.log" "postgresql-2021-02-25_173503.log" "postgresql-2021-03-17_032612.log" "postgresql-2021-02-18_144016.log" "postgresql-2021-03-12_055317.log" "postgresql-2021-02-09_180554.csv" "postgresql-2021-03-30_005023.log" "postgresql-2021-03-21_045746.log" "postgresql-2021-03-17_033013.log" "postgresql-2021-03-23_025051.log" "postgresql-2021-03-30_060734.log" "postgresql-2021-03-30_162727.log" "postgresql-2021-03-23_034511.log" "postgresql-2021-03-17_023919.log" "postgresql-2021-02-27_041006.log" "postgresql-2021-02-18_193818.log" "postgresql-2021-03-27_164040.log" "postgresql-2021-04-04_142626.log" "postgresql-2021-03-30_001054.log" "postgresql-2021-03-26_032355.log" "postgresql-2021-03-23_041704.log" "postgresql-2021-03-23_020953.log" "postgresql-2021-02-06_000000.csv" "postgresql-2021-03-19_092954.csv" "postgresql-2021-03-12_044248.log" "postgresql-2021-03-02_212346.log" "postgresql-2021-02-24_101444.csv" "postgresql-2021-03-30_062042.log" "postgresql-2021-03-29_073057.log" "postgresql-2021-03-29_025539.log" "postgresql-2021-02-25_235834.csv" "postgresql-2021-02-04_210751.csv" "postgresql-2021-03-27_164521.log" "postgresql-2021-03-30_043705.log" "postgresql-2021-02-20_184318.csv" "postgresql-2021-04-06_142250.csv" "postgresql-2021-02-05_083709.log" "postgresql-2021-03-29_235856.log" "postgresql-2021-03-14_011452.log" "postgresql-2021-03-10_085715.log" "postgresql-2021-02-26_034106.log" "postgresql-2021-03-12_050232.log" "postgresql-2021-03-29_230355.log" "postgresql-2021-03-08_095937.csv" "postgresql-2021-02-18_201454.log" "postgresql-2021-03-23_032055.log" "postgresql-2021-02-17_113258.csv" "postgresql-2021-03-30_023327.log" "postgresql-2021-03-12_054146.log" "postgresql-2021-04-10_083238.csv" "postgresql-2021-02-27_005212.log" "postgresql-2021-02-26_041558.log" "postgresql-2021-03-29_034948.log" "postgresql-2021-02-25_235834.log" "postgresql-2021-03-30_021012.log" "postgresql-2021-03-29_051145.log" "postgresql-2021-02-25_001406.log" "postgresql-2021-03-30_001906.log" "postgresql-2021-03-14_000000.csv" "postgresql-2021-03-23_041313.log" "postgresql-2021-03-23_040919.log" "postgresql-2021-03-29_000000.csv" "postgresql-2021-03-29_052350.log" "postgresql-2021-04-02_190910.csv" "postgresql-2021-03-30_034154.log" "postgresql-2021-03-20_050014.log" "postgresql-2021-03-02_093211.log" "postgresql-2021-03-12_041946.log" "postgresql-2021-03-27_005940.csv" "postgresql-2021-03-14_011841.log" "postgresql-2021-03-20_051950.log" "postgresql-2021-03-14_020528.log" "postgresql-2021-03-12_041159.log" "postgresql-2021-03-22_095202.log" "postgresql-2021-02-10_000000.log" "postgresql-2021-03-30_064348.log" "postgresql-2021-03-12_060129.log" "postgresql-2021-02-13_000000.log" "postgresql-2021-03-30_071708.log" "postgresql-2021-03-17_033822.log" "postgresql-2021-03-20_055516.log" "postgresql-2021-02-18_202244.log" "postgresql-2021-02-25_094409.log" "postgresql-2021-03-03_012052.log" "postgresql-2021-03-29_225515.log" "postgresql-2021-02-12_104923.csv" "postgresql-2021-03-30_082038.log" "postgresql-2021-03-29_043000.log" "postgresql-2021-03-21_024415.log" "postgresql-2021-03-29_033923.log" "postgresql-2021-03-03_021931.log" "postgresql-2021-02-21_073436.log" "postgresql-2021-03-21_050134.log" "postgresql-2021-03-20_055114.log" "postgresql-2021-03-26_024614.log" "postgresql-2021-03-31_141939.csv" "postgresql-2021-03-26_111011.csv" "postgresql-2021-04-11_131144.csv" "postgresql-2021-03-26_042229.log" "postgresql-2021-04-01_184948.csv" "postgresql-2021-03-29_023245.log" "postgresql-2021-03-29_085014.log" "postgresql-2021-02-26_160306.log" "postgresql-2021-02-04_210805.csv" "postgresql-2021-02-04_210607.csv" "postgresql-2021-03-23_015813.log" "postgresql-2021-03-02_214835.csv" "postgresql-2021-02-21_075827.log" "postgresql-2021-03-21_051742.log" "postgresql-2021-03-29_021349.log" "postgresql-2021-04-11_131137.csv" "postgresql-2021-03-30_043316.log" "postgresql-2021-04-11_131204.csv" "postgresql-2021-02-19_032938.log" "postgresql-2021-03-23_042446.log" "postgresql-2021-03-30_051205.log" "postgresql-2021-03-14_031226.log" "postgresql-2021-03-22_231011.csv" "postgresql-2021-02-19_182807.csv" "postgresql-2021-03-01_092233.csv" "postgresql-2021-03-29_082215.log" "postgresql-2021-03-14_014549.log" "postgresql-2021-02-19_040101.log" "postgresql-2021-02-19_023457.log" "postgresql-2021-04-10_163627.log" "postgresql-2021-02-14_000000.log" "postgresql-2021-03-02_091645.csv" "postgresql-2021-02-04_203642.csv" "postgresql-2021-04-11_131206.csv" "postgresql-2021-04-03_221203.csv" "postgresql-2021-02-18_192116.log" "postgresql-2021-03-12_044655.log" "postgresql-2021-03-21_041822.log" "postgresql-2021-04-02_181548.log" "postgresql-2021-03-29_024415.log" "postgresql-2021-02-19_182737.log" "postgresql-2021-03-29_030709.log" "postgresql-2021-02-12_104923.log" "postgresql-2021-02-13_053919.log" "postgresql-2021-03-20_011045.log" "postgresql-2021-04-11_113106.csv" "postgresql-2021-03-20_143905.log" "postgresql-2021-04-10_083238.log" "postgresql-2021-03-20_034735.log" "postgresql-2021-02-27_022005.log" "postgresql-2021-03-30_072838.log" "postgresql-2021-03-29_232917.log" "postgresql-2021-03-30_035343.log" "postgresql-2021-02-16_034951.csv" "postgresql-2021-03-21_034328.log" "postgresql-2021-02-21_063207.log" "postgresql-2021-03-30_041300.log" "postgresql-2021-02-21_053909.log" "postgresql-2021-03-14_025630.log" "postgresql-2021-03-27_171617.log" "postgresql-2021-03-30_062827.log" "postgresql-2021-04-07_173135.csv" "postgresql-2021-02-18_185116.log" "postgresql-2021-02-27_034631.log" "postgresql-2021-03-21_043803.log" "postgresql-2021-02-16_001314.log" "postgresql-2021-03-29_050022.log" "postgresql-2021-04-10_124226.log" "postgresql-2021-03-14_023640.log" "postgresql-2021-03-26_040228.log" "postgresql-2021-03-29_063338.log" "postgresql-2021-04-11_130654.csv" "postgresql-2021-03-20_054721.log" "postgresql-2021-03-08_100014.csv" "postgresql-2021-03-23_044846.log" "postgresql-2021-03-29_061803.log" "postgresql-2021-02-27_033033.log" "postgresql-2021-02-18_190659.log" "postgresql-2021-03-12_053348.log" "postgresql-2021-04-09_212727.log" "postgresql-2021-03-16_224745.log" "postgresql-2021-02-27_004520.log" "postgresql-2021-02-21_062019.log" "postgresql-2021-02-25_022623.log" "postgresql-2021-03-29_081437.log" "postgresql-2021-04-01_194729.csv" "postgresql-2021-04-01_133350.log" "postgresql-2021-02-25_171209.log" "postgresql-2021-02-26_045445.log" "postgresql-2021-03-30_070036.log" "postgresql-2021-03-29_011633.log" "postgresql-2021-02-06_135308.csv" "postgresql-2021-02-25_025227.log" "postgresql-2021-03-20_061111.log" "postgresql-2021-03-30_010203.log" "postgresql-2021-03-12_002408.csv" "postgresql-2021-03-03_015809.log" "postgresql-2021-02-18_185907.log" "postgresql-2021-03-30_074810.log" "postgresql-2021-03-21_025553.log" "postgresql-2021-03-30_053614.log" "postgresql-2021-03-12_024403.log" "postgresql-2021-02-26_023042.log" "postgresql-2021-02-18_144016.csv" "postgresql-2021-03-24_103529.csv" "postgresql-2021-03-22_231011.log" "postgresql-2021-03-30_005422.log" "postgresql-2021-02-27_033810.log" "postgresql-2021-02-18_182054.log" "postgresql-2021-03-26_030237.log" "postgresql-2021-02-21_075041.log" "postgresql-2021-03-26_052708.log" "postgresql-2021-03-25_164640.csv" "postgresql-2021-03-20_033541.log" "postgresql-2021-02-08_000000.log" "postgresql-2021-02-21_073045.log" "postgresql-2021-02-21_063953.log" "postgresql-2021-03-16_223014.log" "postgresql-2021-02-19_182737.csv" "postgresql-2021-02-04_203018.csv" "postgresql-2021-02-19_034130.log" "postgresql-2021-02-19_025026.log" "postgresql-2021-02-27_010837.log" "postgresql-2021-02-21_000000.log" "postgresql-2021-03-02_182802.csv" "postgresql-2021-03-23_034917.log" "postgresql-2021-03-17_040603.log" "postgresql-2021-02-11_182307.csv" "postgresql-2021-02-26_040021.log" "postgresql-2021-02-18_141618.log" "postgresql-2021-03-26_024216.log" "postgresql-2021-02-27_033422.log" "postgresql-2021-03-30_040903.log" "postgresql-2021-02-26_223438.log" "postgresql-2021-02-27_021224.log" "postgresql-2021-02-27_012407.log" "postgresql-2021-03-26_045430.log" "postgresql-2021-03-21_052948.log" "postgresql-2021-03-20_055909.log" "postgresql-2021-03-26_050243.log" "postgresql-2021-03-29_062540.log" "postgresql-2021-03-16_225143.log" "postgresql-2021-04-09_094545.csv" "postgresql-2021-03-17_035344.log" "postgresql-2021-04-11_130649.csv" "postgresql-2021-03-23_043316.log" "postgresql-2021-03-02_180207.log" "postgresql-2021-03-17_041741.log" "postgresql-2021-03-12_030804.log" "postgresql-2021-03-19_092954.log" "postgresql-2021-03-20_045624.log" "postgresql-2021-03-23_033719.log" "postgresql-2021-03-29_074803.log" "postgresql-2021-03-14_142701.log" "postgresql-2021-03-29_075149.log" "postgresql-2021-03-01_132410.csv" "postgresql-2021-02-26_051820.log" "postgresql-2021-03-30_054813.log" "postgresql-2021-03-14_005537.log" "postgresql-2021-03-01_092233.log" "postgresql-2021-03-29_060943.log" "postgresql-2021-03-29_014450.log" "postgresql-2021-02-25_024823.log" "postgresql-2021-03-21_041037.log" "postgresql-2021-03-14_012632.log" "postgresql-2021-03-30_032633.log" "postgresql-2021-03-20_065132.log" "postgresql-2021-04-01_194729.log" "postgresql-2021-04-11_131148.csv" "postgresql-2021-03-23_043706.log" "postgresql-2021-03-14_010316.log" "postgresql-2021-02-26_052625.log" "postgresql-2021-03-21_022433.log" "postgresql-2021-03-30_000000.log" "postgresql-2021-03-21_043404.log" "postgresql-2021-03-17_033405.log" "postgresql-2021-04-01_133350.csv" "postgresql-2021-03-29_023630.log" "postgresql-2021-03-29_013104.log" "postgresql-2021-03-17_012812.log" "postgresql-2021-03-30_025649.log" "postgresql-2021-02-21_072653.log" "postgresql-2021-02-27_011229.log" "postgresql-2021-02-04_081702.csv" "postgresql-2021-03-03_000000.csv" "postgresql-2021-03-17_040954.log" "postgresql-2021-03-14_002310.log" "postgresql-2021-03-26_045036.log" "postgresql-2021-02-26_032539.log" "postgresql-2021-02-19_031414.log" "postgresql-2021-03-17_080835.log" "postgresql-2021-02-21_070725.log" "postgresql-2021-03-17_023132.log" "postgresql-2021-03-29_041101.log" "postgresql-2021-02-26_043153.log" "postgresql-2021-02-27_024325.log" "postgresql-2021-04-11_131223.csv" "postgresql-2021-03-30_141952.log" "postgresql-2021-03-29_072324.log" "postgresql-2021-03-26_022907.log" "postgresql-2021-03-30_065515.log" "postgresql-2021-03-14_013811.log" "postgresql-2021-03-29_225937.log" "postgresql-2021-02-08_191029.csv" "postgresql-2021-03-26_034631.log" "postgresql-2021-03-29_064457.log" "postgresql-2021-03-21_021853.log" "postgresql-2021-03-30_063609.log" "postgresql-2021-02-18_183745.log" "postgresql-2021-04-11_130642.csv" "postgresql-2021-02-18_192943.log" "postgresql-2021-02-18_201059.log" "postgresql-2021-02-05_005001.log" "postgresql-2021-02-26_021519.log" "postgresql-2021-03-03_012052.csv" "postgresql-2021-02-21_072300.log" "postgresql-2021-03-20_053527.log" "postgresql-2021-02-11_000000.csv" "postgresql-2021-02-27_011621.log" "postgresql-2021-02-09_204303.log" "postgresql-2021-03-29_043344.log" "postgresql-2021-03-21_045006.log" "postgresql-2021-04-06_162004.log" "postgresql-2021-03-29_022508.log" "postgresql-2021-03-30_044449.log" "postgresql-2021-03-14_025240.log" "postgresql-2021-02-25_023805.log" "postgresql-2021-03-14_015347.log" "postgresql-2021-03-26_142915.csv" "postgresql-2021-03-30_141952.csv" "postgresql-2021-03-29_070820.log" "postgresql-2021-03-05_000000.log" "postgresql-2021-02-19_040858.log" "postgresql-2021-02-19_034535.log" "postgresql-2021-03-29_231353.log" "postgresql-2021-03-30_081259.log" "postgresql-2021-02-21_065150.log" "postgresql-2021-02-18_192524.log" "postgresql-2021-02-18_141444.csv" "postgresql-2021-02-21_061240.log" "postgresql-2021-03-31_171711.csv" "postgresql-2021-03-15_100043.csv" "postgresql-2021-03-02_212346.csv" "postgresql-2021-03-16_091154.log" "postgresql-2021-03-20_052349.log" "postgresql-2021-03-27_105805.csv" "postgresql-2021-03-24_214537.log" "postgresql-2021-03-20_040848.log" "postgresql-2021-03-12_034815.log" "postgresql-2021-03-08_095937.log" "postgresql-2021-03-17_035806.log" "postgresql-2021-03-31_190109.log" "postgresql-2021-03-26_043432.log" "postgresql-2021-03-09_163340.csv" "postgresql-2021-03-26_021656.log" "postgresql-2021-02-27_025910.log" "postgresql-2021-02-27_020036.log" "postgresql-2021-03-26_035422.log" "postgresql-2021-03-29_043729.log" "postgresql-2021-03-20_063530.log" "postgresql-2021-03-23_035706.log" "postgresql-2021-04-03_192828.csv" "postgresql-2021-02-18_180918.log" "postgresql-2021-03-14_011101.log" "postgresql-2021-04-11_130543.log" "postgresql-2021-03-14_024053.log" "postgresql-2021-02-19_041303.log" "postgresql-2021-03-10_085715.csv" "postgresql-2021-02-27_010443.log" "postgresql-2021-02-19_013800.log" "postgresql-2021-03-23_045308.log" "postgresql-2021-03-26_051057.log" "postgresql-2021-03-29_071937.log" "postgresql-2021-03-29_083024.log" "postgresql-2021-02-22_123441.log" "postgresql-2021-03-31_092529.log" "postgresql-2021-02-18_195051.log" "postgresql-2021-04-11_130543.csv" "postgresql-2021-02-21_052736.log" "postgresql-2021-03-22_162548.log" "postgresql-2021-03-24_000000.csv" "postgresql-2021-03-23_123326.log" "postgresql-2021-03-30_012929.log" "postgresql-2021-03-20_053137.log" "postgresql-2021-03-26_033838.log" "postgresql-2021-03-17_042556.log" "postgresql-2021-03-25_142001.log" "postgresql-2021-03-23_123326.csv" "postgresql-2021-04-09_212727.csv" "postgresql-2021-02-16_034951.log" "postgresql-2021-04-11_131205.csv" "postgresql-2021-03-30_052401.log" "postgresql-2021-03-27_153703.log" "postgresql-2021-02-21_055716.log" "postgresql-2021-03-13_202039.csv" "postgresql-2021-03-29_063725.log" "postgresql-2021-02-19_025819.log" "postgresql-2021-03-30_042044.log" "postgresql-2021-03-26_045822.log" "postgresql-2021-03-23_034109.log" "postgresql-2021-03-21_033550.log" "postgresql-2021-02-19_023107.log" "postgresql-2021-02-11_123645.csv" "postgresql-2021-03-29_064114.log" "postgresql-2021-04-01_184948.log" "postgresql-2021-02-27_031512.log" "postgresql-2021-03-27_165919.log" "postgresql-2021-04-11_113106.log" "postgresql-2021-04-03_174619.log" "postgresql-2021-03-15_164722.csv" "postgresql-2021-02-26_035632.log" "postgresql-2021-03-23_031311.log" "postgresql-2021-03-01_194543.csv" "postgresql-2021-03-24_103529.log" "postgresql-2021-03-29_013529.log" "postgresql-2021-03-29_031801.log" "postgresql-2021-03-20_035312.log" "postgresql-2021-03-29_233406.log" "postgresql-2021-03-30_052811.log" "postgresql-2021-03-17_034213.log" "postgresql-2021-04-02_230248.log" "postgresql-2021-03-29_041842.log" "postgresql-2021-03-14_014940.log" "postgresql-2021-03-20_063139.log" "postgresql-2021-03-29_051557.log" "postgresql-2021-03-03_034042.csv" "postgresql-2021-04-05_145440.csv" "postgresql-2021-02-21_102339.csv" "postgresql-2021-03-12_034425.log" "postgresql-2021-03-14_021733.log" "postgresql-2021-03-06_124543.csv" "postgresql-2021-03-18_170455.log" "postgresql-2021-03-03_105441.csv" "postgresql-2021-04-01_222640.csv" "postgresql-2021-03-21_040649.log" "postgresql-2021-03-14_010711.log" "postgresql-2021-03-23_123738.log" "postgresql-2021-02-15_111751.log" "postgresql-2021-03-26_000000.csv" "postgresql-2021-03-29_234622.log" "postgresql-2021-02-12_041929.csv" "postgresql-2021-03-23_035313.log" "postgresql-2021-02-25_165617.log" "postgresql-2021-03-21_024024.log" "postgresql-2021-03-26_025011.log" "postgresql-2021-04-08_080218.log" "postgresql-2021-02-19_171304.csv" "postgresql-2021-02-10_003328.log" "postgresql-2021-03-29_042615.log" "postgresql-2021-03-29_024808.log" "postgresql-2021-03-20_044542.log" "postgresql-2021-03-20_061523.log" "postgresql-2021-02-21_060459.log" "postgresql-2021-03-30_055213.log" "postgresql-2021-03-30_014038.log" "postgresql-2021-02-21_054936.log" "postgresql-2021-03-12_131057.log" "postgresql-2021-03-01_133608.log" "postgresql-2021-03-29_083854.log" "postgresql-2021-02-26_041949.log" "postgresql-2021-02-25_024159.log" "postgresql-2021-03-12_045437.log" "postgresql-2021-02-19_013405.log" "postgresql-2021-02-27_035804.log" "postgresql-2021-04-11_131150.csv" "postgresql-2021-03-30_054004.log" "postgresql-2021-03-26_181136.csv" "postgresql-2021-02-26_035239.log" "postgresql-2021-02-27_023935.log" "postgresql-2021-03-23_014033.log" "postgresql-2021-03-29_030316.log" "postgresql-2021-02-06_134749.csv" "postgresql-2021-02-04_174803.log" "postgresql-2021-04-01_222640.log" "postgresql-2021-03-18_085528.log" "postgresql-2021-03-23_020206.log" "postgresql-2021-03-30_063958.log" "postgresql-2021-02-04_210750.csv" "postgresql-2021-04-11_131207.csv" "postgresql-2021-03-23_031704.log" "postgresql-2021-03-29_011204.log" "postgresql-2021-03-20_051154.log" "postgresql-2021-03-29_231942.log" "postgresql-2021-02-21_060849.log" "postgresql-2021-02-23_094117.csv" "postgresql-2021-04-07_204231.csv" "postgresql-2021-03-28_190709.csv" "postgresql-2021-02-19_000000.csv" "postgresql-2021-04-02_145458.log" "postgresql-2021-02-26_022650.log" "postgresql-2021-03-12_052550.log" "postgresql-2021-03-29_084627.log" "postgresql-2021-02-18_183246.log" "postgresql-2021-03-20_062336.log" "postgresql-2021-04-08_164637.log" "postgresql-2021-02-27_023539.log" "postgresql-2021-03-14_012231.log" "postgresql-2021-03-27_005940.log" "postgresql-2021-02-14_182621.log" "postgresql-2021-03-21_035850.log" "postgresql-2021-02-26_050649.log" "postgresql-2021-04-07_091040.log" "postgresql-2021-03-29_015452.log" "postgresql-2021-02-03_145552.csv" "postgresql-2021-02-21_080220.log" "postgresql-2021-03-29_032424.log" "postgresql-2021-02-19_030215.log" "postgresql-2021-02-27_040549.log" "postgresql-2021-02-09_092234.csv" "postgresql-2021-02-26_094639.log" "postgresql-2021-02-27_022354.log" "postgresql-2021-02-18_200252.log" "postgresql-2021-03-30_042458.log" "postgresql-2021-03-30_004222.log" "postgresql-2021-02-19_024242.log" "postgresql-2021-02-18_141444.log" "postgresql-2021-02-25_023413.log" "postgresql-2021-02-19_034925.log" "postgresql-2021-02-19_031807.log" "postgresql-2021-02-26_030331.log" "postgresql-2021-02-19_014152.log" "postgresql-2021-03-23_020559.log" "postgresql-2021-02-21_123333.log" "postgresql-2021-03-26_041024.log" "postgresql-2021-03-02_093211.csv" "postgresql-2021-03-02_163736.log" "postgresql-2021-03-17_031025.log" "postgresql-2021-03-12_055712.log" "postgresql-2021-03-23_040500.log" "postgresql-2021-02-21_123333.csv" "postgresql-2021-02-21_080637.log" "postgresql-2021-03-14_015740.log" "postgresql-2021-04-03_174619.csv" "postgresql-2021-02-25_172341.log" "postgresql-2021-03-30_033416.log" "postgresql-2021-03-20_041636.log" "postgresql-2021-02-18_191132.log" "postgresql-2021-03-17_032220.log" "postgresql-2021-03-29_020450.log" "postgresql-2021-03-27_173546.log" "postgresql-2021-02-19_022313.log" "postgresql-2021-03-20_035705.log" "postgresql-2021-03-29_012634.log" "postgresql-2021-03-08_100014.log" "postgresql-2021-02-10_003328.csv" "postgresql-2021-03-29_045246.log" "postgresql-2021-03-20_235142.csv" "postgresql-2021-03-30_040122.log" "postgresql-2021-04-11_130652.csv" "postgresql-2021-03-26_023809.log" "postgresql-2021-03-28_210930.log" "postgresql-2021-03-29_050759.log" "postgresql-2021-04-01_125254.csv" "postgresql-2021-04-11_130651.csv" "postgresql-2021-03-29_082617.log" "postgresql-2021-03-10_173150.log" "postgresql-2021-03-23_022955.log" "postgresql-2021-02-12_033127.log" "postgresql-2021-02-26_051038.log" "postgresql-2021-03-17_022742.log" "postgresql-2021-03-03_025710.csv" "postgresql-2021-03-29_081050.log" "postgresql-2021-03-26_044247.log" "postgresql-2021-02-26_050301.log" "postgresql-2021-03-29_071551.log" "postgresql-2021-03-23_025740.log" "postgresql-2021-02-14_182621.csv" "postgresql-2021-02-13_063040.log" "postgresql-2021-03-12_054536.log" "postgresql-2021-02-21_053518.log" "postgresql-2021-03-12_042340.log" "postgresql-2021-03-21_033940.log" "postgresql-2021-03-12_043122.log" "postgresql-2021-03-16_221811.log" "postgresql-2021-04-06_225428.log" "postgresql-2021-02-21_102339.log" "postgresql-2021-03-30_033026.log" "postgresql-2021-02-21_062811.log" "postgresql-2021-03-14_014200.log" "postgresql-2021-02-23_162827.csv" "postgresql-2021-04-06_162004.csv" "postgresql-2021-02-17_182309.csv" "postgresql-2021-03-18_170455.csv" "postgresql-2021-04-09_143109.log" "postgresql-2021-03-02_091645.log" "postgresql-2021-04-03_161241.log" "postgresql-2021-03-29_010754.log" "postgresql-2021-04-11_131149.csv" "postgresql-2021-02-21_070332.log" "postgresql-2021-02-13_000000.csv" "postgresql-2021-03-23_123252.csv" "postgresql-2021-03-12_052202.log" "postgresql-2021-03-30_044056.log" "postgresql-2021-03-21_030758.log" "postgresql-2021-03-10_135206.log" "postgresql-2021-03-25_142001.csv" "postgresql-2021-02-04_230506.csv" "postgresql-2021-02-26_045057.log" "postgresql-2021-03-25_090731.log" "postgresql-2021-03-22_092955.log" "postgresql-2021-03-30_002301.log" "postgresql-2021-03-14_000738.log" "postgresql-2021-03-02_214835.log" "postgresql-2021-04-10_155547.log" "postgresql-2021-03-08_143628.csv" "postgresql-2021-02-14_000000.csv" "postgresql-2021-03-29_053510.log" "postgresql-2021-03-30_055955.log" "postgresql-2021-04-07_091040.csv" "postgresql-2021-03-23_123738.csv" "postgresql-2021-02-13_235941.csv" "postgresql-2021-03-25_090731.csv" "postgresql-2021-03-29_005930.log" "postgresql-2021-02-09_204303.csv" "postgresql-2021-02-18_193406.log" "postgresql-2021-03-30_030931.log" "postgresql-2021-03-14_000348.log" "postgresql-2021-03-29_083502.log" "postgresql-2021-03-14_024850.log" "postgresql-2021-02-26_034503.log" "postgresql-2021-03-21_025201.log" "postgresql-2021-03-01_132410.log" "postgresql-2021-02-21_065544.log" "postgresql-2021-04-05_200814.csv" "postgresql-2021-02-09_193302.csv" "postgresql-2021-03-30_010549.log" "postgresql-2021-04-01_085030.log" "postgresql-2021-03-29_044517.log" "postgresql-2021-03-29_041457.log" "postgresql-2021-03-11_074549.csv" "postgresql-2021-03-12_051421.log" "postgresql-2021-03-17_024308.log" "postgresql-2021-03-23_030919.log" "postgresql-2021-03-20_064317.log" "postgresql-2021-04-11_130650.csv" "postgresql-2021-03-26_052244.log" "postgresql-2021-03-29_000000.log" "postgresql-2021-03-20_064740.log" "postgresql-2021-02-03_183107.log" "postgresql-2021-04-11_131203.csv" "postgresql-2021-04-10_141810.log" "postgresql-2021-02-20_114155.log" "postgresql-2021-03-30_011353.log" "postgresql-2021-02-26_042346.log" "postgresql-2021-03-30_080907.log" "postgresql-2021-02-19_171304.log" "postgresql-2021-02-13_210605.csv" "postgresql-2021-03-19_155846.csv" "postgresql-2021-02-27_030658.log" "postgresql-2021-02-21_060105.log" "postgresql-2021-02-24_175349.log" "postgresql-2021-02-25_173101.log" "postgresql-2021-02-26_053021.log" "postgresql-2021-03-23_044058.log" "postgresql-2021-03-26_122538.log" "postgresql-2021-02-09_175038.csv" "postgresql-2021-03-17_013950.log" "postgresql-2021-02-27_040156.log" "postgresql-2021-02-25_200533.log" "postgresql-2021-03-29_012054.log" "postgresql-2021-02-27_020429.log" "postgresql-2021-03-30_040512.log" "postgresql-2021-02-21_051604.log" "postgresql-2021-03-30_162727.csv" "postgresql-2021-02-08_183150.log" "postgresql-2021-02-21_064744.log" "postgresql-2021-03-02_182802.log" "postgresql-2021-02-19_021922.log" "postgresql-2021-03-23_030522.log" "postgresql-2021-02-09_175038.log" "postgresql-2021-02-19_000000.log" "postgresql-2021-03-12_040021.log" "postgresql-2021-02-03_140704.log" "postgresql-2021-03-23_000000.log" "postgresql-2021-03-11_181242.csv" "postgresql-2021-03-26_051846.log" "postgresql-2021-03-25_000000.log" "postgresql-2021-02-26_024218.log" "postgresql-2021-02-19_023846.log" "postgresql-2021-03-20_050802.log" "postgresql-2021-03-25_232756.log" "postgresql-2021-02-18_185510.log" "postgresql-2021-02-05_225610.csv" "postgresql-2021-03-14_125316.log" "postgresql-2021-02-28_113346.csv" "postgresql-2021-02-19_020749.log" "postgresql-2021-03-08_194507.log" "postgresql-2021-03-30_001517.log" "postgresql-2021-03-13_235639.log" "postgresql-2021-03-12_030023.log" "postgresql-2021-03-21_044154.log" "postgresql-2021-03-13_235147.log" "postgresql-2021-04-08_164637.csv" "postgresql-2021-03-30_050818.log" "postgresql-2021-02-19_030612.log" "postgresql-2021-03-17_000000.csv" "postgresql-2021-03-17_024700.log" "postgresql-2021-03-17_141907.log" "postgresql-2021-03-30_005815.log" "postgresql-2021-03-26_051452.log" "postgresql-2021-03-29_033133.log" "postgresql-2021-02-27_000000.csv" "postgresql-2021-03-26_033445.log" "postgresql-2021-03-17_014816.log" "postgresql-2021-03-23_021350.log" "postgresql-2021-03-29_055024.log" "postgresql-2021-03-14_162515.log" "postgresql-2021-03-30_075217.log" "postgresql-2021-03-26_025412.log" "postgresql-2021-03-29_072712.log" "postgresql-2021-03-12_031154.log" "postgresql-2021-04-01_212056.log" "postgresql-2021-02-19_035318.log" "postgresql-2021-04-11_131147.csv" "postgresql-2021-03-15_100043.log" "postgresql-2021-03-17_023522.log" "postgresql-2021-03-31_171711.log" "postgresql-2021-03-21_035110.log" "postgresql-2021-04-11_130653.csv" "postgresql-2021-03-29_070042.log" "postgresql-2021-03-30_034930.log" "postgresql-2021-03-12_060520.log" "postgresql-2021-02-18_142309.csv" "postgresql-2021-03-23_042056.log" "postgresql-2021-03-23_015235.log" "postgresql-2021-04-11_131208.csv" "postgresql-2021-04-11_125158.log" "postgresql-2021-04-09_160720.log" "postgresql-2021-02-07_181513.log" "postgresql-2021-03-12_054927.log" "postgresql-2021-03-30_035734.log" "postgresql-2021-02-25_001406.csv" "postgresql-2021-02-26_094639.csv" "postgresql-2021-03-16_091154.csv" "postgresql-2021-02-18_200649.log" "postgresql-2021-04-11_130638.csv" "postgresql-2021-02-11_000000.log" "postgresql-2021-03-20_042451.log" "postgresql-2021-02-27_015647.log" "postgresql-2021-03-17_014351.log" "postgresql-2021-03-30_175747.log" "postgresql-2021-02-18_000000.csv" "postgresql-2021-03-12_035615.log" "postgresql-2021-02-18_195852.log" "postgresql-2021-03-26_041417.log" "postgresql-2021-03-14_001915.log" "postgresql-2021-02-26_052215.log" "postgresql-2021-03-26_000000.log" "postgresql-2021-03-23_030132.log" "postgresql-2021-02-25_171607.log" "postgresql-2021-02-18_202638.log" "postgresql-2021-03-30_050033.log" "../" "./")
+ ("/home/martin/dev/AlmightyVolumeKeys/emails/" (24911 20826 18846 58000) "test.py" "Makefile" "./" "client_secret_839567299215-pnk61h2opk649fbknee0iuh63pjmrv84.apps.googleusercontent.com.json" "../" "notes.sql" "processEmailFeedback.py" "vkrfeedbackbackup.sql" "token.json")
 
- ("/home/martin/dev/loca4/backend/db/testing/" (24688 735 418875 593000) "andorra-latest.osm.pbf" "./" "../" "sweden-latest.osm.pbf" "azores-latest.osm.pbf" "dalälven.osm.pbf" "r3.osm.pbf" "dalälven2.osm.pbf" "riksgränsen.osm.pbf" "r2.osm.pbf" "db_testing.sql" "great-britain-latest.osm.pbf")
+ ("/home/martin/dev/loca4/backend/db/wikidata/" (24923 38413 367506 19000) "unicode_supplementalData.xml" "lanspeakers.js" "createWikiClassesAndCountries.py" "lanspeakers.json" "#createWikidataExtract.py#" "createWikidataExtract.py" "./" "../" "createWikiElems.py")
 
- ("/home/martin/Desktop/" (24681 65107 806471 989000) "correct.mp3" "saga" "wrong.mp3" "loca launcher (2).png" "./" "../" "i")
+ ("/home/martin/dev/loca4/backend/db/sources/" (24909 38892 689473 339000) "verkö.osm.pbf" "riksgränsen.osm.pbf" "gävleborg.osm.pbf" "karlskrona.osm.pbf" "empty.osm.pbf" "storlien2.osm.pbf" "västerås2.osm.pbf" "sweden-latest.osm.pbf" "andorra-latest.osm.pbf" "great-britain-latest.osm.pbf" "landskrona.osm.pbf" "./" "gävle_c.osm.pbf" "sweden-extract.json_1" "../" "västerås.osm.pbf" "storlien.osm.pbf")
 
- ("/home/martin/.emacs.d/" (24671 11479 164835 562000) "saveplace" "ioopm-packages/" "session.109f2cba8edfbd72bd154929749330792600000018890074" "recentf~" "init.el" "recentf" "#ido.last#" "./" "../" "session.1052544704f58c4abc161488156573748000000016050083" "snippets/" "session.10e87dcefc3239c8a161375511921540500000016420089" "session.10c874d7f3d4979653149371416532663900000016540051" "ido.last" "session.10efe301b9b995b21d149613438191362800000016430051" "session.10e87dcefc3239c8a161375279139064900000016420086" "abbrev_defs" ".git/" "session.10efe301b9b995b21d149613438193287200000016430052" "session.10af637a7c1ca6e787154850126118814800000019360085" "auto-save-list/" "session.10af637a7c1ca6e787154850334242890900000019360086" "init.el~" "session.109f2cba8edfbd72bd154929851132555500000018890075" "smex-items" "session.10dda9ca83d1f8d98b161473676011347500000016040084" "#recentf#" "ido.last~" "tramp" "session.10e87dcefc3239c8a161375356512211700000016420087" "elpa/")
+ ("/home/martin/" (24908 42148 606300 823000) ".profile" "plv8-2.3.15/" ".tmux/" "package.json" ".gradle/" "Public/" ".psql_history" "stuff/" "Videos/" "Pictures/" ".gsutil/" ".npm/" "Android/" ".emulator_console_auth_token" ".cache/" "snap/" ".audacity-data/" "Desktop/" ".sudo_as_admin_successful" ".saves/" ".gphoto/" "planet-latest.osm.pbf" "Downloads/" ".git-credentials" ".vpython_cipd_cache/" ".python_history" ".bashrc" "Android Size Analyzer/" ".node_repl_history" ".wget-hsts" "Music/" "postgrest" ".local/" ".gnome/" "mono_crash.d4716fb0.0.json" ".zsh/" ".dart/" ".vpython-root/" ".zsh_history" "elems_with_category.sql" ".mozilla/" ".pub-cache/" ".gnupg/" "Documents/" "v2.3.15.tar.gz" "temp.log" ".flutter-devtools/" "mono_crash.mem.24225.1.blob" ".psensor/" ".zcompdump-masel-5.8" "elems_with_global_importance.sql" ".zshrc" ".bash_logout" "pySkeleton/" ".flutter" "./" ".gitconfig" ".bash_history" "package-lock.json" ".oh-my-zsh/" ".config/" ".ssh/" ".zcompdump" ".android/" "java_error_in_STUDIO_8357.log" "node_modules/" ".pki/" "dev/" ".shell.pre-oh-my-zsh" "../" ".authinfo" ".tmux.conf" "Templates/" "bla.sql" "osm2pgsql/" ".lesshst" "shutdownreason" "mono_crash.mem.8683.1.blob" ".java/" ".dartServer/" ".emacs.d/")
 
- ("/etc/systemd/system/" (24660 50924 878012 104000) "sleep.target" "cloud-final.service.wants/" "dbus-org.freedesktop.ModemManager1.service" "dbus-org.freedesktop.Avahi.service" "graphical.target.wants/" "emergency.target.wants/" "sockets.target.wants/" "snap-android\\x2dstudio-100.mount" "paths.target.wants/" "display-manager.service" "./" "rescue.target.wants/" "suspend.target" "../" "dbus-org.freedesktop.nm-dispatcher.service" "printer.target.wants/" "default.target.wants/" "snap-android\\x2dstudio-101.mount" "dbus-fi.w1.wpa_supplicant1.service" "bluetooth.target.wants/" "snap-gnome\\x2d3\\x2d28\\x2d1804-145.mount" "snap-gnome\\x2d3\\x2d34\\x2d1804-36.mount" "multi-user.target.wants/" "hibernate.target" "dbus-org.freedesktop.thermald.service" "snap-gnome\\x2d3\\x2d34\\x2d1804-66.mount" "snap-core20-904.mount" "locaserver_v0.service" "oem-config.service.wants/" "snap-snapd-11036.mount" "snap-gimp-347.mount" "network-online.target.wants/" "snap-snap\\x2dstore-518.mount" "snap-gtk\\x2dcommon\\x2dthemes-1506.mount" "hybrid-sleep.target" "timers.target.wants/" "dbus-org.freedesktop.resolve1.service" "sysinit.target.wants/" "snap-gtk\\x2dcommon\\x2dthemes-1514.mount" "dbus-org.freedesktop.timesync1.service" "snap-snapd-11107.mount" "dbus-org.bluez.service" "snap-core18-1944.mount" "final.target.wants/" "display-manager.service.wants/" "snap-core18-1988.mount" "getty.target.wants/" "snap-snap\\x2dstore-467.mount" "syslog.service" "snap-kde\\x2dframeworks\\x2d5\\x2dcore18-32.mount")
+ ("/var/tmp/" (24908 42423 831983 964000) "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-colord.service-STP5Hf/" "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-upower.service-RHQJoi/" "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-ModemManager.service-6K7zWg/" "audacity-martin/" "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-systemd-timesyncd.service-K9qSZh/" "./" "postgresqlXX9Qud3k.conf" "../" "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-systemd-resolved.service-ytUqyf/" "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-systemd-logind.service-0RUmDi/" "systemd-private-9b18366b3a4b4940b0ff2e1ebff435cf-switcheroo-control.service-7xligh/")
 
- ("/etc/systemd/" (24605 3590 914896 747000) "sleep.conf" "system/" "./" "timesyncd.conf" "user/" "../" "network/" "journald.conf" "resolved.conf" "logind.conf" "user.conf" "pstore.conf" "system.conf" "networkd.conf")
+ ("/home/martin/dev/" (24902 7707 529512 288000) ".idea/" "node-plv8/" ".gitignore" "simplification/" ".packages" "Shapely/" "android/" "fluttertest2/" "node-pg-plv8/" "TheSoundRecorder/" "VolumeKeyFlashlight/" ".dart_tool/" "AlmightyVolumeKeys/" "./" "linux/" "Localore/" "MaselUtils/" "flutterdemo/" "loca4/" ".metadata" "../" "ios/" "fluttertest/" "SupaScript/" "lib/" "VolumeKeySoundRecorder/")
 
- ("/etc/" (24656 28560 419717 34000) "hdparm.conf" "xdg/" "gtk-3.0/" "fstab" "update-manager/" "brlapi.key" "magic.mime" "ldap/" "libreoffice/" "shadow" "depmod.d/" "issue.net" "calendar/" "update-notifier/" "subgid" "xattr.conf" "libpaper.d/" "nsswitch.conf" "services" "issue" "systemd/" "dbus-1/" "subuid" "ld.so.conf.d/" "apg.conf" "init/" "os-release" "alsa/" "ifplugd/" "logcheck/" "crontab" "emacs/" "gamemode.ini" "mtab" "mime.types" "networks" "protocols" "avahi/" "hosts.allow" "magic" "locale.alias" "fwupd/" "cups/" "mailcap.order" "hosts.deny" "legal" "cron.weekly/" "netconfig" "brltty.conf" "acpi/" "hosts" "locale.gen" "usb_modeswitch.d/" "hostid" "hp/" "thunderbird/" "selinux/" "shells" "networkd-dispatcher/" "bindresvport.blacklist" "thermald/" "rc5.d/" "profile.d/" "rmt" "rcS.d/" "odbc.ini" "openal/" "ssh/" "iproute2/" "ghostscript/" "pm/" "logrotate.conf" "ImageMagick-6/" "snmp/" "manpath.config" "usb_modeswitch.conf" "dpkg/" "vim/" "shadow-" "ufw/" "brltty/" "anacrontab" "initramfs-tools/" "apport/" "sane.d/" "gai.conf" "dhcp/" "modules" "rsyslog.d/" "mysql/" "ld.so.cache" "lsb-release" "default/" "group-" "hostname" "python3.8/" "rc2.d/" "papersize" "chromium/" "apparmor/" "zsh_command_not_found" "gdb/" "libnl-3/" "bash_completion.d/" "login.defs" "bash.bashrc" "network/" "fuse.conf" "rpc" "ssl/" "sysctl.d/" "cron.d/" "pcmcia/" "python3/" "passwd-" "pam.d/" "tmpfiles.d/" "terminfo/" ".pwd.lock" "ubuntu-advantage/" "nanorc" "sensors3.conf" "libblockdev/" "profile" "kerneloops.conf" "sudoers.d/" "libaudit.conf" "sysstat/" "xml/" "vdpau_wrapper.cfg" "vulkan/" "openvpn/" "netplan/" "vconsole.conf" "speech-dispatcher/" "libao.conf" "chatscripts/" "apm/" "ca-certificates.conf.dpkg-old" "kernel-img.conf" "group" "cron.hourly/" "mono/" "environment" "ca-certificates.conf" "appstream.conf" "bash_completion" "UPower/" "localtime" "perl/" "sysctl.conf" "host.conf" "ca-certificates/" "adduser.conf" "pulse/" "fonts/" "update-motd.d/" "gtk-2.0/" "udisks2/" "security/" "cupshelpers/" "bluetooth/" "ltrace.conf" "wpa_supplicant/" "geoclue/" "debian_version" "grub.d/" "debconf.conf" "alternatives/" "gshadow-" "gshadow" "binfmt.d/" "ld.so.conf" "gss/" "gnome/" "mpv/" "pnm2ppa.conf" "ppp/" "environment.d/" "NetworkManager/" "sudoers" "subgid-" "zsh/" "sgml/" "mke2fs.conf" "ucf.conf" "inputrc" "ODBCDataSources/" "rc3.d/" "pam.conf" "init.d/" "gdm3/" "modprobe.d/" "popularity-contest.conf" "ethertypes" "newt/" "sensors.d/" "postgresql-common/" "timezone" "mailcap" "PackageKit/" "console-setup/" "rsyslog.conf" "postgresql/" "apparmor.d/" "X11/" "dconf/" "e2scrub.conf" "vtrgb" "cron.monthly/" "fprintd.conf" "rc1.d/" "apt/" "groff/" "opt/" "insserv.conf.d/" "glvnd/" "rygel.conf" "cron.daily/" "rc4.d/" "kernel/" "polkit-1/" "logrotate.d/" "modules-load.d/" "wgetrc" "dictionaries-common/" "udev/" "rc0.d/" "skel/" "subuid-" "cracklib/" "mtools.conf" "python2.7/" "firefox/" "passwd" "rc6.d/" "machine-id" "pki/" "deluser.conf" "resolv.conf" "../" "./")
+ ("/home/martin/dev/AlmightyVolumeKeys/" (24904 57236 331532 934000) ".gradle/" ".idea/" "emails/" "stuff/" "gradle/" ".gitignore" "gradle.properties" "settings.gradle" "volumekeyresponse/" "readme" "Makefile" "./" "local.properties" "gradlew" "gradlew.bat" "app/" "../" ".git/" "build.gradle")
 
- ("/home/martin/stuff/" (24664 35771 315708 797000) "android-dev/" "anteckningar.org" "./" "../" "jobbansökan/" ".git/" ".bashrc" "touchpad_draglock.sh" "Makefile_filename_switch" "m.jpg" ".zshrc" ".tmux.conf")
+ ("/home/martin/stuff/android-dev/app_signing/" (24691 34530 83223 587000) "private_key.pepk" "masel_keystore.jks" "./" "../" "info")
 
- ("/var/tmp/" (24660 48906 208451 176000) "logindXXgNcXUh.conf~" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-timesyncd.service-RDaaXi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-logind.service-NtDbPh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-resolved.service-LVgyKi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-colord.service-d6Izdg/" "./" "../" "systemd-private-52276c5757254d6ba59d17b907347c6c-upower.service-IEVmoh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-switcheroo-control.service-rb8Koh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-ModemManager.service-32dnTf/" "systemd-private-52276c5757254d6ba59d17b907347c6c-fwupd.service-YxL3Ve/" "postgrestXXQEzTRv.service" "UPowerXXFksZ8N.conf~")
+ ("/home/martin/stuff/android-dev/" (24691 34530 83223 587000) "app_signing/" "./" "../")
 
- ("/home/martin/Downloads/" (24638 58481 280253 680000) "postgis-3.1.1.tar.gz" "fortress-tower-antique-building-silhouette-of-a-computer-game.svg" "viewpoint.svg" "method-draw-image (3).svg" "Artboard 1 (1).png" "method-draw-image (7).svg" "village.svg" "noun_Lake_200843.svg" "method-draw-image (13).svg" "noun_City_859811.svg" "Tokyo.png" "flag (1).svg" "sound_correct.mp3" "castle.svg" "noun_nature_2352881.svg" "platform-tools/" "doc-html-3.1.1.tar.gz" "hotel-big-rural-house-building.svg" "hook.svg" "8912-empty-category.json" "path.svg" "noun_City_1098905.svg" "coral.svg" "hello_im_localore_no_background (1).svg" "train-station.svg" "loca launcher.png" "mapiconscollection-tourism-66c547-simple.zip" "dancing.svg" "party-dj.svg" "tree.svg" "remember (1).svg" "filledArtboard 1 (1).png" "sound_wrong.mp3" "building (1).svg" "method-draw-image (6).svg" "village (1).svg" "globe.svg" "route-signal-on-a-pole.svg" "coffee-cup.svg" "no_eyesArtboard 1.png" "quiz.svg" "hello_im_localore_no_background (2).svg" "London3.svg" "korea.svg" "latest-all.json.gz" "Artboard 1.png" "method-draw-image (2).svg" "farm.svg" "bridge.svg" "cape-svgrepo-com3.svg" "drive-download-20210301T123646Z-001.zip" "sea-waves.svg" "river (3).svg" "cave.svg" "eyesArtboard 1.png" "method-draw-image (12).svg" "house.svg" "iceberg (1).svg" "sea.svg" "728-LondonPack.zip" "google-chrome-stable_current_amd64(2).deb" "lock.svg" "mountains.svg" "road-ahead-straight-perspective.svg" "cape-svgrepo-com2.svg" "pier.svg" "forest (1).svg" "drive-download-20210303T005419Z-001.zip" "method-draw-image (11).svg" "forest.svg" "cape-svgrepo-com1.svg" "sunset.svg" "fountain.svg" "method-draw-image (9).svg" "filledmoon.svg" "noun_Earth_442803.svg" "method-draw-image (10).svg" "loca launcher_z1.png" "columns-antique-ruins-hand-drawn-outline.svg" "noun_City_47531.svg" "social-care.svg" "question.svg" "luarocks-3.5.0.tar.gz" "doc-html-3.1.1 (2).tar.gz" "freeformatter-out.json" "filledArtboard 1.png" "river (1).svg" "quiz (1).svg" "river (2).svg" "fiord-svgrepo-com.svg" "hello_im_localore.svg" "worldwide.svg" "gas-station.svg" "lighthouse-with-flashing-lights.svg" "eyesArtboard 1.svg" "no_eyesArtboard 1.svg" "mapbox-maki-6.2.0-2-g7d8563e.zip" "iceberg.svg" "flag.svg" "flag-black-shape.svg" "barrier.svg" "sunset (1).svg" "canal.svg" "landscape (2).svg" "rural-house.svg" "method-draw-image.svg" "method-draw-image (4).svg" "quiz (2).svg" "village (2).svg" "noun_Globe_1627692.svg" "method-draw-image (17).svg" "seeding.svg" "method-draw-image (5).svg" "twitter.svg" "google-chrome-stable_current_amd64.deb" "earth-globe-continent.svg" "dancing (1).svg" "filledsmall star.svg" "planet-earth.svg" "mapiconscollection-markers.zip" "bay (1).svg" "postgis-3.1.1.pdf" "star.svg" "road.svg" "park.svg" "shipwreck (1).svg" "road-entering-a-tunnel.svg" "nature.svg" "no_starsArtboard 1_27536B.png" "city-avenue-perspective.svg" "filledbig star.svg" "shipwreck.svg" "facebook.svg" "remember.svg" "doc-html-3.1.1 (1).tar.gz" "house (1).svg" "LuaJIT-2.0.5.zip" "beach.svg" "sunrise.svg" "painting-exhibit-in-fine-art-museum.svg" "island.svg" "Tokyo.svg" "fiord-svgrepo-com (1).svg" "noun_Earth_2073546.svg" "swamp.svg" "mapiconscollection-markers (1).zip" "search.svg" "clock-tower.svg" "route-numbers-shield-signal-shape.svg" "binoculars.svg" "method-draw-image (1).svg" "flags.svg" "method-draw-image (15).svg" "cape-svgrepo-com.svg" "bay.svg" "explore.svg" "mapiconscollection-stores-5ec8bd-simple.zip" "drive-download-20210302T140109Z-001.zip" "mapiconscollection-nature-128e4d-simple.zip" "route-66.svg" "CorrectAndWrongSoundEffect.rar" "json-c-json-c-0.15-20200726.tar.gz" "landscape.svg" "landscape (3).svg" "unlock.svg" "cape-svgrepo-com4.svg" "dumbbell.svg" "volcano.svg" "cemetery.svg" "osm2pgsql-1.4.0.zip" "colosseum.svg" "mapbox-maki-7d8563e/" "transportation.svg" "geyser.svg" "markericons/" "Tokyo-vector-skyline.zip" "loca launcher (1).png" "pangong-tso.svg" "buildings.svg" "method-draw-image (16).svg" "loca launcher_z2.png" "landscape (1).svg" "method-draw-image (8).svg" "noun_nature_3544838.svg" "technical-support.svg" "track.svg" "river.svg" "method-draw-image (14).svg" "hello_im_localore_no_background.svg" "building.svg" "fire.svg" "cats" "../" "./")
+ ("/home/martin/stuff/" (24792 22739 128962 66000) "jobbansökan/" "#anteckningar.org#" ".bashrc" "m.jpg" "android-dev/" "Makefile_filename_switch" ".zshrc" "i" "./" "../" ".tmux.conf" ".git/" "touchpad_draglock.sh" "anteckningar.org")
 
- ("/home/martin/dev/loca4/backend/db/languages-table/" (24622 57423 602201 356000) "./" "../" "languages.js" "setup_languages_table.js")
+ ("/home/martin/Desktop/" (24880 47363 170586 46000) "Vetenskapssocietetens_hus_panorama (1).jpg" "private_key.pepk" "Vetenskapssocietetens_hus_panorama.jpg" "storesv.txt" "båtskada/" "pavlova-diagram.png" "Screenshot from 2021-07-16 21-30-53.xcf" "after.log" "simp" "1920px-Vetenskapssocietetens_hus_panorama.jpg" "./" "../" "Coat_of_arms_of_Sweden_(shield_and_chain).svg" "before.log" "Screenshot from 2021-07-16 21-30-53.png")
 
- ("/home/martin/Downloads/mapbox-maki-7d8563e/" (24615 6901 529587 30000) "package-lock.json" "design-templates/" "content" "./" "../" "README.md" "scripts/" "CODEOWNERS" "package.json" "icons/" ".eslintrc" "ISSUE_TEMPLATE.md" "LICENSE.txt" "CHANGELOG.md" "layouts/" ".gitignore" ".npmignore" "index.js" "test/" ".travis.yml")
+ ("/home/martin/dev/loca4/android/app/src/main/java/com/masel/localore/" (24884 42337 626650 909000) "SplashActivity.java" "GeoObjectsDistanceRecord.java" "LoadNextLevelActivity.java" "NightSkyView.java" "SupercatActivity.java" "SettingsActivity.java" "SettingsFragment.java" "model/" "LoadAreaActivity.java" "SelectAreaActivity.java" "CacheGeoObjectsService.java" "ExploreActivity.java" "PlusComparisonView.java" "LocaUtils.java" "LoadingActivity.java" "CircularRevealTransition.java" "server/" "UnlockPlusSuggestionActivity.java" "TimerView.java" "AreaActivity.java" "ClickSupport.java" "GeoObjectMap.java" "VibrationMessage.java" "QuizResultActivity.java" "SoundMessage.java" "./" "ImagesLoader.java" "PlusManager.java" "LocaloreApplication.java" "MessageToUser.java" "KeyboardUtils.java" "../" "StartQuizDialog.java" "MessageToUser.java.~99a1612743aafd64f140bfe1315409849567b6b0~" "QuizIntroActivity.java" "GeoObjectInMap.java" "CreateAreaActivity.java" "QuizActivity.java")
 
- ("/home/martin/dev/" (24614 62117 992276 417000) "postgis/" "./" "../" "MaselUtils/" "loca3/" "loca4/" "map-icons/" "loca2/" "TheSoundRecorder/" "AlmightyVolumeKeys/")
-
- ("/home/martin/dev/map-icons/" (24614 62122 284302 990000) "nickw/" "geoinfo.db" "japan/" "debian/" "icons.dtd" "index_poi.de.html" "2020iconset/" "square.big/" "svg/" "index_poi.en.html" "index_all.de.html" "index_all.en.html" "./" "square.small.xcf" "square.small/" "../" "index_rendering.de.html" "index_general.en.html" "square.big.xcf" "index_all-abs.en.html" "index_rendering.en.html" ".git/" "index_dynamic.en.html" "classic.small/" "classic.big/" "create_icons_index.pl" "README" "icons.xml" "tools/" "svg-twotone/" "ok.png" "index_dynamic.de.html" "index_general.de.html" "CMakeLists.txt" "README.icons")
-
- ("/media/martin/loca/" (24612 45946 926277 677000) "small.json" "./" "wd-out" "lost+found/" "../" "latest-all.json" "postgres/" "extractGeoElems.py")
-
- ("/media/martin/" (24612 36661 1916 434000) "./" "../" "loca/")
-
- ("/media/" (24604 28571 749242 862000) "martin/" "./" "../")
-
- ("/home/martin/dev/loca3/tag-to-category-conversion/" (24603 47404 395270 772000) "osm2pgsql_output-gazetter.cpp_process_tags" "create-list-of-interesting-keys.py" "./" "key-conversion-table" "../" "tags-from-nom-classTypes" "key-value-conversion-table")
-
- ("/home/martin/dev/loca3/" (24603 47404 395270 772000) "db/" "nom_query.sql" "tag-to-category-conversion/" "loca_query.sql" "./" "../" ".gradle/" "README.md" "nom_query_testing.sql" ".git/" "log.org" ".gitignore")
-
- ("/home/martin/dev/loca2/" (24601 41113 515451 830000) "Disposition (Local geography educator, Martin Sellergren).pdf" "Disposition (Local geography educator, Martin Sellergren).odt" "Database ER Diagram.png" "style/" "presentation/" "./" "Layout-spec.odt" "../" "specification.odt" "README.md" "report/" ".git/" "app_screenshots/" "data_processing/" "Localore.zip" "categories.txt" ".idea/" ".gitignore" "app/" "existing.txt" "Layout-spec.pdf" "Specification of Local geography educator, Martin Sellergren.pdf" "draft.txt")
-
- ("/home/martin/.gradle/" (24602 22247 278669 571000) "./" "native/" "../" "daemon/" "wrapper/" "gradle.properties" "caches/")
-
- ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23689 3215 459034 904000) "GeoObject.java" "../" "App.java" "./")
-
- ("/home/martin/loca3/loca3/" (23687 54641 453423 37000) "nom_query.sql" "tag-to-category-conversion/" ".git/" "README.md" "db/" ".gitignore" ".gradle/" "../" "./" "log.org" "loca_query.sql" "nom_query_testing.sql")
-
- ("/home/martin/loca3/loca3/tag-to-category-conversion/" (23685 5180 117038 710000) "create-list-of-interesting-keys.py" "key-conversion-table" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./" "tags-from-nom-classTypes" "key-value-conversion-table")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/" (23454 14315 7172 969000) "LocaloreApplication.java" "modelManipulation/" "Timer.java" "LoadingNewExerciseActivity.java" "LocaUtils.java" "RecyclerItemClickListener.java" "QuizResultActivity.java" "SplashActivity.java" "GeoObjectMap.java" "TappingActivity.java" "model/" "CreateExerciseService.java" "../" "AboutActivity.java" "ExerciseActivity.java" "CreateExerciseActivity.java" "SelectExerciseActivity.java" "./" "TalkActivity.java" "QuizActivity.java")
-
- ("/home/martin/loca2/app/Localore/app/" (23451 43081 312669 58000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "libs/" "../" "proguard-rules.pro" "./" "release/")
-
- ("/home/martin/loca2/app/Localore/" (23451 43081 268668 709000) "gradle/" "local.properties" ".gitignore" "gradlew" "Localore.iml" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/loca2/app/" (23454 15101 50524 1000) "javadoc/" "Localore/" "Localore.zip" "MainActivity.java" "../" "./")
-
- ("/home/martin/loca2/" (23454 15010 45522 379000) "Layout-spec.pdf" "style/" "categories.txt" "draft.txt" "report/" ".git/" "README.md" "icons/" "Localore.zip" ".gitignore" "app_screenshots/" "mockups/" "app/" "specification.odt" "../" "Layout-spec.odt" "Disposition (Local geography educator, Martin Sellergren).odt" "existing.txt" "Disposition (Local geography educator, Martin Sellergren).pdf" "data_processing/" "./" "Specification of Local geography educator, Martin Sellergren.pdf" "presentation/" ".idea/" "Database ER Diagram.png")
-
- ("/home/martin/loca3/loca3/nominatim-keys/" (23648 22066 992691 144000) "create-list-of-interesting-keys.py" "key-spec" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "k" "./" "key-value-spec")
-
- ("/home/martin/loca3/loca3/tags-spec_obsolete/" (23620 33219 518931 626000) "create_list.py" "../" "iD_presets_sv.json" "tags-spec-raw" "./" "iD_presets_fr.json" "iD_presets_en.json" "iD_presets_es.json" "tags-spec-complete")
-
- ("/home/martin/loca3/" (23640 29434 336339 783000) "nominatim_src/" "osm2pgsql/" "loca3/" "Nominatim-3.2.0.tar.bz2" "overpass-turbo/" "../" "./" "Nominatim-3.2.0/")
-
- ("/home/martin/loca3/nominatim_src/website/" (23606 10843 676233 806000) "status.php" "reverse.php" "search.php" "js/" "hierarchy.php" "lookup.php" "css/" "../" "images/" "deletable.php" "polygons.php" "./" "details.php")
-
- ("/home/martin/loca3/nominatim_src/" (23606 10843 676233 806000) "module/" "CONTRIBUTING.md" "AUTHORS" ".gitmodules" "vagrant/" "CMakeLists.txt" "docs/" "osm2pgsql/" "cmake/" ".git/" "ChangeLog" "README.md" "COPYING" ".gitignore" "munin/" "data-sources/" "settings/" "mysql2pgsql/" "wikidata/" "VAGRANT.md" "lib/" "../" "nominatim/" "./" "utils/" "phpcs.xml" "Vagrantfile" "data/" "test/" ".travis.yml" "sql/" "website/")
-
- ("/home/martin/loca3/nominatim_src/lib/" (23606 10843 568234 530000) "setup_functions.php" "template/" "ReverseGeocode.php" "Status.php" "cmd.php" "TokenPostcode.php" "setup/" "TokenCountry.php" "db.php" "PlaceLookup.php" "Geocode.php" "AddressDetails.php" "TokenList.php" "output.php" "TokenWord.php" "../" "DatabaseError.php" "TokenHousenumber.php" "ClassTypes.php" "SearchContext.php" "ParameterParser.php" "TokenSpecialTerm.php" "Result.php" "SpecialSearchOperator.php" "Phrase.php" "./" "lib.php" "SearchDescription.php" "log.php" "init-website.php" "DebugHtml.php" "init.php" "init-cmd.php" "DebugNone.php")
-
- ("/home/martin/loca3/nominatim_src/lib/template/" (23606 10843 568234 530000) "address-xml.php" "search-batch-json.php" "search-html.php" "search-geocodejson.php" "search-xml.php" "includes/" "search-geojson.php" "error-xml.php" "error-json.php" "../" "details-html.php" "address-geojson.php" "details-error-html.php" "error-html.php" "details-json.php" "./" "address-json.php" "address-geocodejson.php" "search-json.php" "address-html.php")
-
- ("/home/martin/loca3/loca3/db/" (23611 16156 68259 436000) "gradle/" ".gitignore" "gradlew" "src/" "build.gradle" "system.out~" "build/" ".gradle/" "../" "system.out" "./" "gradlew.bat" "settings.gradle")
-
- ("/home/martin/loca3/loca3/key-spec/" (23628 16605 491251 209000) "create-list-of-interesting-keys.py" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./")
-
- ("/home/martin/loca3/loca3/tags-spec/" (23614 63011 332088 476000) ".#Makefile" "create_list.py" "../" "iD_presets_sv.json" "tags-spec-raw" "./" "iD_presets_fr.json" "iD_presets_en.json" "iD_presets_es.json" "tags-spec-complete")
-
- ("/home/martin/loca/loca-studies/style/" (23429 5326 615806 765000) "categories.txt" "code-local.json" "Streets.json" "styleCreator.py" "full-en.json" "full-local.json" "info.py" "box-local.json" ".gradle/" "../" "code-en.json" "./" "box-en.json" "Makefile")
-
- ("/home/martin/loca3/loca3/db/src/" (23606 10395 273056 614000) "main/" "../" "./" "test/")
-
- ("/home/martin/loca3/loca3/db/src/main/" (23606 10395 273056 614000) "../" "./" "java/")
-
- ("/home/martin/loca3/loca3/db/src/main/java/" (23606 10395 273056 614000) "../" "./" "Loca_db_construction/")
-
- ("/home/martin/loca3/overpass-turbo/data/" (23608 47186 279026 912000) "iD_presets_pl.json" "iD_presets_sl.json" "iD_presets_uk.json" "iD_presets_nl.json" "iD_presets_ja.json" "iD_presets_no.json" "iD_presets_fa.json" "iD_presets_da.json" "iD_presets_ca.json" "iD_presets_vi.json" "iD_presets_ro.json" "iD_presets_zh-TW.json" "iD_presets_it.json" "iD_presets_pt-BR.json" "iD_presets_hu.json" "../" "iD_presets_sv.json" "iD_presets_et.json" "iD_presets_pt.json" "iD_presets.json" "iD_presets_el.json" "iD_presets_de.json" "./" "iD_presets_fr.json" "iD_presets_ru.json" "iD_presets_hr.json" "iD_presets_en.json" "get_preset_translations.js" "iD_presets_es.json")
-
- ("/home/martin/loca3/overpass-turbo/" (23606 9685 478051 345000) "karma.conf.js" "CHANGELOG.md" ".git/" "README.md" "LICENSE" "locales/" "webpack.config.js" "icons/" "js/" ".gitignore" "map.html" "package.json" "map-key.png" "favicon.ico" "tests/" "index.html" "css/" "../" "TODO.md" "./" "data/" "Makefile" ".travis.yml" "land.html" "turbo.png")
-
- ("/home/martin/loca3/Nominatim-3.2.0/build/utils/" (23606 7745 424495 58000) "server_compare.php" "importWikipedia.php" "imports.php" "export.php" "update.php" "query.php" "specialphrases.php" "../" "./" "blocks.php" "country_languages.php" "setup.php" "warm.php")
-
- ("/home/martin/loca2/style/" (23419 191 736807 626000) "loca-default-map-style.json" "Streets.json" "styleCreator.py" "../" "./" "loca-default-map-style_noLabels.json" "Makefile")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/" (23422 64587 306839 917000) "RunningQuizControl.java" "SessionControl.java" "ExerciseControl.java" "../" "./")
-
- ("/home/martin/loca2/app/Localore/app/src/main/" (23419 64621 796297 600000) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/" (23421 22348 596562 411000) "QuizCategoryDao.java" "GeoObject.java" "RunningQuiz.java" "RunningQuizDao.java" "User.java" "Exercise.java" "GeoObjectDao.java" "GeoObjInstructionsIter.java" "QuizDao.java" "Quiz.java" "QuizCategory.java" "ExerciseDao.java" "QuestionDao.java" "UserDao.java" "../" "NodeShape.java" "SessionDao.java" "Question.java" "Session.java" "./" "AppDatabase.java" "AppDatabaseConverters.java")
-
- ("/home/martin/loca/loca-studies/" (23226 23418 419389 872000) "style/" ".git/" "README.md" ".gitignore" "imgviewer/" "app/" ".gradle/" "../" "./" "imgs/" "font/")
-
- ("/home/martin/loca/" (23230 16806 887558 648000) "loca-studies/" "../" "./" "test/")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/localore/" (23381 50592 756863 735000) "localore/" "../" "./")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/com/" (23381 50592 756863 735000) "localore/" "../" "./")
-
- ("/home/martin/loca2/app/Localore/app/src/main/java/" (23381 50592 752861 785000) "com/" "../" "./")
-
- ("/home/martin/loca2/app/Localore/app/src/" (23381 50592 696834 488000) "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/loca2/app/Localore/app/src/main/res/" (23411 3400 904334 705000) "raw/" "drawable-v24/" "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "drawable-hdpi/" "drawable-mdpi/" "mipmap-anydpi-v26/" "transition/" "menu/" "drawable-xxhdpi/" "../" "mipmap-xxxhdpi/" "values/" "layout/" "anim/" "./" "drawable/" "drawable-xhdpi/")
-
- ("/home/martin/loca2/app/Localore/app/src/main/res/raw/" (23413 47652 299519 313000) "ql_query.txt" "../" "./" "tag_categories.json")
-
- ("/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/" (21882 49281 822010 0) "slutuppgift.txt" "10 Animations.pdf" "r2.txt" "Transitions and transforms/" "r4.txt" "r9.txt" "intervjuv.txt" "2 (Illusions).pdf" "7 Drag and Drop.pdf" "r7.txt" "5 CSS transitions and actions.pdf" "r8.txt" "3 Human Factors 2.pdf" "slutuppgift.docx" "reflektioner.png" "../" "r5.txt" "r6.txt" "projektet/" "9 Canvas and animations.pdf" "./" "Reference literature (lösen Jabberwock)/" "8 UNDO-REDO.pdf" "r10.txt" "r3.txt" "6 User Interface structure.pdf" "r1.txt" "exempel, databas/" "1 Introduction.pdf" "20131213_065034.jpg" "4 Requirements, HTML programming.pdf" "4 HTML, CSS och JavaScript.pdf" "2 Human Factors 1.pdf")
-
- ("/home/martin/skola/" (23272 26149 155134 808000) "GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/" "../" "./")
-
- ("/home/martin/uama/git/uama/notes/" (23408 12900 908182 425000) "mod6.org" "mod10.org" "mod2.org" "mod5.org" "Android.Programming.Ranch.Guide.Guides.16.pdf" "mod8.org" "mod7.org" "mod4.org" "../" "mod3.org" "./" "mod11_db_service.org" "mod1.org")
-
- ("/home/martin/loca/loca-studies/app/src/main/" (22865 37756 843692 612000) "../" "./" "java/")
-
- ("/home/martin/loca/loca-studies/app/src/" (23068 34463 717001 313000) "main/" "makePublic" "../" "./" "test/" "backToDefaults")
-
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/" (23366 8277 597220 628000) "FindScoreDiceTest.java" "FindScoreDice2.java" "../" "./")
-
- ("/home/martin/loca2/data_processing/test/src/test/java/" (23384 35348 506773 155000) "AcquireGeoObjects.java" "MyFormatter.java" "MyFormatter.class" "../" "./")
-
- ("/home/martin/uama/material/slides etc/" (23375 38882 490975 119000) "modul4-fragment_arguments_viewpager-1.pdf" "modul10-positionering_och_kartor-1.pdf" "modul7-Camera-1.pdf" "CriminalIntent/" "GeoQuiz2/" "modul5-design-3.pdf" "modul2_debugging-1.pdf" "modul5_omrapportskrivande-1.pdf" "modul3-layouts_widgets.pdf" "modul3-fragment.pdf" "ActivityLifeCycle/" "modul9-egna_widgets.pdf" "modul1_model_view_controller.pdf" "modul4-retaining_localisation.pdf" "CriminalIntent2/" "ovningar.pdf" "GeoQuiz/" "modul7-Etik_o_sakerhet.pdf" "modul4-komponenter-1.pdf" "modul1_intro_till_kurs_och_android.pdf" "../" "layouts.pdf" "modul2_andra_aktivitet_intent_manifest.pdf" "modul3-lists_and_adapters.pdf" "./" "modul8-content_providers_services.pdf" "modul11-Publish.pdf" "GeoQuiz3/" "CriminalIntent6/" ".idea/" "modul2_aktiviteter-1.pdf" "modul6-lagradata.pdf" "SaveStateExercise.1/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (21840 52300 0 0) "CrimeFragment.java" "CrimeListActivity.java" "../" "CrimePagerActivity.java" "CrimeLab.java" "Crime.java" "./" "CrimeListFragment.java" "DatePickerFragment.java" "SingleFragmentActivity.java")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (21808 63696 0 0) "criminalintent/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/" (21808 63696 0 0) "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/" (21808 63696 0 0) "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/" (21808 63696 0 0) "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/" (21843 3202 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/" (21808 63696 0 0) "androidTest/" "main/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/" (23371 54924 494832 577000) ".gitignore" "src/" "build.gradle" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/" (23373 6106 822366 232000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "LICENSE.txt" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/" (23371 54698 418807 59000) "CriminalIntent/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (23372 61605 372719 909000) "CrimeFragment.java" "../" "CrimeActivity.java" "Crime.java" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (23146 3043 0 0) "criminalintent/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/" (23146 3043 0 0) "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/" (23146 3043 0 0) "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/" (23146 3043 0 0) "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/" (23146 3043 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/" (23146 3043 0 0) "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/build/" (23366 32612 502490 79000) "../" "tmp/" "./" "outputs/" "intermediates/" "generated/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/" (23366 35305 381726 521000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/" (23366 23901 590518 429000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
+ ("/home/martin/.emacs.d/elpa/lua-mode-20201010/" (24871 24385 943996 22000) "lua-mode-autoloads.el" "init-tryout.el" "lua-mode-pkg.el" "./" "lua-mode.el" "../")
 )
 
 ;; ----- ido-unc-hosts-cache -----

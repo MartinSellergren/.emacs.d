@@ -1,3 +1,4 @@
+;; * All
 ;; init.el --- GNU Emacs Setup by Martin Selergren
 ;;
 ;;; Commentary:
@@ -28,9 +29,7 @@
 ;; shortcut you don't like, you can (and should!) always change it to
 ;; something that you do like.
 
-;; ===========
-;; Appearance
-;; ===========
+;; * Appearance
 
 (set-face-attribute 'region nil
   :distant-foreground "white" :background "deep sky blue")
@@ -82,9 +81,7 @@
 ;(setq split-height-threshold nil)
 ;(setq split-width-threshold 0)
 
-;; =========
-;; Packages
-;; =========
+;; * Packages
 
 ;; Use more package-archives (M-x list-packages)
 ;; (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
@@ -119,9 +116,7 @@ There are two things you can do about this warning:
 (let ((default-directory "~/.emacs.d/elpa/"))
   (normal-top-level-add-subdirs-to-load-path))
 
-;; ===========
-;; Navigation
-;; ===========
+;; * Navigation
 
 ;; Show both line and column number in the bottom of the buffer
 (column-number-mode t)
@@ -174,9 +169,7 @@ There are two things you can do about this warning:
 (global-set-key (kbd "C-'") 'scroll-up-line)
 (global-set-key (kbd "C-¨") 'scroll-down-line)
 
-;; ===========
-;; Editing
-;; ===========
+;; * Editing
 
 ;; Allow deletion of selected text with <DEL>
 (delete-selection-mode 1)
@@ -308,9 +301,7 @@ There are two things you can do about this warning:
    [?\M-s ?o ?^ ?\\ ?w ?. ?* ?\) ?$ return])
 
 
-;; ============
-;; Programming
-;; ============
+;; * Programming
 
 ;; Flycheck
 (require 'flycheck)
@@ -385,15 +376,13 @@ There are two things you can do about this warning:
 (global-set-key (kbd "C-ä") 'jpublic)
 
 
-;; ============
-;; Other
-;; ============
+;; * Other
 
 ;; sql indent 2 spaces
-(defun my-sql-mode-hook ()
-  (add-hook 'hack-local-variables-hook
-            (lambda () (setq indent-tabs-mode nil) (setq tab-width 4) )))
-(add-hook 'sql-mode-hook 'my-sql-mode-hook)
+;; (defun my-sql-mode-hook ()
+;;   (add-hook 'hack-local-variables-hook
+;;             (lambda () (setq indent-tabs-mode nil) (setq tab-width 4) )))
+;; (add-hook 'sql-mode-hook 'my-sql-mode-hook)
 
 ;; javascript indent 2 spaces
 (add-hook 'js-mode-hook
@@ -410,8 +399,27 @@ There are two things you can do about this warning:
   (find-file-other-window user-init-file))
 (global-set-key (kbd "C-c I") 'open-init-file)
 
+;; org-mode
+(setq org-src-fontify-natively t)
 
-;; jump between parentesis - replace forward/backward sexp
+;; dumb-jump
+(dumb-jump-mode)
+(setq dumb-jump-aggressive t)
+
+;; visual-regexp-steroids, for python regexp engine
+(add-to-list 'load-path "folder-to/visual-regexp/")
+(add-to-list 'load-path "folder-to/visual-regexp-steroids/")
+(require 'visual-regexp-steroids)
+(define-key global-map (kbd "C-c r") 'vr/replace)
+(define-key global-map (kbd "C-c q") 'vr/query-replace)
+;; if you use multiple-cursors, this is for you:
+(define-key global-map (kbd "C-c m") 'vr/mc-mark)
+;; to use visual-regexp-steroids's isearch instead of the built-in regexp isearch, also include the following lines:
+(define-key esc-map (kbd "C-r") 'vr/isearch-backward) ;; C-M-r
+(define-key esc-map (kbd "C-s") 'vr/isearch-forward) ;; C-M-s
+
+
+;; ** jump between parentesis - replace forward/backward sexp
   (defun skip-string-forward (&optional limit)
      (if (eq (char-after) ?\")
          (catch 'done
@@ -442,6 +450,8 @@ There are two things you can do about this warning:
                  (throw 'done nil) )
              (if (not (eq (char-before) ?\\))
                  (throw 'done nil) ) ) ) ) )
+
+;; ** Jump between parentesis
 
    (defun forward-pexp (&optional arg)
      (interactive "p")
@@ -534,12 +544,14 @@ There are two things you can do about this warning:
                           (setq arg (1+ arg)) ) ) ) ) ) ) ) ))
 
    (setq forward-sexp-function 'forward-pexp)
-;;;;;;;;;;;;;;;;;;;;;;;; end jump between parentesis
 
 
 
 
-;; indent and unindent, https://stackoverflow.com/questions/2249955/emacs-shift-tab-to-left-shift-the-block
+
+;; ** indent and unindent
+;; https://stackoverflow.com/questions/2249955/emacs-shift-tab-to-left-shift-the-block
+
 (defun indent-region-custom(numSpaces)
     (progn
         ; default to start and end of current line
@@ -586,29 +598,7 @@ There are two things you can do about this warning:
 (global-set-key (kbd "<backtab>") 'untab-region)
 ;;(global-set-key (kbd "<tab>") 'tab-region)
 
-;; org-mode
-(setq org-src-fontify-natively t)
-
-;; dumb-jump
-(dumb-jump-mode)
-(setq dumb-jump-aggressive t)
-
-;; visual-regexp-steroids, for python regexp engine
-(add-to-list 'load-path "folder-to/visual-regexp/")
-(add-to-list 'load-path "folder-to/visual-regexp-steroids/")
-(require 'visual-regexp-steroids)
-(define-key global-map (kbd "C-c r") 'vr/replace)
-(define-key global-map (kbd "C-c q") 'vr/query-replace)
-;; if you use multiple-cursors, this is for you:
-(define-key global-map (kbd "C-c m") 'vr/mc-mark)
-;; to use visual-regexp-steroids's isearch instead of the built-in regexp isearch, also include the following lines:
-(define-key esc-map (kbd "C-r") 'vr/isearch-backward) ;; C-M-r
-(define-key esc-map (kbd "C-s") 'vr/isearch-forward) ;; C-M-s
-
-;;;;;;;;;;;;;;;;;;;;;;;;end indent/unindent
-
-
-;; outshine (code folding)
+;; ** Outshine (code folding)
 (defvar outline-minor-mode-prefix "\M-#")
 ;;(add-hook 'prog-mode-hook 'outshine-mode)
 (require 'outshine)
@@ -621,9 +611,7 @@ There are two things you can do about this warning:
 ;; save when loses focus
 ;; (add-hook 'focus-out-hook 'save-buffer)
 
-
-
-;; My stuff, new additions last
+;; * My stuff, new additions last
 
 (fset 'lua
       [?\M-x ?f ?i ?n ?d ?- ?l ?i ?b ?r ?a ?r ?y return ?l ?u ?a ?- ?m ?o ?d ?e return ?\M-x ?e ?v ?a ?l return ?\C-x ?b return ?\M-x ?l ?u ?a ?- ?m ?o ?d ?e return ?\M-x ?o ?u ?s backspace ?t ?h backspace ?s ?h ?i ?n ?e ?- ?m ?o ?d ?e return])
@@ -638,7 +626,26 @@ There are two things you can do about this warning:
    [?\C-u ?s ?\C-a ?\C-k ?- ?a ?l ?h ?S return])
 
 (fset 'sortbynameordate
-   "s")
+      "s")
 
+(fset 'sql-over-ssh
+      [?\M-x ?s ?e ?t ?- ?v ?a ?r ?i ?a ?b ?l ?e return ?s ?q ?l ?- ?d ?e ?f ?a ?u ?l ?t ?- ?d ?i ?r ?e ?c ?t ?o ?r ?y return ?\" ?/ ?l ?o ?c ?a ?s ?e ?r ?v ?e ?r ?2 ?: ?\" ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?\C-b ?s ?s ?h ?: return])
+
+(fset 'catquery
+      [?s ?e ?l ?e ?c ?t ?  ?n ?a ?m ?e ?, ?c ?a ?t ?e ?g ?o ?r ?y ?, ?t ?o ?r ?w ?e ?b ?s ?( ?o ?s ?m ?i ?d ?s ?) ?, ?a ?s ?w ?e ?b ?( ?g ?e ?o ?m ?) ?  ?f ?r ?o ?m ?  ?c ?a ?t ?e ?l ?e ?m ?s ?  ?w ?h ?e ?r ?e ?  ?o ?s ?m ?i ?d ?s ?  ?@ ?> ?  ?a ?r ?r ?a ?y ?\[ ?\] ?\; left left ?\' ?\' left ?\C-y])
+
+(fset 'popquery
+   [?s ?e ?l ?e ?c ?t ?  ?n ?a ?m ?e ?, ?c ?a ?t ?e ?g ?o ?r ?y ?, ?t ?o ?r ?w ?e ?b ?s ?\( ?o ?s ?m ?i ?d ?s ?\) ?, ?a ?s ?w ?e ?b ?\( ?g ?e ?o ?m ?\) ?  ?f ?r ?o ?m ?  ?p ?o ?p ?e ?l ?e ?m ?s ?  ?w ?h ?e ?r ?e ?  ?o ?m ?s backspace backspace ?s ?m ?i ?d ?s ?  ?@ ?> ?  ?a ?r ?r ?a ?y ?\[ ?\' ?\C-y ?\' ?\] ?\;])
+
+
+;; sql column jumping
+(fset 'prev_sql_column
+   "\C-r|\C-b\C-r|\C-f\C-f")
+(fset 'next_sql_column
+      "\C-s|\C-f")
+(global-set-key (kbd "C-M-;") 'prev_sql_column)
+(global-set-key (kbd "C-M-:") 'next_sql_column)
+
+(global-set-key (kbd "C-M-_") 'browse-url-at-point)
 
 ;;; init.el ends here

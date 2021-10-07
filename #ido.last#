@@ -2,8 +2,72 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/martin/dev/" . "loca3/")
- ("/home/martin/dev/loca4/backend/db/" . "testing/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/media/martin/locadb/locadb/main/" . "log/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/media/martin/locadb/locadb/" . "main/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/media/martin/locadb/" . "locadb/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/media/martin/" . "locadb/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/media/" . "martin/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/var/lib/postgresql/13/" . "main/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/var/lib/postgresql/" . "13/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/var/lib/" . "postgresql/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/etc/postgresql/13/" . "main/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/etc/postgresql/" . "13/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/etc/" . "postgresql/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/var/log/" . "postgresql/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/var/" . "lib/")
+ ("/ssh:locaserver2|sudo:root@locaserver2:/" . "media/")
+ ("/var/log/" . "postgresql/")
+ ("/etc/postgresql/13/" . "main/")
+ ("/etc/postgresql/" . "13/")
+ ("/ssh:locaserver2|sudo:locaserver2:/var/lib/postgresql/13/" . "main/")
+ ("/ssh:locaserver2|sudo:locaserver2:/var/lib/postgresql/" . "13/")
+ ("/ssh:locaserver2|sudo:locaserver2:/var/lib/" . "postgresql/")
+ ("/ssh:locaserver2|sudo:locaserver2:/var/" . "lib/")
+ ("/ssh:locaserver2|sudo:locaserver2:/" . "var/")
+ ("/ssh:locaserver2:/home/martin/dev/loca4/" . "backend/")
+ ("/ssh:locaserver2:/home/martin/dev/" . "loca4/")
+ ("/ssh:locaserver2:/home/martin/" . "dev/")
+ ("/ssh:locaserver2:dev/loca4/backend/db/" . "wikidata/")
+ ("/ssh:locaserver2:dev/loca4/backend/" . "db/")
+ ("/ssh:locaserver2|sudo:locaserver2:/etc/postgresql/13/" . "main/")
+ ("/ssh:locaserver2|sudo:locaserver2:/etc/postgresql/" . "13/")
+ ("/sudo:masel:/etc/postgresql/13/" . "main/")
+ ("/sudo:masel:/etc/postgresql/" . "13/")
+ ("/sudo:masel:/etc/" . "postgresql/")
+ ("/sudo:masel:/var/lib/postgresql/" . "13/")
+ ("/sudo:masel:/var/lib/" . "postgresql/")
+ ("/sudo:masel:/var/" . "lib/")
+ ("/sudo:masel:/" . "etc/")
+ ("/ssh:locaserver2:/home/martin/dev/loca4/backend/db/" . "wikidata/")
+ ("/ssh:locaserver2:/home/martin/dev/loca4/backend/" . "db/")
+ ("/ssh:locaserver2:dev/loca4/" . "backend/")
+ ("/ssh:locaserver2:dev/" . "loca4/")
+ ("/ssh:locaserver2:" . "dev/")
+ ("/sudo::/" . "tmp/")
+ ("/ssh:locaserver2|sudo:locaserver2:/etc/systemd/" . "system/")
+ ("/ssh:locaserver2|sudo:locaserver2:/etc/" . "postgresql/")
+ ("/ssh:locaserver|sudo:locaserver:/etc/systemd/" . "system/")
+ ("/ssh:locaserver|sudo:locaserver:/" . "etc/")
+ ("/ssh:locaserver:" . "Desktop/")
+ ("/ssh:locaserver:/etc/systemd/" . "system/")
+ ("/ssh:loca|sudo:loca:/etc/systemd/" . "system/")
+ ("/ssh:loca|sudo:loca:/etc/" . "systemd/")
+ ("/ssh:loca:/etc/" . "systemd/")
+ ("/etc/systemd/" . "system/")
+ ("/etc/" . "postgresql/")
+ ("/ssh:loca|sudo:loca:" . "snap/")
+ ("/ssh:loca:dev/loca4/" . "backend/")
+ ("/ssh:loca:dev/" . "loca4/")
+ ("/ssh:loca:" . "dev/")
+ ("/ssh:loca:/etc/systemd/" . "system/")
+ ("/ssh:loca:/" . "/")
+ ("/home/martin/Downloads/" . "mapbox-maki-7d8563e/")
+ ("/media/martin/" . "loca/")
+ ("/media/" . "martin/")
+ ("/home/martin/dev/loca4/backend/" . "db/")
+ ("/home/martin/dev/loca4/" . "backend/")
+ ("/home/martin/dev/" . "loca4/")
+ ("/home/martin/dev/loca4/backend/db/" . "wikidata/")
  ("/home/martin/loca2/app/Localore/" . "app/")
  ("/home/martin/loca3/nominatim_src/" . "lib/")
  ("/home/martin/loca3/loca3/db/src/main/java/" . "Loca_db_construction/")
@@ -161,7 +225,7 @@
  ("/home/martin/OPP/module1-IPC/" . "simple-shell/")
  ("/home/martin/OPP/module1/" . "game-of-luck/")
  ("/home/martin/OPP/module1/simple-shell/shell-skeleton-2016-v2.0.tar.bz.1/shell/" . "src/")
- ("/home/martin/" . "loca3/")
+ ("/home/martin/" . "dev/")
  ("/home/martin/OPP/module1/game-of-luck/craps-skeleton-2016-v2.0-tar.bz.1/" . "craps/")
  ("/home/martin/OPP/module1/game-of-luck/" . "craps-skeleton-2016-v2.0-tar.bz.1/")
  ("/home/martin/PKD/labbar/" . "lab18/")
@@ -180,97 +244,145 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/martin/dev/loca4/"
  "/home/martin/dev/loca4/backend/db/"
+ "/home/martin/dev/loca4/backend/"
+ "/ssh:locaserver2:dev/loca4/backend/"
+ "/home/martin/dev/loca4/backend/db/wikidata/"
+ "/home/martin/stuff/"
+ "/ssh:locaserver2|sudo:root@locaserver2:/var/log/"
+ "/ssh:locaserver2|sudo:root@locaserver2:/media/martin/locadb/locadb/main/log/"
+ "/ssh:locaserver2|sudo:root@locaserver2:/etc/postgresql/13/main/"
+ "/ssh:locaserver2|sudo:root@locaserver2:/var/log/postgresql/"
+ "/var/log/postgresql/"
+ "/etc/postgresql/13/main/"
+ "/ssh:locaserver2|sudo:locaserver2:/etc/postgresql/13/main/"
+ "/ssh:locaserver2:/home/martin/dev/loca4/backend/db/"
+ "/ssh:locaserver2:/home/martin/dev/loca4/backend/"
+ "/ssh:locaserver2|sudo:locaserver2:/etc/"
+ "/ssh:locaserver2:/etc/"
+ "/ssh:locaserver2:dev/loca4/backend/db/wikidata/"
+ "/sudo:masel:/etc/postgresql/13/main/"
  "/home/martin/dev/loca4/backend/db/testing/"
- "/home/martin/dev/loca3/"
+ "/ssh:locaserver2:dev/loca4/"
+ "/ssh:locaserver2:/home/martin/dev/loca4/backend/db/wikidata/"
  "/home/martin/dev/loca4/backend/db/languages-table/"
+ "/home/martin/Desktop/"
+ "/home/martin/"
+ "/var/lib/postgresql/13/main/log/"
+ "/home/martin/.ssh/"
+ "/sudo:root@masel:/tmp/"
+ "/sudo::/tmp/"
+ "/tmp/"
+ "/home/martin/dev/loca3/"
+ "/home/martin/.emacs.d/"
+ "/ssh:locaserver2|sudo:root@locaserver2:/etc/systemd/system/"
+ "/ssh:locaserver2|sudo:locaserver2:/etc/systemd/system/"
+ "/ssh:locaserver|sudo:locaserver:/etc/systemd/system/"
+ "/ssh:locaserver:/etc/systemd/system/"
+ "/ssh:loca|sudo:root@loca:/etc/systemd/system/"
+ "/ssh:loca|sudo:loca:/etc/systemd/system/"
+ "/ssh:loca:/etc/systemd/system/"
+ "/ssh:loca:"
+ "/ssh:loca:dev/loca4/backend/"
+ "/home/martin/Downloads/"
+ "/home/martin/Downloads/mapbox-maki-7d8563e/"
+ "/home/martin/dev/map-icons/"
+ "/media/martin/loca/"
+ "/home/martin/dev/loca3/tag-to-category-conversion/"
  "/home/martin/loca3/loca3/"
  "/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/"
  "/home/martin/loca3/loca3/tag-to-category-conversion/"
  "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/modelManipulation/"
- "/home/martin/loca3/loca3/nominatim-keys/"
- "/home/martin/loca3/nominatim_src/lib/"
- "/home/martin/loca3/nominatim_src/website/"
- "/home/martin/loca3/loca3/key-spec/"
- "/home/martin/skola/"
- "/home/martin/loca3/loca3/tags-spec/"
- "/home/martin/loca/loca-studies/style/"
- "/home/martin/"
- "/home/martin/loca3/loca3/db/"
- "/home/martin/loca3/overpass-turbo/data/"
- "/home/martin/loca3/Nominatim-3.2.0/build/utils/"
- "/home/martin/loca2/style/"
- "/home/martin/loca2/app/Localore/app/src/main/res/raw/"
- "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/model/"
- "/home/martin/loca2/app/Localore/app/src/main/java/com/localore/localore/"
- "/home/martin/loca2/"
- "/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/"
- "/home/martin/loca/loca-studies/app/src/main/java/map/"
- "/home/martin/uama/git/uama/notes/"
- "/home/martin/loca2/app/"
- "/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/"
- "/home/martin/loca2/data_processing/"
- "/home/martin/loca2/data_processing/test/src/test/java/"
- "/home/martin/uama/git/uama/"
- "/home/martin/loca2/data_processing/test/"
- "/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
- "/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
- "/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/layout/"
- "/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/"
- "/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/"
- "/home/martin/uama/uama-notes/"
- "/home/martin/uama/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/menu/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/values/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/res/layout/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/"
- "/home/martin/uama/material/slides etc/GeoQuiz/GeoQuiz/app/src/main/"
- "/home/martin/loca/loca-studies/app/"
- "/home/martin/loca/loca-studies/app/src/main/java/loca/"
- "/home/martin/loca2/data_processing/cmp/"
- "/home/martin/Desktop/"
- "/home/martin/loca/loca-studies/app/src/test/java/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "post_processing_utils.py"
- "import_style.lua"
- "db_testing.sql"
- "nom_query.sql"
- "setup_languages_table.js"
- "post_processing.sql"
- "loca_query.sql"
- "App.java"
- "nom_query_testing.sql"
- "README.md"
+ "notes.org"
+ "notes"
+ "finalize.sql"
+ "Makefile"
+ "createElemsx1.sql"
+ "utils.py"
+ "makelog"
+ "createCategories.sql"
+ "createWikiCategories.py"
+ "createElems1.lua"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/martin/dev/loca4/backend/db/" (24604 9891 650044 441000) "Makefile" "import_style.lua" "./" "languages-table/" "../" "testing/" "notes" ".#post_processing.sql" "post_processing.sql" "post_processing_utils.py")
+ ("/home/martin/dev/loca4/" (24814 64187 709614 368000) "animations/" ".gitignore" "notes.org" "android/" "icons/" "./" "../" ".git/" "backend/" "README.md")
 
- ("/home/martin/dev/loca4/backend/db/testing/" (24603 43011 742029 877000) "./" "../" "sweden-latest.osm.pbf" "azores-latest.osm.pbf" "db_testing.sql")
+ ("/home/martin/dev/loca4/backend/db/" (24815 25603 278392 86000) "#simplifyGeoms1.sql#" "wikidata/" "geomsRequest.json" "createCategories.sql" "createElemsx2.sql" "createRelElems1.sql" "notes" "utils.py" "json.lua" "createElemsx1.sql" "finalize.sql" "simplifyGeoms1.sql" "languages-table/" "categories.json" "simplifyGeoms2.js" "#createElemsx2.sql#" "createRelElems3.sql" "./" "testing/" "setupUtils.sql" "createElems2.sql" "../" "__pycache__/" "createElems1.lua" "simplifyGeoms3.sql" "createRelElems2.lua")
+
+ ("/home/martin/dev/loca4/backend/" (24814 64187 709614 368000) "postgrest_loca_v2.conf" "wikimedia-importance.sql" "db/" "wikicountries.sql" "makelog" "postgrest_loca_v1.conf" "postgrest.log" "Makefile" "./" "../" "postgrest_loca_v0.conf" "wikiclasses.sql")
+
+ ("/home/martin/" (24814 53429 703973 197000) ".profile" "plv8-2.3.15/" ".tmux/" "package.json" ".gradle/" "Public/" ".psql_history" "stuff/" "Videos/" "Pictures/" ".gsutil/" ".npm/" "Android/" ".emulator_console_auth_token" ".cache/" "snap/" "Desktop/" ".sudo_as_admin_successful" ".saves/" "planet-latest.osm.pbf" "Downloads/" ".git-credentials" ".vpython_cipd_cache/" ".python_history" ".bashrc" ".node_repl_history" ".wget-hsts" "Music/" "postgrest" ".local/" ".gnome/" ".zsh/" ".vpython-root/" ".zsh_history" ".mozilla/" ".gnupg/" "Documents/" "v2.3.15.tar.gz" "temp.log" ".psensor/" ".zcompdump-masel-5.8" ".zshrc" ".bash_logout" "pySkeleton/" "./" ".gitconfig" ".bash_history" "package-lock.json" ".oh-my-zsh/" ".config/" ".ssh/" ".zcompdump" ".android/" "node_modules/" ".pki/" "dev/" ".shell.pre-oh-my-zsh" "../" ".authinfo" ".tmux.conf" "Templates/" "osm2pgsql/" ".lesshst" "shutdownreason" ".java/" ".emacs.d/")
+
+ ("/home/martin/dev/loca4/backend/db/wikidata/" (24813 53449 427177 43000) "unicode_supplementalData.xml" "small.json" "lanspeakers.js" "createWikiClassesAndCountries.py" "ssmall.json" "createWikiCategories.py" "msmall.json" "lanspeakers.json" "./" "../" "createWikiElems.py")
+
+ ("/home/martin/stuff/" (24792 22739 128962 66000) "jobbansökan/" "#anteckningar.org#" ".bashrc" "m.jpg" "android-dev/" "Makefile_filename_switch" ".zshrc" "i" "./" "../" ".tmux.conf" ".git/" "touchpad_draglock.sh" "anteckningar.org")
+
+ ("/var/log/postgresql/" (24792 18032 612945 298000) "postgresql-13-main.log.5.gz" "postgresql-13-main.log.3.gz" "postgresql-13-main.log.9.gz" "postgresql-13-main.log" "postgresql-13-main.log.6.gz" "postgresql-13-main.log.2.gz" "./" "postgresql-13-main.log.10.gz" "postgresql-13-main.log.4.gz" "../" "postgresql-13-main.log.8.gz" "postgresql-13-main.log.1" "postgresql-13-main.log.7.gz")
+
+ ("/var/log/" (24792 18045 892944 551000) "fontconfig.log" "installer/" "dpkg.log.1" "apport.log.6.gz" "auth.log.2.gz" "sysstat/" "kern.log.4.gz" "boot.log.6" "dmesg" "postgresql/" "dmesg.4.gz" "openvpn/" "btmp.1" "ubuntu-advantage.log.1" "alternatives.log.3.gz" "alternatives.log" "dist-upgrade/" "apport.log.1" "boot.log.1" "apport.log" "apt/" "apport.log.7.gz" "hp/" "cups/" "dpkg.log" "dpkg.log.2.gz" "journal/" "kern.log.2.gz" "dmesg.2.gz" "private/" "ubuntu-advantage.log" "auth.log.1.gz-2021051100.backup" "syslog" "boot.log.5" "wtmp" "gpu-manager.log" "kern.log.3.gz" "faillog" "syslog.4.gz" "alternatives.log.2.gz" "kern.log" "auth.log.4.gz" "boot.log.7" "apport.log.3.gz" "syslog.7.gz" "dmesg.1.gz" "syslog.3.gz" "auth.log.3.gz" "apport.log.4.gz" "boot.log.4" "syslog.2.gz" "dmesg.0" "boot.log.2" "syslog.5.gz" "kern.log.1" "auth.log" "bootstrap.log" "syslog.6.gz" "./" "lastlog" "dpkg.log.3.gz" "btmp" "boot.log" "../" "alternatives.log.1" "boot.log.3" "speech-dispatcher/" "apport.log.5.gz" "dmesg.3.gz" "gdm3/" "apport.log.2.gz" "auth.log.1" "syslog.1" "unattended-upgrades/")
+
+ ("/var/" (24610 56001 0 0) "metrics/" "spool/" "snap/" "cache/" "run/" "local/" "./" "backups/" "crash/" "../" "mail/" "log/" "opt/" "lib/" "lock/" "tmp/")
+
+ ("/etc/postgresql/13/main/" (24698 18874 448562 589000) "postgresql.conf" "start.conf" "pg_hba.conf" "./" "pg_ctl.conf" "conf.d/" "../" "pg_ident.conf" "environment")
+
+ ("/etc/postgresql/13/" (24691 35400 534207 244000) "main/" "./" "../")
+
+ ("/etc/postgresql/" (24691 35400 534207 244000) "13/" "./" "../")
+
+ ("/etc/" (24783 34237 14333 424000) "ca-certificates/" "alsa/" "e2scrub.conf" "fstab" "adduser.conf" "brlapi.key" "vtrgb" "ld.so.cache" "netplan/" "sensors3.conf" "services" "rcS.d/" "postgresql-common/" "odbc.ini" "insserv.conf.d/" "ca-certificates.conf" "rsyslog.d/" "mke2fs.conf" "cupshelpers/" "rc6.d/" "subuid" "pulse/" "update-manager/" "sysstat/" "group" "fwupd/" "UPower/" "alternatives/" "vulkan/" "modprobe.d/" "sensors.d/" "update-notifier/" "hddtemp.db" "hosts.deny" "rc3.d/" "protocols" "ufw/" "login.defs" "papersize" "crontab" "pki/" "debconf.conf" "postgresql/" "libpaper.d/" "sysctl.conf" "hosts" "openvpn/" "fonts/" "rc5.d/" "firefox/" "snmp/" "udisks2/" "mono/" "cron.daily/" "cron.weekly/" "apt/" "selinux/" "hp/" "ltrace.conf" "timezone" "cups/" "openmpi/" "logrotate.d/" "dictionaries-common/" "mailcap.order" "mtab" "logcheck/" "ImageMagick-6/" "initramfs-tools/" "shadow-" "depmod.d/" "vim/" "fuse.conf" "udev/" "ssl/" "ca-certificates.conf.dpkg-old" "perl/" "apparmor/" "networkd-dispatcher/" "ucf.conf" "mysql/" "pam.d/" "machine-id" "ubuntu-advantage/" "gai.conf" "rsyslog.conf" "mime.types" "kernel/" "bash_completion.d/" "profile.d/" "zsh/" "sane.d/" "passwd-" "security/" "python3.8/" "tmpfiles.d/" "localtime" "resolv.conf" "terminfo/" "shells" "init/" "ld.so.conf.d/" "grub.d/" "update-motd.d/" "nsswitch.conf" "xdg/" "zsh_command_not_found" "kernel-img.conf" "dpkg/" "hosts.allow" "NetworkManager/" "sysctl.d/" "pm/" "ssh/" "pam.conf" "ghostscript/" "rmt" "debian_version" "gnome/" "networks" "gamemode.ini" "acpi/" "manpath.config" "ODBCDataSources/" "network/" "groff/" "gtk-3.0/" "apparmor.d/" "shadow" "issue" "locale.alias" "emacs/" "libibverbs.d/" "PackageKit/" "libaudit.conf" "subuid-" "dhcp/" "newt/" "hostid" "hdparm.conf" "fprintd.conf" "cracklib/" "usb_modeswitch.d/" "rc4.d/" "modules" "issue.net" "libblockdev/" "chatscripts/" "sgml/" "binfmt.d/" "calendar/" "ifplugd/" "hostname" "libao.conf" "gshadow-" "iproute2/" "libnl-3/" "locale.gen" "glvnd/" "pnm2ppa.conf" "magic.mime" "passwd" "logrotate.conf" "init.d/" "os-release" "gss/" "magic" "gdb/" "usb_modeswitch.conf" "rc2.d/" "geoclue/" "sudoers" "nanorc" "xml/" "gtk-2.0/" "gimp/" "popularity-contest.conf" "vdpau_wrapper.cfg" "modules-load.d/" "ppp/" "sudoers.d/" "cron.monthly/" "default/" "bash_completion" "environment.d/" "apport/" "skel/" "cron.d/" "group-" "rygel.conf" "legal" "dconf/" "brltty/" "bluetooth/" "wgetrc" "bindresvport.blacklist" "deluser.conf" "xattr.conf" "appstream.conf" "thermald/" "ld.so.conf" "dbus-1/" "python2.7/" "rc1.d/" "apg.conf" "inputrc" "cron.hourly/" "polkit-1/" "bash.bashrc" "host.conf" "kerneloops.conf" "mailcap" "pcmcia/" "systemd/" ".pwd.lock" "gshadow" "speech-dispatcher/" "wpa_supplicant/" "X11/" "avahi/" "console-setup/" "ldap/" "apm/" "ethertypes" "anacrontab" "brltty.conf" "rc0.d/" "environment" "lsb-release" "profile" "opt/" "gdm3/" "mtools.conf" "rpc" "subgid-" "python3/" "subgid" "../" "./")
+
+ ("/home/martin/dev/" (24775 37066 354500 767000) "node-plv8/" "simplification/" "Shapely/" "node-pg-plv8/" "AlmightyVolumeKeys/" "./" "MaselUtils/" "loca4/" "../" "SupaScript/")
+
+ ("/home/martin/dev/loca4/backend/db/testing/" (24770 17499 15375 851000) "verkö.osm.pbf" "riksgränsen.osm.pbf" "db_testing.sql" "testElemsx2.sql" "gävleborg.osm.pbf" "karlskrona.osm.pbf" "storlien2.osm.pbf" "västerås2.osm.pbf" "sweden-latest.osm.pbf" "andorra-latest.osm.pbf" "great-britain-latest.osm.pbf" "landskrona.osm.pbf" "./" "gävle_c.osm.pbf" "../" "västerås.osm.pbf" "storlien.osm.pbf")
+
+ ("/home/martin/dev/loca4/backend/db/languages-table/" (24764 50834 30055 834000) "setupLanguages.js" "languages.js" "./" "../")
+
+ ("/home/martin/Desktop/" (24741 27467 143886 688000) "after.log" "simp" "./" "../" "before.log")
+
+ ("/var/lib/postgresql/13/main/log/" (24730 48383 649913 913000) "postgres-log-Wed" "postgres-log-Sat.csv" "postgres-log-Mon" "postgres-log-Fri" "postgres-log-Sun.csv" "postgres-log-Thu" "postgres-log-Tue.csv" "postgres-log-Wed.csv" "postgres-log-Sat" "./" "postgres-log-Mon.csv" "../" "postgres-log-Fri.csv" "postgres-log-Sun" "postgres-log-Thu.csv" "postgres-log-Tue")
+
+ ("/home/martin/.ssh/" (24702 1607 644401 866000) "known_hosts" "./" "config" "../")
+
+ ("/tmp/" (24698 56500 443059 612000) "snap.snap-store/" ".XIM-unix/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-upower.service-QiYtZi/" "loca_featurecollection_simplified.json" ".Test-unix/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-systemd-timesyncd.service-MI083g/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-ModemManager.service-mZ7U6f/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-switcheroo-control.service-xb4fVf/" "ssh-geEomV1tow1k/" ".com.google.Chrome.1IO0U6/" ".X11-unix/" "loca_featurecollection.json" ".X1024-lock" "tracker-extract-files.125/" "tracker-extract-files.1000/" "outorg-C7Ua1X/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-systemd-logind.service-WtS7gf/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-colord.service-YIo4Jh/" "systemd-private-59beec0bb3744fe0b313f67cb275cab8-systemd-resolved.service-ZzTiHg/" ".X1025-lock" "config-err-PBPSiq" ".com.google.Chrome.pJ3o65/" ".ICE-unix/" ".font-unix/" "babel-LfbVcx/" "tmux-1000/" "../" "./")
+
+ ("/home/martin/.emacs.d/" (24671 11479 164835 562000) "saveplace" "ioopm-packages/" "session.109f2cba8edfbd72bd154929749330792600000018890074" "recentf~" "init.el" "recentf" "#ido.last#" "./" "../" "session.1052544704f58c4abc161488156573748000000016050083" "snippets/" "session.10e87dcefc3239c8a161375511921540500000016420089" "session.10c874d7f3d4979653149371416532663900000016540051" "ido.last" "session.10efe301b9b995b21d149613438191362800000016430051" "session.10e87dcefc3239c8a161375279139064900000016420086" "abbrev_defs" ".git/" "session.10efe301b9b995b21d149613438193287200000016430052" "session.10af637a7c1ca6e787154850126118814800000019360085" "auto-save-list/" "session.10af637a7c1ca6e787154850334242890900000019360086" "init.el~" "session.109f2cba8edfbd72bd154929851132555500000018890075" "smex-items" "session.10dda9ca83d1f8d98b161473676011347500000016040084" "#recentf#" "ido.last~" "tramp" "session.10e87dcefc3239c8a161375356512211700000016420087" "elpa/")
+
+ ("/etc/systemd/system/" (24660 50924 878012 104000) "sleep.target" "cloud-final.service.wants/" "dbus-org.freedesktop.ModemManager1.service" "dbus-org.freedesktop.Avahi.service" "graphical.target.wants/" "emergency.target.wants/" "sockets.target.wants/" "snap-android\\x2dstudio-100.mount" "paths.target.wants/" "display-manager.service" "./" "rescue.target.wants/" "suspend.target" "../" "dbus-org.freedesktop.nm-dispatcher.service" "printer.target.wants/" "default.target.wants/" "snap-android\\x2dstudio-101.mount" "dbus-fi.w1.wpa_supplicant1.service" "bluetooth.target.wants/" "snap-gnome\\x2d3\\x2d28\\x2d1804-145.mount" "snap-gnome\\x2d3\\x2d34\\x2d1804-36.mount" "multi-user.target.wants/" "hibernate.target" "dbus-org.freedesktop.thermald.service" "snap-gnome\\x2d3\\x2d34\\x2d1804-66.mount" "snap-core20-904.mount" "locaserver_v0.service" "oem-config.service.wants/" "snap-snapd-11036.mount" "snap-gimp-347.mount" "network-online.target.wants/" "snap-snap\\x2dstore-518.mount" "snap-gtk\\x2dcommon\\x2dthemes-1506.mount" "hybrid-sleep.target" "timers.target.wants/" "dbus-org.freedesktop.resolve1.service" "sysinit.target.wants/" "snap-gtk\\x2dcommon\\x2dthemes-1514.mount" "dbus-org.freedesktop.timesync1.service" "snap-snapd-11107.mount" "dbus-org.bluez.service" "snap-core18-1944.mount" "final.target.wants/" "display-manager.service.wants/" "snap-core18-1988.mount" "getty.target.wants/" "snap-snap\\x2dstore-467.mount" "syslog.service" "snap-kde\\x2dframeworks\\x2d5\\x2dcore18-32.mount")
+
+ ("/etc/systemd/" (24605 3590 914896 747000) "sleep.conf" "system/" "./" "timesyncd.conf" "user/" "../" "network/" "journald.conf" "resolved.conf" "logind.conf" "user.conf" "pstore.conf" "system.conf" "networkd.conf")
+
+ ("/var/tmp/" (24660 48906 208451 176000) "logindXXgNcXUh.conf~" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-timesyncd.service-RDaaXi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-logind.service-NtDbPh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-systemd-resolved.service-LVgyKi/" "systemd-private-52276c5757254d6ba59d17b907347c6c-colord.service-d6Izdg/" "./" "../" "systemd-private-52276c5757254d6ba59d17b907347c6c-upower.service-IEVmoh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-switcheroo-control.service-rb8Koh/" "systemd-private-52276c5757254d6ba59d17b907347c6c-ModemManager.service-32dnTf/" "systemd-private-52276c5757254d6ba59d17b907347c6c-fwupd.service-YxL3Ve/" "postgrestXXQEzTRv.service" "UPowerXXFksZ8N.conf~")
+
+ ("/home/martin/Downloads/" (24638 58481 280253 680000) "postgis-3.1.1.tar.gz" "fortress-tower-antique-building-silhouette-of-a-computer-game.svg" "viewpoint.svg" "method-draw-image (3).svg" "Artboard 1 (1).png" "method-draw-image (7).svg" "village.svg" "noun_Lake_200843.svg" "method-draw-image (13).svg" "noun_City_859811.svg" "Tokyo.png" "flag (1).svg" "sound_correct.mp3" "castle.svg" "noun_nature_2352881.svg" "platform-tools/" "doc-html-3.1.1.tar.gz" "hotel-big-rural-house-building.svg" "hook.svg" "8912-empty-category.json" "path.svg" "noun_City_1098905.svg" "coral.svg" "hello_im_localore_no_background (1).svg" "train-station.svg" "loca launcher.png" "mapiconscollection-tourism-66c547-simple.zip" "dancing.svg" "party-dj.svg" "tree.svg" "remember (1).svg" "filledArtboard 1 (1).png" "sound_wrong.mp3" "building (1).svg" "method-draw-image (6).svg" "village (1).svg" "globe.svg" "route-signal-on-a-pole.svg" "coffee-cup.svg" "no_eyesArtboard 1.png" "quiz.svg" "hello_im_localore_no_background (2).svg" "London3.svg" "korea.svg" "latest-all.json.gz" "Artboard 1.png" "method-draw-image (2).svg" "farm.svg" "bridge.svg" "cape-svgrepo-com3.svg" "drive-download-20210301T123646Z-001.zip" "sea-waves.svg" "river (3).svg" "cave.svg" "eyesArtboard 1.png" "method-draw-image (12).svg" "house.svg" "iceberg (1).svg" "sea.svg" "728-LondonPack.zip" "google-chrome-stable_current_amd64(2).deb" "lock.svg" "mountains.svg" "road-ahead-straight-perspective.svg" "cape-svgrepo-com2.svg" "pier.svg" "forest (1).svg" "drive-download-20210303T005419Z-001.zip" "method-draw-image (11).svg" "forest.svg" "cape-svgrepo-com1.svg" "sunset.svg" "fountain.svg" "method-draw-image (9).svg" "filledmoon.svg" "noun_Earth_442803.svg" "method-draw-image (10).svg" "loca launcher_z1.png" "columns-antique-ruins-hand-drawn-outline.svg" "noun_City_47531.svg" "social-care.svg" "question.svg" "luarocks-3.5.0.tar.gz" "doc-html-3.1.1 (2).tar.gz" "freeformatter-out.json" "filledArtboard 1.png" "river (1).svg" "quiz (1).svg" "river (2).svg" "fiord-svgrepo-com.svg" "hello_im_localore.svg" "worldwide.svg" "gas-station.svg" "lighthouse-with-flashing-lights.svg" "eyesArtboard 1.svg" "no_eyesArtboard 1.svg" "mapbox-maki-6.2.0-2-g7d8563e.zip" "iceberg.svg" "flag.svg" "flag-black-shape.svg" "barrier.svg" "sunset (1).svg" "canal.svg" "landscape (2).svg" "rural-house.svg" "method-draw-image.svg" "method-draw-image (4).svg" "quiz (2).svg" "village (2).svg" "noun_Globe_1627692.svg" "method-draw-image (17).svg" "seeding.svg" "method-draw-image (5).svg" "twitter.svg" "google-chrome-stable_current_amd64.deb" "earth-globe-continent.svg" "dancing (1).svg" "filledsmall star.svg" "planet-earth.svg" "mapiconscollection-markers.zip" "bay (1).svg" "postgis-3.1.1.pdf" "star.svg" "road.svg" "park.svg" "shipwreck (1).svg" "road-entering-a-tunnel.svg" "nature.svg" "no_starsArtboard 1_27536B.png" "city-avenue-perspective.svg" "filledbig star.svg" "shipwreck.svg" "facebook.svg" "remember.svg" "doc-html-3.1.1 (1).tar.gz" "house (1).svg" "LuaJIT-2.0.5.zip" "beach.svg" "sunrise.svg" "painting-exhibit-in-fine-art-museum.svg" "island.svg" "Tokyo.svg" "fiord-svgrepo-com (1).svg" "noun_Earth_2073546.svg" "swamp.svg" "mapiconscollection-markers (1).zip" "search.svg" "clock-tower.svg" "route-numbers-shield-signal-shape.svg" "binoculars.svg" "method-draw-image (1).svg" "flags.svg" "method-draw-image (15).svg" "cape-svgrepo-com.svg" "bay.svg" "explore.svg" "mapiconscollection-stores-5ec8bd-simple.zip" "drive-download-20210302T140109Z-001.zip" "mapiconscollection-nature-128e4d-simple.zip" "route-66.svg" "CorrectAndWrongSoundEffect.rar" "json-c-json-c-0.15-20200726.tar.gz" "landscape.svg" "landscape (3).svg" "unlock.svg" "cape-svgrepo-com4.svg" "dumbbell.svg" "volcano.svg" "cemetery.svg" "osm2pgsql-1.4.0.zip" "colosseum.svg" "mapbox-maki-7d8563e/" "transportation.svg" "geyser.svg" "markericons/" "Tokyo-vector-skyline.zip" "loca launcher (1).png" "pangong-tso.svg" "buildings.svg" "method-draw-image (16).svg" "loca launcher_z2.png" "landscape (1).svg" "method-draw-image (8).svg" "noun_nature_3544838.svg" "technical-support.svg" "track.svg" "river.svg" "method-draw-image (14).svg" "hello_im_localore_no_background.svg" "building.svg" "fire.svg" "cats" "../" "./")
+
+ ("/home/martin/Downloads/mapbox-maki-7d8563e/" (24615 6901 529587 30000) "package-lock.json" "design-templates/" "content" "./" "../" "README.md" "scripts/" "CODEOWNERS" "package.json" "icons/" ".eslintrc" "ISSUE_TEMPLATE.md" "LICENSE.txt" "CHANGELOG.md" "layouts/" ".gitignore" ".npmignore" "index.js" "test/" ".travis.yml")
+
+ ("/home/martin/dev/map-icons/" (24614 62122 284302 990000) "nickw/" "geoinfo.db" "japan/" "debian/" "icons.dtd" "index_poi.de.html" "2020iconset/" "square.big/" "svg/" "index_poi.en.html" "index_all.de.html" "index_all.en.html" "./" "square.small.xcf" "square.small/" "../" "index_rendering.de.html" "index_general.en.html" "square.big.xcf" "index_all-abs.en.html" "index_rendering.en.html" ".git/" "index_dynamic.en.html" "classic.small/" "classic.big/" "create_icons_index.pl" "README" "icons.xml" "tools/" "svg-twotone/" "ok.png" "index_dynamic.de.html" "index_general.de.html" "CMakeLists.txt" "README.icons")
+
+ ("/media/martin/loca/" (24612 45946 926277 677000) "small.json" "./" "wd-out" "lost+found/" "../" "latest-all.json" "postgres/" "extractGeoElems.py")
+
+ ("/media/martin/" (24612 36661 1916 434000) "./" "../" "loca/")
+
+ ("/media/" (24604 28571 749242 862000) "martin/" "./" "../")
+
+ ("/home/martin/dev/loca3/tag-to-category-conversion/" (24603 47404 395270 772000) "osm2pgsql_output-gazetter.cpp_process_tags" "create-list-of-interesting-keys.py" "./" "key-conversion-table" "../" "tags-from-nom-classTypes" "key-value-conversion-table")
 
  ("/home/martin/dev/loca3/" (24603 47404 395270 772000) "db/" "nom_query.sql" "tag-to-category-conversion/" "loca_query.sql" "./" "../" ".gradle/" "README.md" "nom_query_testing.sql" ".git/" "log.org" ".gitignore")
 
- ("/home/martin/dev/" (24603 47403 55268 937000) "./" "../" "MaselUtils/" "loca3/" "loca4/" "loca2/")
-
  ("/home/martin/dev/loca2/" (24601 41113 515451 830000) "Disposition (Local geography educator, Martin Sellergren).pdf" "Disposition (Local geography educator, Martin Sellergren).odt" "Database ER Diagram.png" "style/" "presentation/" "./" "Layout-spec.odt" "../" "specification.odt" "README.md" "report/" ".git/" "app_screenshots/" "data_processing/" "Localore.zip" "categories.txt" ".idea/" ".gitignore" "app/" "existing.txt" "Layout-spec.pdf" "Specification of Local geography educator, Martin Sellergren.pdf" "draft.txt")
-
- ("/home/martin/dev/loca4/" (24602 56270 788170 588000) "animations/" "./" "../" "README.md" "backend/" ".git/" ".gitignore" "android/")
-
- ("/home/martin/dev/loca4/backend/" (24601 40438 523454 439000) "db/" "./" "postgrest.conf" "../")
-
- ("/home/martin/dev/loca4/backend/db/languages-table/" (24602 56303 532714 715000) "./" "../" "languages.js" "setup_languages_table.js")
 
  ("/home/martin/.gradle/" (24602 22247 278669 571000) "./" "native/" "../" "daemon/" "wrapper/" "gradle.properties" "caches/")
 
  ("/home/martin/loca3/loca3/db/src/main/java/Loca_db_construction/" (23689 3215 459034 904000) "GeoObject.java" "../" "App.java" "./")
 
  ("/home/martin/loca3/loca3/" (23687 54641 453423 37000) "nom_query.sql" "tag-to-category-conversion/" ".git/" "README.md" "db/" ".gitignore" ".gradle/" "../" "./" "log.org" "loca_query.sql" "nom_query_testing.sql")
-
- ("/home/martin/" (23687 47414 243562 886000) ".compiz/" "zinajda/" ".mozilla/" ".emacs.d/" ".thumbnails/" ".thunderbird/" "javadoc/" ".oh-my-zsh/" ".java/" "lmms/" ".ssh/" ".gnupg/" ".zynaddsubfxXML.cfg" ".config/" ".gitconfig" "sova/" "Videos/" "loca3/" "aptpop/" "Audio/" ".pki/" ".lmmsrc.xml" ".rpmdb/" ".tmux/" ".bashrc" ".log/" "Templates/" ".zcompdump" "loca2/" ".gconf/" ".xsession-errors.old" ".zsh_history" ".AndroidStudio3.1/" "Downloads/" ".gnome/" ".emulator_console_auth_token" "kurve/" ".tmux.conf" "skola/" ".dbus/" ".zcompdump-martin-Aspire-S3-391-5.1.1" "Documents/" ".FontForge/" ".zshrc" ".zprofile" ".Xauthority" "Android/" "Music/" ".zynaddsubfx-bank-cache.xml" "snap/" ".gradle/" "../" ".ICEauthority" ".fltk/" ".fontypython/" ".zcompdump-masel-5.4.2" "AndroidStudio/" "master.zip" ".zcompdump-masel-5.1.1" ".m2/" ".yoshimi_history" "mnt/" ".javacpp/" "oldhome/" ".gimp-2.8/" ".lesshst" ".android/" "./" ".local/" "sevensquare-master/" "uama/" ".xinputrc" ".cache/" ".saves/" "loca/" ".ladish/" "rec/" ".sudo_as_admin_successful" ".synaptic/" "Desktop/" "Pictures/" ".psql_history" ".wget-hsts" "Public/" ".xsession-errors" "bin/" "Ul/")
 
  ("/home/martin/loca3/loca3/tag-to-category-conversion/" (23685 5180 117038 710000) "create-list-of-interesting-keys.py" "key-conversion-table" "../" "osm2pgsql_output-gazetter.cpp_process_tags" "./" "tags-from-nom-classTypes" "key-value-conversion-table")
 
@@ -337,116 +449,6 @@
  ("/home/martin/loca2/app/Localore/app/src/main/java/" (23381 50592 752861 785000) "com/" "../" "./")
 
  ("/home/martin/loca2/app/Localore/app/src/" (23381 50592 696834 488000) "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/loca2/app/Localore/app/src/main/res/" (23411 3400 904334 705000) "raw/" "drawable-v24/" "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "drawable-hdpi/" "drawable-mdpi/" "mipmap-anydpi-v26/" "transition/" "menu/" "drawable-xxhdpi/" "../" "mipmap-xxxhdpi/" "values/" "layout/" "anim/" "./" "drawable/" "drawable-xhdpi/")
-
- ("/home/martin/loca2/app/Localore/app/src/main/res/raw/" (23413 47652 299519 313000) "ql_query.txt" "../" "./" "tag_categories.json")
-
- ("/home/martin/skola/GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/" (21882 49281 822010 0) "slutuppgift.txt" "10 Animations.pdf" "r2.txt" "Transitions and transforms/" "r4.txt" "r9.txt" "intervjuv.txt" "2 (Illusions).pdf" "7 Drag and Drop.pdf" "r7.txt" "5 CSS transitions and actions.pdf" "r8.txt" "3 Human Factors 2.pdf" "slutuppgift.docx" "reflektioner.png" "../" "r5.txt" "r6.txt" "projektet/" "9 Canvas and animations.pdf" "./" "Reference literature (lösen Jabberwock)/" "8 UNDO-REDO.pdf" "r10.txt" "r3.txt" "6 User Interface structure.pdf" "r1.txt" "exempel, databas/" "1 Introduction.pdf" "20131213_065034.jpg" "4 Requirements, HTML programming.pdf" "4 HTML, CSS och JavaScript.pdf" "2 Human Factors 1.pdf")
-
- ("/home/martin/skola/" (23272 26149 155134 808000) "GRÄNSSNITTSPROGRAMMERING I, 5 HP (kopia)/" "../" "./")
-
- ("/home/martin/uama/git/uama/notes/" (23408 12900 908182 425000) "mod6.org" "mod10.org" "mod2.org" "mod5.org" "Android.Programming.Ranch.Guide.Guides.16.pdf" "mod8.org" "mod7.org" "mod4.org" "../" "mod3.org" "./" "mod11_db_service.org" "mod1.org")
-
- ("/home/martin/loca/loca-studies/app/src/main/" (22865 37756 843692 612000) "../" "./" "java/")
-
- ("/home/martin/loca/loca-studies/app/src/" (23068 34463 717001 313000) "main/" "makePublic" "../" "./" "test/" "backToDefaults")
-
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/java/" (23366 8277 597220 628000) "FindScoreDiceTest.java" "FindScoreDice2.java" "../" "./")
-
- ("/home/martin/loca2/data_processing/test/src/test/java/" (23384 35348 506773 155000) "AcquireGeoObjects.java" "MyFormatter.java" "MyFormatter.class" "../" "./")
-
- ("/home/martin/uama/material/slides etc/" (23375 38882 490975 119000) "modul4-fragment_arguments_viewpager-1.pdf" "modul10-positionering_och_kartor-1.pdf" "modul7-Camera-1.pdf" "CriminalIntent/" "GeoQuiz2/" "modul5-design-3.pdf" "modul2_debugging-1.pdf" "modul5_omrapportskrivande-1.pdf" "modul3-layouts_widgets.pdf" "modul3-fragment.pdf" "ActivityLifeCycle/" "modul9-egna_widgets.pdf" "modul1_model_view_controller.pdf" "modul4-retaining_localisation.pdf" "CriminalIntent2/" "ovningar.pdf" "GeoQuiz/" "modul7-Etik_o_sakerhet.pdf" "modul4-komponenter-1.pdf" "modul1_intro_till_kurs_och_android.pdf" "../" "layouts.pdf" "modul2_andra_aktivitet_intent_manifest.pdf" "modul3-lists_and_adapters.pdf" "./" "modul8-content_providers_services.pdf" "modul11-Publish.pdf" "GeoQuiz3/" "CriminalIntent6/" ".idea/" "modul2_aktiviteter-1.pdf" "modul6-lagradata.pdf" "SaveStateExercise.1/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (21840 52300 0 0) "CrimeFragment.java" "CrimeListActivity.java" "../" "CrimePagerActivity.java" "CrimeLab.java" "Crime.java" "./" "CrimeListFragment.java" "DatePickerFragment.java" "SingleFragmentActivity.java")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (21808 63696 0 0) "criminalintent/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/bignerdranch/" (21808 63696 0 0) "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/com/" (21808 63696 0 0) "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/java/" (21808 63696 0 0) "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/main/" (21843 3202 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/src/" (21808 63696 0 0) "androidTest/" "main/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/app/" (23371 54924 494832 577000) ".gitignore" "src/" "build.gradle" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/CriminalIntent/" (23373 6106 822366 232000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "LICENSE.txt" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent6/" (23371 54698 418807 59000) "CriminalIntent/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (23372 61605 372719 909000) "CrimeFragment.java" "../" "CrimeActivity.java" "Crime.java" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (23146 3043 0 0) "criminalintent/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/bignerdranch/" (23146 3043 0 0) "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/com/" (23146 3043 0 0) "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/java/" (23146 3043 0 0) "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/main/" (23146 3043 0 0) "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/src/" (23146 3043 0 0) "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/build/" (23366 32612 502490 79000) "../" "tmp/" "./" "outputs/" "intermediates/" "generated/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/app/" (23366 35305 381726 521000) ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/CriminalIntent/" (23366 23901 590518 429000) "gradle/" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent/" (23372 31775 239003 757000) "CriminalIntent/" "ToolBarTest/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/geoquiz/" (23146 3043 0 0) "../" "Question.java" "./" "QuizActivity.java")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/android/" (23146 3043 0 0) "geoquiz/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/bignerdranch/" (23146 3043 0 0) "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/com/" (23146 3043 0 0) "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/GeoQuiz3/GeoQuiz/app/src/main/java/" (23146 3043 0 0) "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/layout/" (23146 3044 0 0) "fragment_crime_list.xml" "activity_fragment.xml" "../" "./" "fragment_crime.xml" "list_item_crime.xml")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/res/" (23146 3044 0 0) ".DS_Store" "mipmap-mdpi/" "mipmap-xhdpi/" "mipmap-xxhdpi/" "mipmap-hdpi/" "values-w820dp/" "../" "mipmap-xxxhdpi/" "values/" "layout/" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/criminalintent/" (23146 3044 0 0) "CrimeFragment.java" "CrimeListActivity.java" "../" "CrimeLab.java" "CrimeActivity.java" "Crime.java" "./" "CrimeListFragment.java" "SingleFragmentActivity.java")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/android/" (23146 3044 0 0) ".DS_Store" "criminalintent/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/bignerdranch/" (22580 6738 0 0) ".DS_Store" "android/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/com/" (22580 6738 0 0) ".DS_Store" "bignerdranch/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/java/" (23146 3044 0 0) ".DS_Store" "com/" "../" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/main/" (23146 3044 0 0) ".DS_Store" "res/" "AndroidManifest.xml" "../" "./" "java/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/src/" (23146 3044 0 0) ".DS_Store" "androidTest/" "main/" "../" "./" "test/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/app/" (23368 40374 246617 178000) ".DS_Store" ".gitignore" "src/" "build.gradle" "build/" "app.iml" "../" "proguard-rules.pro" "./")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/CriminalIntent/" (23368 36736 832808 141000) "gradle/" ".DS_Store" "local.properties" "CriminalIntent.iml" ".gitignore" "gradlew" "build.gradle" "build/" "app/" ".gradle/" "gradle.properties" "../" "./" "gradlew.bat" "settings.gradle" ".idea/")
-
- ("/home/martin/uama/material/slides etc/CriminalIntent2/" (23368 36111 761282 905000) "CriminalIntent/" "../" "__MACOSX/" "./")
-
- ("/home/martin/uama/material/" (23354 756 36071 596000) "Screenshot_20180702-090109_Chrome.jpg" "Screenshot_20180702-091013_Chrome.jpg" "Screenshot_20180702-085905_Chrome.jpg" "Screenshot_20180702-090707_Chrome.jpg" "Screenshot_20180702-090835_Chrome.jpg" "Screenshot_20180702-090439_Chrome.jpg" "slides etc/" "Screenshot_20180702-091550_Chrome.jpg" "Screenshot_20180702-085053_Chrome.jpg" "../" "Screenshot_20180702-090730_Chrome.jpg" "Screenshot_20180702-090019_Chrome.jpg" "./" "Screenshot_20180702-085023_Chrome.jpg" "Screenshot_20180702-085339_Chrome.jpg")
-
- ("/home/martin/uama/" (23366 18905 363560 836000) "git/" "material/" "../" "./" "test/")
-
- ("/home/martin/uama/git/" (23360 11717 53180 623000) "../" "./" "uama/")
-
- ("/home/martin/uama/git/uama/" (23360 11750 829537 203000) "notes/" ".git/" ".gitignore" "../" "inlämningsuppgifter/" "./")
-
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/" (23365 5491 101067 99000) "src/" "build.gradle" "build/" ".gradle/" "../" "./")
-
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/test/" (23365 5282 425076 402000) "../" "./" "java/")
-
- ("/home/martin/uama/git/uama/inlämningsuppgifter/1/find-score-dice/src/" (23365 5282 377076 405000) "../" "./" "test/")
 )
 
 ;; ----- ido-unc-hosts-cache -----
