@@ -2,6 +2,8 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/ssh:locaserver2|sudo:locaserver2:/etc/systemd/" . "system/")
+ ("/ssh:locaserver2|sudo:locaserver2:/etc/" . "systemd/")
  ("/home/martin/stuff/android-dev/" . "app_signing/")
  ("/home/martin/stuff/" . "android-dev/")
  ("/ssh:locaserver2:/home/martin/dev/loca4/" . "backend/")
@@ -20,12 +22,13 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/martin/dev/loca4/backend/db/"
  "/home/martin/dev/loca4/backend/db/testing/"
+ "/home/martin/dev/loca4/backend/db/"
  "/home/martin/dev/loca4/"
- "/home/martin/dev/AlmightyVolumeKeys/emails/"
  "/home/martin/dev/loca4/backend/"
  "/home/martin/dev/loca4/backend/db/wikidata/"
+ "/ssh:locaserver2|sudo:locaserver2:/etc/systemd/system/"
+ "/home/martin/dev/AlmightyVolumeKeys/emails/"
  "/home/martin/stuff/android-dev/app_signing/"
  "/ssh:locaserver2:/home/martin/dev/loca4/backend/"
  "/ssh:locaserver2:dev/loca4/backend/"
@@ -37,27 +40,27 @@
 
 ;; ----- ido-work-file-list -----
 (
- "categories.json"
  "categoryChecking.sql"
- "notes.org"
  "createElemsx2.sql"
  "utils.py"
+ "clientFunctions.sql"
+ "simplifyGeoms3.sql"
+ "createElems2.sql"
  "createElemsx1.sql"
- "processEmailFeedback.py"
- "spec.org"
- "categories_generated.json"
- "makelog"
+ "testUtils.sql"
+ "createCategories1.py"
+ "createElems1.lua"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/martin/dev/loca4/backend/db/testing/" (24926 3147 778867 313000) "categoryChecking.sql.~HEAD~~~~" "testElemsx2.sql" "testUtils.sql" "categoryChecking.sql.~HEAD~~~" "./" "categoryChecking.sql" "../")
+ ("/home/martin/dev/loca4/backend/db/" (24930 47649 72674 108000) "wikidata/" "geomsRequest.json" "sources/" "createElemsx2.sql" "createRelElems1.sql" "utils.py" "json.lua" "createElemsx1.sql" "finalize.sql" "categories_generated.json" "createCategories1.py" "simplifyGeoms1.sql" "languages-table/" "createCategories2.sql" "categories.json" "simplifyGeoms2.js" "createRelElems3.sql" "./" "testing/" "setupUtils.sql" "createElems2.sql" "../" "__pycache__/" "clientTablesSetup.sql" "createElems1.lua" "clientFunctions.sql" "categories.json.~HEAD~~~" "simplifyGeoms3.sql" "createElemsx1.sql.~HEAD~~" "createRelElems2.lua")
 
- ("/home/martin/dev/loca4/" (24926 2735 402506 146000) ".gitignore" "graphics/" "notes.org" "dependencies/" "android/" "flutter/" "./" "../" ".git/" "backend/" "README.md")
+ ("/home/martin/dev/loca4/backend/" (24930 11923 274003 865000) "wikimedia-importance.sql" "popelems_v0.sql" "db/" "wikicountries.sql" "makelog" "catelems_v0.sql" "postgrest.log" "scratch.sql" "Makefile" "./" "wikiClassMappings_justToExplore.dump" "../" "categories.sql" "postgrest.conf" "spec.org" "wikiclasses.sql")
 
- ("/home/martin/dev/loca4/backend/db/" (24926 40635 886434 949000) "wikidata/" "geomsRequest.json" "sources/" "createElemsx2.sql" "createRelElems1.sql" "utils.py" "json.lua" "createElemsx1.sql" "finalize.sql" "categories_generated.json" "createCategories1.py" "simplifyGeoms1.sql" "languages-table/" "createCategories2.sql" "categories.json" "simplifyGeoms2.js" "createRelElems3.sql" "./" "testing/" "#categories_generated.json#" "setupUtils.sql" "createElems2.sql" "#utils.py#" "utils.py.~HEAD~~" "../" "__pycache__/" "clientTablesSetup.sql" "createElems1.lua" "clientFunctions.sql" "categories.json.~HEAD~~~" "simplifyGeoms3.sql" "createElemsx1.sql.~HEAD~~" "createRelElems2.lua" "categories.json.~HEAD~~~~")
+ ("/home/martin/dev/loca4/" (24929 28000 8254 629000) ".gitignore" "graphics/" "notes.org" "dependencies/" "android/" "flutter/" "./" "../" ".git/" "backend/" "README.md")
 
- ("/home/martin/dev/loca4/backend/" (24924 50477 589950 223000) "wikimedia-importance.sql" "db/" "wikicountries.sql" "makelog" "postgrest.log" "scratch.sql" "Makefile" "./" "wikiClassMappings_justToExplore.dump" "../" "postgrest.conf" "spec.org" "wikiclasses.sql")
+ ("/home/martin/dev/loca4/backend/db/testing/" (24929 28402 778643 894000) "categoryChecking.sql.~HEAD~~~~" "catelems_before_prefere_either_osm_or_wiki.sql" "testElemsx2.sql" "#categoryChecking.sql#" "testUtils.sql" "popelems_before_prefere_either_osm_or_wiki.sql" "categoryChecking.sql.~HEAD~~~" "./" "categoryChecking.sql" "../")
 
  ("/home/martin/dev/AlmightyVolumeKeys/emails/" (24911 20826 18846 58000) "test.py" "Makefile" "./" "client_secret_839567299215-pnk61h2opk649fbknee0iuh63pjmrv84.apps.googleusercontent.com.json" "../" "notes.sql" "processEmailFeedback.py" "vkrfeedbackbackup.sql" "token.json")
 

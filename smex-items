@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- catquery
- popquery
- sql-postgres
  outshine-mode
+ sql-postgres
  goto-address-mode
- json-pretty-print-buffer
- dbx
+ catquery
+ sql-over-ssh
+ set-variable
+ lua
 )
 
 ;; ----- smex-data -----
@@ -32,13 +32,13 @@
  (package-refresh-contents . 11)
  (interactive-haskell-mode . 16)
  (find-variable . 2)
- (set-variable . 131)
+ (set-variable . 132)
  (Helper-help . 1)
  (delete-trailing-whitespace . 1)
  (term . 3)
  (subword-mode . 73)
  (ispell . 8)
- (ispell-word . 457)
+ (ispell-word . 459)
  (count-words . 39)
  (flyspell-mode . 7)
  (ispell-change-dictionary . 22)
@@ -100,7 +100,7 @@
  (scroll-all-mode . 6)
  (ediff-quit . 1)
  (set-visited-file-name . 1)
- (eval-buffer . 183)
+ (eval-buffer . 184)
  (back-to-indentation . 1)
  (indent-relative . 2)
  (forward-sexp . 2)
@@ -169,7 +169,7 @@
  (hs-hide-block . 2)
  (show-all . 1)
  (sql-mode . 5)
- (outshine-mode . 1119)
+ (outshine-mode . 1152)
  (yafolding-mode . 14)
  (outshine-imenu . 5)
  (outshine-navi . 2)
@@ -181,13 +181,13 @@
  (select-frame . 1)
  (transient-mark-mode . 2)
  (list-faces-display . 2)
- (find-library . 139)
- (lua-mode . 138)
+ (find-library . 140)
+ (lua-mode . 139)
  (rmail-input . 3)
  (outorg-which-active-modes . 4)
- (sql-postgres . 660)
- (goto-address-mode . 192)
- (lua . 126)
+ (sql-postgres . 670)
+ (goto-address-mode . 197)
+ (lua . 127)
  (auto-insert . 2)
  (add-mode-abbrev . 6)
  (query-replace . 6)
@@ -198,11 +198,11 @@
  (sortbysize . 2)
  (electric-indent-mode . 29)
  (text-scale-increase . 1)
- (ediff-buffers . 22)
+ (ediff-buffers . 23)
  (ediff-revision . 1)
  (vc-diff . 1)
  (python-mode . 1)
- (sql-over-ssh . 114)
+ (sql-over-ssh . 115)
  (rgrep . 10)
  (recover-this-file . 2)
  (vc-log-outgoing . 1)
@@ -217,8 +217,8 @@
  (osmidquery . 77)
  (show-branches . 1)
  (calendar-islamic-goto-date . 1)
- (popquery . 28)
- (catquery . 82)
+ (popquery . 32)
+ (catquery . 101)
  (my/minify-urls . 5)
  (posix-search-forward . 1)
  (dbx . 1)
